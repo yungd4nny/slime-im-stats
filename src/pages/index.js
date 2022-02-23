@@ -2,9 +2,10 @@ import * as React from 'react'
 import CharacterList from '../components/characterList'
 import Header from '../components/header'
 import background from '../images/main-bg.jpg'
-import { HomeProps } from './index.props'
+import data from '../slime.json'
+import { CharacterTileProps } from '../components/characterTile.props'
 
-function Home(HomeProps) {
+function Home() {
   const bgStyle = {
     backgroundImage: "url(" + background + ")",
     height: '100vh',
@@ -12,13 +13,13 @@ function Home(HomeProps) {
     backgroundRepeat: 'no-repeat'
   }
 
+
   return (
     <div
       style={bgStyle}
     >
-      <Header pageTitle="Slime: Isekai Memories Stats">
+      <Header>
       </Header>
-      <CharacterList></CharacterList>
     </div>
   )
 }

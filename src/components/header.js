@@ -1,12 +1,14 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import * as styles from './header.module.css'
+import { useState } from 'react'
+import CharacterList from './characterList';
 
-const Header = ({ pageTitle, children }) => {
-
+function Header({ inputPage }) {
+    const [page, setPage] = useState(inputPage ? inputPage : 'Home');
 
     return (
-        <div>
+        <div id='header'>
             <div
                 className={styles.container}
             >
@@ -14,41 +16,55 @@ const Header = ({ pageTitle, children }) => {
                     <div
                         className={styles.navHeader}
                     >
-                        <a className={styles.headerItem}>
-                            <Link to="/"
+                        <a
+                            className={styles.headerItem}
+                            onClick={() => setPage('Home')}
+                        >
+                            <span
                                 className={styles.headerItemText}>
                                 Home
-                            </Link>
+                            </span>
                         </a>
-                        <a className={styles.headerItem}>
-                            <Link to="/about"
+                        <a
+                            className={styles.headerItem}
+                            onClick={() => setPage('About')}
+                        >
+                            <span
                                 className={styles.headerItemText}>
                                 About
-                            </Link>
+                            </span>
                         </a>
-                        <a className={styles.headerItem}>
-                            <Link to="/char"
+                        <a
+                            className={styles.headerItem}
+                            onClick={() => setPage('Characters')}
+                        >
+                            <span
                                 className={styles.headerItemText}>
                                 Characters
-                            </Link>
+                            </span>
                         </a>
-                        <a className={styles.headerItem}>
-                            <Link to="/items"
+                        <a
+                            className={styles.headerItem}
+                            onClick={() => setPage('Items')}
+                        >
+                            <span
                                 className={styles.headerItemText}>
                                 Items
-                            </Link>
+                            </span>
                         </a>
                     </div>
                 </nav>
                 <h1
                     className={styles.title}
                 >
-                    {pageTitle}
+                    Slime: Isekai Memories Stats
                 </h1>
+                <div>
+                    {page == 'Characters' && (
+                        <CharacterList></CharacterList>
+                    )}
+                </div>
             </div>
-            <main>
-                {children}
-            </main>
         </div>
     )
 }
