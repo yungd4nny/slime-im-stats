@@ -1,0 +1,9 @@
+@import '../layouts/variables';
+
+.tileContainer {
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px;
+    background-color: $color500;
+}

@@ -2,14 +2,15 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import * as styles from './header.module.css'
 import { useState } from 'react'
-import CharacterList from './characterList';
+import CharacterList from './CharacterList';
 
 function Header({ inputPage }) {
-    const [page, setPage] = useState(inputPage ? inputPage : 'Home');
+    const [page, setPage] = useState(inputPage ?? 'Home');
 
     return (
-        <div id='header'>
+        <div>
             <div
+                id='header'
                 className={styles.container}
             >
                 <nav>
@@ -20,10 +21,10 @@ function Header({ inputPage }) {
                             className={styles.headerItem}
                             onClick={() => setPage('Home')}
                         >
-                            <span
+                            <Link to="/"
                                 className={styles.headerItemText}>
                                 Home
-                            </span>
+                            </Link>
                         </a>
                         <a
                             className={styles.headerItem}
@@ -36,12 +37,11 @@ function Header({ inputPage }) {
                         </a>
                         <a
                             className={styles.headerItem}
-                            onClick={() => setPage('Characters')}
                         >
-                            <span
+                            <Link to="/characterListPage"
                                 className={styles.headerItemText}>
                                 Characters
-                            </span>
+                            </Link>
                         </a>
                         <a
                             className={styles.headerItem}
@@ -59,12 +59,13 @@ function Header({ inputPage }) {
                 >
                     Slime: Isekai Memories Stats
                 </h1>
-                <div>
-                    {page == 'Characters' && (
-                        <CharacterList></CharacterList>
-                    )}
-                </div>
             </div>
+            <div>
+                {page == 'Characters' && (
+                    <CharacterList></CharacterList>
+                )}
+            </div>
+
         </div>
     )
 }

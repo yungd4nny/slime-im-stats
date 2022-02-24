@@ -1,26 +1,19 @@
 import * as React from 'react'
-import CharacterList from '../components/characterList'
-import Header from '../components/header'
+import Header from '../components/Header'
 import background from '../images/main-bg.jpg'
-import data from '../slime.json'
 import { CharacterTileProps } from '../components/characterTile.props'
+import { Container } from '../components/pageContainer'
 
 function Home() {
-  const bgStyle = {
+  const pog = {
     backgroundImage: "url(" + background + ")",
-    height: '100vh',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat'
   }
 
-
   return (
-    <div
-      style={bgStyle}
-    >
+    <Container>
       <Header>
       </Header>
-    </div>
+    </Container>
   )
 }
 

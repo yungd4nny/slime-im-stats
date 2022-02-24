@@ -20,8 +20,13 @@
     "babel-preset-react": "^6.0.15",
     "babel-preset-stage-0": "^6.0.15",
     "gatsby": "^4.8.0",
+    "gatsby-plugin-sass": "^5.8.0",
+    "gatsby-source-filesystem": "^4.8.0",
+    "gatsby-transformer-csv": "^4.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "sass": "^1.49.8",
+    "styled-components": "^5.3.3",
     "xlsx": "^0.18.2"
   }
 }
