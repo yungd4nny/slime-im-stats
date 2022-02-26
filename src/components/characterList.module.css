@@ -1,0 +1,7 @@
+.charList{
+    overflow-y: scroll;
+    max-height: 90%;
+    max-width: 50%;
+    margin: auto;
+    backdrop-filter: blur(8px);
+}

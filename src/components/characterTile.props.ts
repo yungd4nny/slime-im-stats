@@ -3,5 +3,13 @@ export interface CharacterTileProps {
 
     name: string;
 
-    baseRarity: string;
+    imageUrl?: string;
+
+    baseRarity?: string;
+
+    atkType?: string;
+
+    type?: string;
+
+    growthType?: string;
 }

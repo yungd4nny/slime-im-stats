@@ -1,8 +1,9 @@
 import * as React from 'react'
 import Header from '../components/Header'
 import background from '../images/main-bg.jpg'
-import { CharacterTileProps } from '../components/characterTile.props'
+import * as styles from './index.module.scss'
 import { Container } from '../components/pageContainer'
+import "@fontsource/gugi"
 
 function Home() {
   const pog = {
@@ -13,6 +14,10 @@ function Home() {
     <Container>
       <Header>
       </Header>
+      <h1>
+        <img src="https://ten-sura-m.bn-ent.net/assets/img/lang/en/home/footer-logo.png"
+          className={styles.logo}></img>
+      </h1>
     </Container>
   )
 }

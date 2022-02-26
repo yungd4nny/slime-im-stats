@@ -3,16 +3,63 @@ import CharacterList from '../components/CharacterList'
 import Header from '../components/Header'
 import { graphql } from 'gatsby'
 import { Container } from '../components/pageContainer';
+import { useState, useEffect, useRef } from 'react'
+import * as styles from './characterListPage.module.scss'
+import Select from 'react-select'
 
 function CharacterListPage({ data }) {
+    const [filterText, setFilterText] = useState("");
+    const [filteredCharacterData, setFilteredCharacterData] = useState([]);
+    const [filterElement, setFilterElement] = useState({ value: 'all', label: 'all', icon: "poop" });
+
     const characterData = data?.allSlimerippedCsv?.nodes || [];
+
+    const elements = [
+        { value: 'all', label: 'all', icon: "poop" },
+        { value: 'wind', label: 'wind', icon: "https://i.imgur.com/pQYVkI3.png" },
+        { value: 'dark', label: 'dark', icon: "https://i.imgur.com/pzX6NRL.png" },
+        { value: 'light', label: 'light', icon: "https://i.imgur.com/hX15sR0.png" },
+        { value: 'space', label: 'space', icon: "https://i.imgur.com/z8bnSYg.png" },
+        { value: 'earth', label: 'earth', icon: "https://i.imgur.com/AHPti72.png" },
+        { value: 'fire', label: 'fire', icon: "https://i.imgur.com/QndVudD.png" },
+        { value: 'water', label: 'water', icon: "https://i.imgur.com/NchScWh.png" },
+    ]
+    console.log(elements[0].value)
+    useEffect(() => {
+        setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase()) && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))))
+    }, [filterText, filterElement])
     return (
         <Container>
             <Header>
             </Header>
-            <CharacterList characterData={characterData}>
+            <div className={styles.filterBar}>
+                <form className={styles.formStyle}>
+                    <input
+                        type="text"
+                        value={filterText}
+                        placeholder="Search for character"
+                        onChange={(e) => setFilterText(e.target.value)}
+                        className={styles.searchBox}></input>
+                    <Select className={styles.elementDropdown}
+                        isSearchable={false}
+                        value={filterElement}
+                        onChange={(setFilterElement)}
+                        options={elements}
+                        defaultValue
+                        formatOptionLabel={elements => (
+                            <div className={styles.elementDropdownOptions}>
+                                <img src={elements.icon}
+                                    className={styles.dropdownElementIcon}></img>
+                                <span className={styles.dropdownElementLabel}>{elements.label}</span>
+                            </div>
+                        )}>
+                    </Select>
+                </form>
+
+            </div >
+            <CharacterList characterData={filteredCharacterData}>
             </CharacterList>
-        </Container>
+        </Container >
     )
 }
 
@@ -25,6 +72,9 @@ query {
                 Name
                 Base_Rarity
                 Atk_Type
+                Picture
+                Type
+                Growth_Type
             }
     }
 }

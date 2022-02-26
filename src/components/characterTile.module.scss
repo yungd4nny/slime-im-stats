@@ -1,9 +1,47 @@
 @import '../layouts/variables';
 
+$charTileImageSize: 64px;
+$charTypeImageSize: 48px;
+
 .tileContainer {
     border: black 1px solid;
     border-radius: 5px;
     padding: 5px;
     margin: 4px;
-    background-color: $color500;
+    background-color: $charTileColor;
+    display: table;
+    width: calc(100% - 18px);
+
+    &:hover {
+        background-color: rgba(165, 165, 165, 0.7);
+    }
+}
+
+.charImage {
+    height: $charTileImageSize;
+    width: $charTileImageSize;
+    float: left;
+}
+
+.charText {
+    padding: 4px;
+    display: table-cell;
+    float: left;
+    font-family: $charFont;
+    letter-spacing: $charSpacing;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: calc(($charTileImageSize - 33px) / 2);
+    color: rgba(34, 34, 34, 1);
+    text-decoration: none;
+}
+
+.typeImage {
+    display: table-cell;
+    float: left;
+    height: $charTypeImageSize;
+    width: $charTypeImageSize;
+    margin-top: calc(($charTileImageSize - 48px )/ 2);
+    padding-left: 2px;
+    padding-right: 2px;
 }

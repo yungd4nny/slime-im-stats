@@ -13,7 +13,8 @@ function Header({ inputPage }) {
                 id='header'
                 className={styles.container}
             >
-                <nav>
+                <nav
+                    className={styles.nav}>
                     <div
                         className={styles.navHeader}
                     >
@@ -54,11 +55,12 @@ function Header({ inputPage }) {
                         </a>
                     </div>
                 </nav>
-                <h1
+                {/* <h1
                     className={styles.title}
                 >
                     Slime: Isekai Memories Stats
-                </h1>
+                </h1> */}
+                
             </div>
             <div>
                 {page == 'Characters' && (
