@@ -45,7 +45,7 @@ function CharacterListPage({ data }) {
                         value={filterElement}
                         onChange={(setFilterElement)}
                         options={elements}
-                        defaultValue
+                        defaultValue={filterElement}
                         formatOptionLabel={elements => (
                             <div className={styles.elementDropdownOptions}>
                                 <img src={elements.icon}

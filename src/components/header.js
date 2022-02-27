@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import * as styles from './header.module.css'
+import * as styles from './header.module.scss'
 import { useState } from 'react'
 import CharacterList from './CharacterList';
 
@@ -60,7 +60,7 @@ function Header({ inputPage }) {
                 >
                     Slime: Isekai Memories Stats
                 </h1> */}
-                
+
             </div>
             <div>
                 {page == 'Characters' && (

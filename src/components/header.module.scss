@@ -1,3 +1,5 @@
+@import '../layouts/variables';
+
 .container {
   
 }
@@ -37,8 +39,8 @@
 .headerItemText {
   text-decoration: none;
   color: black;
-  font-family: sans-serif;
-  font-size: 18px;
+  font-family: $charFont;
+  font-size: 3vh;
   font-weight: 600;
 }
 

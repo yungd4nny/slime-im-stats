@@ -25,15 +25,15 @@ $charTypeImageSize: 48px;
 
 .charText {
     padding: 4px;
-    display: table-cell;
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
     font-family: $charFont;
     letter-spacing: $charSpacing;
     font-weight: 700;
     font-size: 18px;
-    margin-top: calc(($charTileImageSize - 33px) / 2);
     color: rgba(34, 34, 34, 1);
     text-decoration: none;
+    width: 75%;
 }
 
 .typeImage {

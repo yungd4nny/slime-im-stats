@@ -1,0 +1,26 @@
+@import '../layouts/variables';
+
+.detailsContainer {
+    width: 85%;
+    height: 85%;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: $charTileColor;
+    margin: auto;
+    backdrop-filter: blur(8px);
+}
+
+.detailsName {
+    font-family: $charFont;
+    text-align: center;
+    width: '100%';
+    font-size: 3vw;
+}
+
+.detailsIcon {
+    margin: auto;
+    height: 30%;
+    width: 20%;
+    border-radius: 5%;
+}
