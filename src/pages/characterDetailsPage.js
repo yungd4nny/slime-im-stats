@@ -8,8 +8,7 @@ function CharacterDetailsPage({ location }) {
         <Container>
             <Header></Header>
             <CharacterDetails
-                name={location?.state?.props.name}
-                imageUrl={location?.state?.props.imageUrl}></CharacterDetails>
+                {...location?.state?.props}></CharacterDetails>
         </Container>
     )
 }

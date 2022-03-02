@@ -3,19 +3,19 @@ import CharacterList from '../components/CharacterList'
 import Header from '../components/Header'
 import { graphql } from 'gatsby'
 import { Container } from '../components/pageContainer';
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import * as styles from './characterListPage.module.scss'
 import Select from 'react-select'
 
 function CharacterListPage({ data }) {
     const [filterText, setFilterText] = useState("");
     const [filteredCharacterData, setFilteredCharacterData] = useState([]);
-    const [filterElement, setFilterElement] = useState({ value: 'all', label: 'all', icon: "poop" });
+    const [filterElement, setFilterElement] = useState({ value: 'all', label: 'all', icon: "https://i.imgur.com/oD9Pdy7.png" });
 
     const characterData = data?.allSlimerippedCsv?.nodes || [];
 
     const elements = [
-        { value: 'all', label: 'all', icon: "poop" },
+        { value: 'all', label: 'all', icon: "https://i.imgur.com/oD9Pdy7.png" },
         { value: 'wind', label: 'wind', icon: "https://i.imgur.com/pQYVkI3.png" },
         { value: 'dark', label: 'dark', icon: "https://i.imgur.com/pzX6NRL.png" },
         { value: 'light', label: 'light', icon: "https://i.imgur.com/hX15sR0.png" },
@@ -75,6 +75,13 @@ query {
                 Picture
                 Type
                 Growth_Type
+                Max_HP
+                Max_ATK
+                Max_DEF
+                Battle_Skill_1
+                Battle_Skill_2
+                Town_Trait_1
+                Town_Trait_2
             }
     }
 }

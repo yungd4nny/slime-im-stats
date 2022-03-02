@@ -18,7 +18,7 @@ function Header({ inputPage }) {
                     <div
                         className={styles.navHeader}
                     >
-                        <a
+                        <div
                             className={styles.headerItem}
                             onClick={() => setPage('Home')}
                         >
@@ -26,8 +26,8 @@ function Header({ inputPage }) {
                                 className={styles.headerItemText}>
                                 Home
                             </Link>
-                        </a>
-                        <a
+                        </div>
+                        <div
                             className={styles.headerItem}
                             onClick={() => setPage('About')}
                         >
@@ -35,16 +35,16 @@ function Header({ inputPage }) {
                                 className={styles.headerItemText}>
                                 About
                             </span>
-                        </a>
-                        <a
+                        </div>
+                        <div
                             className={styles.headerItem}
                         >
                             <Link to="/characterListPage"
                                 className={styles.headerItemText}>
                                 Characters
                             </Link>
-                        </a>
-                        <a
+                        </div>
+                        <div
                             className={styles.headerItem}
                             onClick={() => setPage('Items')}
                         >
@@ -52,7 +52,7 @@ function Header({ inputPage }) {
                                 className={styles.headerItemText}>
                                 Items
                             </span>
-                        </a>
+                        </div>
                     </div>
                 </nav>
                 {/* <h1

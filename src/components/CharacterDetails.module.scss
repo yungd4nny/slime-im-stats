@@ -9,6 +9,7 @@
     background-color: $charTileColor;
     margin: auto;
     backdrop-filter: blur(8px);
+    min-height: 800px;
 }
 
 .detailsName {
@@ -16,11 +17,98 @@
     text-align: center;
     width: '100%';
     font-size: 3vw;
+    display: table;
+    margin: auto;
 }
 
 .detailsIcon {
+    height: 256px;
+    width: 256px;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+.detailsIconContainer {
+    display: inline;
+    height: 256px;
+    width: 256px;
+}
+
+.typeIcon {
+    display: table-cell;
+    vertical-align: middle;
+    height: 88px;
+    width: 88px;
+}
+
+.charNameText {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.skillText {
+    float: right;
+    font-family: $charFont;
+    font-size: 18px;
+    display: table-cell;
+    max-width: 382px;
+    margin: 2px;
+}
+
+.skillTextName {
+    font-family: $charFont;
+    font-size: 24px;
+    display: table-cell;
+    font-weight: 700;
+    margin: 2px;
+}
+
+.skillsContainer {
+    display: table-cell;
+    height: auto;
+    width: 400px;
+    float: right;
+    border-radius: 5px;
+    border: 2px black solid;
+    margin: 4px;
+}
+
+.detailsInnerContainer {
+    width: 90%;
     margin: auto;
-    height: 30%;
-    width: 20%;
-    border-radius: 5%;
+    overflow-y: auto;
+}
+
+.statsText {
+    font-family: $charFont;
+    font-size: 32px;
+    vertical-align: middle;
+    display: table-cell;
+    padding-right: 30px;
+}
+
+.statsContainer {
+    border: 2px black solid;
+    border-radius: 10px;
+    display: table;
+    margin-top: 4px;
+}
+
+.townTraitContainer {
+    display: table-cell;
+    height: auto;
+    width: 200px;
+    float: right;
+    border-radius: 5px;
+    border: 2px black solid;
+    margin: 2px;
+}
+
+.townTraitText {
+    float: left;
+    font-family: $charFont;
+    font-size: 18px;
+    display: table-cell;
+    max-width: 382px;
+    margin: 2px;
 }
