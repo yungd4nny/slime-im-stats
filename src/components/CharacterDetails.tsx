@@ -1,13 +1,17 @@
 import * as React from 'react'
-import * as styles from "../styles/characterDetails.module.scss"
+import * as styles from '../styles/characterDetails.module.scss'
 import { CharacterTileProps } from './characterTile.props'
 
 
 function CharacterDetails(props: CharacterTileProps) {
-    var splitSkillOne = props.battleSkillOne.split("Lv.1/Lv.10");
-    splitSkillOne[1] = splitSkillOne[1]?.substring(2);
-    var splitSkillTwo = props.battleSkillTwo.split("Lv.1/Lv.10");
-    splitSkillTwo[1] = splitSkillTwo[1]?.substring(2);
+    if (props.battleSkillOne) {
+        var splitSkillOne = props.battleSkillOne.split("Lv.1/Lv.10");
+        splitSkillOne[1] = splitSkillOne[1]?.substring(2);
+    }
+    if (props.battleSkillTwo) {
+        var splitSkillTwo = props.battleSkillTwo.split("Lv.1/Lv.10");
+        splitSkillTwo[1] = splitSkillTwo[1]?.substring(2);
+    }
 
     return (
         <div
@@ -30,12 +34,12 @@ function CharacterDetails(props: CharacterTileProps) {
                         className={styles.detailsIcon}></img>
                 </div>
                 <div className={styles.skillsContainer}>
-                    <div className={styles.skillTextName}>{splitSkillOne[0]}</div>
-                    <div className={styles.skillText}>{splitSkillOne[1]}</div>
-                    <div className={styles.skillText}>{splitSkillOne[2]}</div>
-                    <div className={styles.skillTextName}>{splitSkillTwo[0]}</div>
-                    <div className={styles.skillText}>{splitSkillTwo[1]}</div>
-                    <div className={styles.skillText}>{splitSkillTwo[2]}</div>
+                    {splitSkillOne && splitSkillOne.length >= 0 && <div className={styles.skillTextName}>{splitSkillOne[0]}</div>}
+                    {splitSkillOne && splitSkillOne.length >= 1 && <div className={styles.skillText}>{splitSkillOne[1]}</div>}
+                    {splitSkillOne && splitSkillOne.length >= 2 && <div className={styles.skillText}>{splitSkillOne[2]}</div>}
+                    {splitSkillTwo && splitSkillTwo.length >= 0 && <div className={styles.skillText}>{splitSkillTwo[0]}</div>}
+                    {splitSkillTwo && splitSkillTwo.length >= 1 && <div className={styles.skillTextName}>{splitSkillTwo[1]}</div>}
+                    {splitSkillTwo && splitSkillTwo.length >= 2 && <div className={styles.skillText}>{splitSkillTwo[2]}</div>}
                 </div>
                 <div className={styles.townTraitContainer}>
                     <div className={styles.townTraitText}>{props.townTraitOne}</div>

@@ -1,7 +1,7 @@
 import * as React from 'react'
-import Header from '../components/Header'
-import { Container } from '../components/pageContainer'
-import CharacterDetails from '../components/CharacterDetails'
+import Header from '../components/Header';
+import { Container } from '../components/pageContainer';
+import CharacterDetails from '../components/CharacterDetails';
 
 function CharacterDetailsPage({ location }) {
     return (

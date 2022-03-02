@@ -32,5 +32,8 @@
     "sass": "^1.49.8",
     "styled-components": "^5.3.3",
     "xlsx": "^0.18.2"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
   }
 }
