@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import * as styles from './header.module.scss'
+import * as styles from '../styles/header.module.scss'
 import { useState } from 'react'
 import CharacterList from './CharacterList';
 

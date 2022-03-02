@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as charListStyles from "./characterList.module.css"
+import * as charListStyles from "../styles/characterList.module.css"
 import CharacterTile from './CharacterTile'
 
 function CharacterList({ characterData }) {

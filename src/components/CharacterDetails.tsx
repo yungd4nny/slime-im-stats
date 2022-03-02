@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as styles from "./characterDetails.module.scss"
+import * as styles from "../styles/characterDetails.module.scss"
 import { CharacterTileProps } from './characterTile.props'
 
 

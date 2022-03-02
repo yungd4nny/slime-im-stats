@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { CharacterTileProps } from './characterTile.props'
-import * as styles from './characterTile.module.scss'
+import * as styles from '../styles/characterTile.module.scss'
 import { Link } from 'gatsby'
 
 function CharacterTile(props: CharacterTileProps) {
