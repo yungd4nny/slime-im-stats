@@ -2,7 +2,7 @@ import * as React from 'react'
 import Header from '../components/Header'
 import background from '../images/main-bg.jpg'
 import * as styles from '../styles/index.module.scss'
-import { Container } from '../components/pageContainer'
+import { Container } from '../components/PageContainer'
 import "@fontsource/gugi"
 
 function Home() {

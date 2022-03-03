@@ -2,7 +2,7 @@ import * as React from 'react'
 import CharacterList from '../components/CharacterList'
 import Header from '../components/Header'
 import { graphql } from 'gatsby'
-import { Container } from '../components/pageContainer';
+import { Container } from '../components/PageContainer';
 import { useState, useEffect } from 'react'
 import * as styles from '../styles/characterListPage.module.scss'
 import Select from 'react-select'

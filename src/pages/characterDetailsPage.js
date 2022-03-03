@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Header from '../components/Header.js';
-import { Container } from '../components/pageContainer.js';
+import { Container } from '../components/PageContainer.js';
 import CharacterDetails from '../components/CharacterDetails.tsx';
 
 function CharacterDetailsPage({ location }) {
