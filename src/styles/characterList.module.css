@@ -1,5 +1,9 @@
 .charList{
-    overflow-y: scroll;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.charListScroll{
     max-height: 90%;
     max-width: 50%;
     margin: auto;

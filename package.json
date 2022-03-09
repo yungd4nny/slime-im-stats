@@ -26,6 +26,7 @@
     "gatsby-source-filesystem": "^4.8.0",
     "gatsby-transformer-csv": "^4.8.0",
     "react": "^17.0.1",
+    "react-custom-scrollbars-2": "^4.4.0",
     "react-dom": "^17.0.1",
     "react-search-box": "^2.2.1",
     "react-select": "^5.2.2",

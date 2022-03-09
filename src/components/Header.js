@@ -31,10 +31,10 @@ function Header({ inputPage }) {
                             className={styles.headerItem}
                             onClick={() => setPage('About')}
                         >
-                            <span
+                            <Link to="/aboutPage"
                                 className={styles.headerItemText}>
                                 About
-                            </span>
+                            </Link>
                         </div>
                         <div
                             className={styles.headerItem}
@@ -48,10 +48,10 @@ function Header({ inputPage }) {
                             className={styles.headerItem}
                             onClick={() => setPage('Items')}
                         >
-                            <span
+                            <Link to="/itemsPage"
                                 className={styles.headerItemText}>
                                 Items
-                            </span>
+                            </Link>
                         </div>
                     </div>
                 </nav>

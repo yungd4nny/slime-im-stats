@@ -1,8 +1,8 @@
 @import '../layouts/variables';
 
 .detailsContainer {
-    width: 85%;
-    height: 85%;
+    width: 100%;
+    height: 90%;
     border: black 1px solid;
     border-radius: 5px;
     padding: 5px;
@@ -10,6 +10,11 @@
     margin: auto;
     backdrop-filter: blur(8px);
     min-height: 800px;
+}
+.scrollbar{
+    height: 80%;
+    width: 85%;
+    margin: auto;
 }
 
 .detailsName {
@@ -25,7 +30,9 @@
     height: 256px;
     width: 256px;
     border-radius: 5px;
+    float: left;
     border: 2px black solid;
+    margin: 4px;
 }
 
 .detailsIconContainer {
@@ -44,6 +51,12 @@
 .charNameText {
     display: table-cell;
     vertical-align: middle;
+}
+
+.skillHeader {
+    font-family: $charFont;
+    font-size: 28px;
+    text-align: center;
 }
 
 .skillText {
@@ -67,7 +80,7 @@
     display: table-cell;
     height: auto;
     width: 400px;
-    float: right;
+    float: left;
     border-radius: 5px;
     border: 2px black solid;
     margin: 4px;
@@ -76,7 +89,6 @@
 .detailsInnerContainer {
     width: 90%;
     margin: auto;
-    overflow-y: auto;
 }
 
 .statsText {
@@ -88,6 +100,11 @@
 }
 
 .statsContainer {
+    max-width: 40%;
+    float: left;
+}
+
+.statsBoxes {
     border: 2px black solid;
     border-radius: 10px;
     display: table;
@@ -98,10 +115,10 @@
     display: table-cell;
     height: auto;
     width: 200px;
-    float: right;
+    float: left;
     border-radius: 5px;
     border: 2px black solid;
-    margin: 2px;
+    margin: 4px;
 }
 
 .townTraitText {
@@ -111,4 +128,19 @@
     display: table-cell;
     max-width: 382px;
     margin: 2px;
+}
+
+.awakenedTraitContainer {
+    display: table-cell;
+    height: auto;
+    width: 500px;
+    float: left;
+    border-radius: 5px;
+    border: 2px black solid;
+    margin: 4px;
+}
+
+.expertiseIcon {
+    margin: auto;
+    display: table-cell;
 }

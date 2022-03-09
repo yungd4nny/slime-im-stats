@@ -36,4 +36,8 @@ export interface CharacterTileProps {
     battleSkillOne?: string;
 
     battleSkillTwo?: string;
+
+    charTraitOne?: string;
+
+    charTraitTwo?: string;
 }

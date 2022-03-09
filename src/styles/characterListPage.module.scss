@@ -45,14 +45,16 @@
 }
 
 .dropdownElementIcon {
-    height:24px;
+    height: 24px;
+    float: left;
 }
 
 .dropdownElementLabel{
     display: table-cell;
     margin: auto;
     vertical-align: middle;
-    padding-left: 4px;
+    padding-left: 12px;
+    float: left;
 }
 
 .filterBar {

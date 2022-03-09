@@ -82,6 +82,10 @@ query {
                 Battle_Skill_2
                 Town_Trait_1
                 Town_Trait_2
+                Character_Trait_at_5__Awaken_x1
+                Character_Trait_at_5__Awaken_x3
+                Secret_Skill__Ult_
+                Expertise
             }
     }
 }
