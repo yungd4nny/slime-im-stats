@@ -46,6 +46,14 @@ function Header({ inputPage }) {
                         </div>
                         <div
                             className={styles.headerItem}
+                        >
+                            <Link to="/protectorListPage"
+                                className={styles.headerItemText}>
+                                Protectors
+                            </Link>
+                        </div>
+                        <div
+                            className={styles.headerItem}
                             onClick={() => setPage('Items')}
                         >
                             <Link to="/itemsPage"

@@ -10,12 +10,14 @@ import Select from 'react-select'
 function CharacterListPage({ data }) {
     const [filterText, setFilterText] = useState("");
     const [filteredCharacterData, setFilteredCharacterData] = useState([]);
-    const [filterElement, setFilterElement] = useState({ value: 'all', label: 'all', icon: "https://i.imgur.com/oD9Pdy7.png" });
+    const [filterElement, setFilterElement] = useState({ value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" });
+    const [filterWeapon, setFilterWeapon] = useState({ value: 'all', label: 'weapon', icon: "https://i.imgur.com/oD9Pdy7.png" });
 
     const characterData = data?.allSlimerippedCsv?.nodes || [];
 
+    //elements for filter
     const elements = [
-        { value: 'all', label: 'all', icon: "https://i.imgur.com/oD9Pdy7.png" },
+        { value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" },
         { value: 'wind', label: 'wind', icon: "https://i.imgur.com/pQYVkI3.png" },
         { value: 'dark', label: 'dark', icon: "https://i.imgur.com/pzX6NRL.png" },
         { value: 'light', label: 'light', icon: "https://i.imgur.com/hX15sR0.png" },
@@ -24,10 +26,23 @@ function CharacterListPage({ data }) {
         { value: 'fire', label: 'fire', icon: "https://i.imgur.com/QndVudD.png" },
         { value: 'water', label: 'water', icon: "https://i.imgur.com/NchScWh.png" },
     ]
-    console.log(elements[0].value)
+
+    //expertise weapon types for filter
+    const weapons = [
+        { value: 'all', label: 'weapon', icon: "https://i.imgur.com/oD9Pdy7.png" },
+        { value: 'Katana', label: 'Katana', icon: "https://i.imgur.com/GzjFDuk.png" },
+        { value: 'Magic Tome', label: 'Magic Tome', icon: "https://i.imgur.com/OD93qKZ.png" },
+        { value: 'Sword', label: 'Sword', icon: "https://i.imgur.com/ATso0Oh.png" },
+        { value: 'Greatsword', label: 'Greatsword', icon: "https://i.imgur.com/HSDNq0i.png" },
+        { value: 'Lance', label: 'Lance', icon: "https://i.imgur.com/ayJUL2b.png" },
+        { value: 'Hammer', label: 'Hammer', icon: "https://i.imgur.com/cjuCnpU.png" },
+        { value: 'Fist', label: 'Fist', icon: "https://i.imgur.com/8YV85Vx.png" },
+    ]
     useEffect(() => {
-        setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase()) && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))))
-    }, [filterText, filterElement])
+        setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
+            && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))
+            && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")))
+    }, [filterText, filterElement, filterWeapon])
     return (
         <Container>
             <Header>
@@ -51,6 +66,20 @@ function CharacterListPage({ data }) {
                                 <img src={elements.icon}
                                     className={styles.dropdownElementIcon}></img>
                                 <span className={styles.dropdownElementLabel}>{elements.label}</span>
+                            </div>
+                        )}>
+                    </Select>
+                    <Select className={styles.weaponDropdown}
+                        isSearchable={false}
+                        value={filterWeapon}
+                        onChange={(setFilterWeapon)}
+                        options={weapons}
+                        defaultValue={filterWeapon}
+                        formatOptionLabel={weapons => (
+                            <div className={styles.weaponDropdownOptions}>
+                                <img src={weapons.icon}
+                                    className={styles.dropdownElementIcon}></img>
+                                <span className={styles.dropdownElementLabel}>{weapons.label}</span>
                             </div>
                         )}>
                     </Select>

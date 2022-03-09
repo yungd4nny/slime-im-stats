@@ -57,6 +57,19 @@
     float: left;
 }
 
+.weaponDropdown {
+    display: inline-flex;
+    margin: 4px;
+    padding: 5px;
+    height: 46px;
+    min-width: 180px;
+}
+
+.weaponDropdownOptions {
+    display: table;
+    width: 140px;
+}
+
 .filterBar {
     margin: auto;
     max-width: 50%;

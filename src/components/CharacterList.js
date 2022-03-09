@@ -14,6 +14,9 @@ function CharacterList({ characterData }) {
             >
                 {
                     characterData?.map((item, index) => {
+                        if (item.Expertise == "Tome") {
+                            item.Expertise = "Magic Tome"
+                        }
                         return (
                             <CharacterTile
                                 id={index}
