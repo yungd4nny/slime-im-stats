@@ -9,12 +9,10 @@ function CharacterDetails(props: CharacterTileProps) {
     if (props.battleSkillOne) {
         var splitSkillOne = props.battleSkillOne.split("Lv.1/Lv.10");
         splitSkillOne[1] = splitSkillOne[1]?.substring(2);
-        console.log(splitSkillOne);
     }
     if (props.battleSkillTwo) {
         var splitSkillTwo = props.battleSkillTwo.split(/Lv.1\/Lv.10|Lv.1\/Lv10/);
         splitSkillTwo[1] = splitSkillTwo[1]?.substring(2);
-        console.log(splitSkillTwo);
     }
 
     //determine expertise image

@@ -11,9 +11,13 @@ $charTypeImageSize: 48px;
     background-color: $charTileColor;
     display: table;
     width: calc(100% - 18px);
+    text-decoration: none;
 
     &:hover {
         background-color: rgba(165, 165, 165, 0.7);
+    }
+    &:hover .charText {
+        color: black;
     }
 }
 
@@ -25,15 +29,15 @@ $charTypeImageSize: 48px;
 
 .charText {
     padding: 4px;
-    display: inline-block;
+    display: table-cell;
     vertical-align: middle;
     font-family: $charFont;
     letter-spacing: $charSpacing;
     font-weight: 700;
     font-size: 18px;
-    color: rgba(34, 34, 34, 1);
+    color: $charTileFontColor;
     text-decoration: none;
-    width: 75%;
+    width: 90%;
 }
 
 .typeImage {
