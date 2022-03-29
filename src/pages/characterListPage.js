@@ -12,6 +12,7 @@ function CharacterListPage({ data }) {
     const [filteredCharacterData, setFilteredCharacterData] = useState([]);
     const [filterElement, setFilterElement] = useState({ value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" });
     const [filterWeapon, setFilterWeapon] = useState({ value: 'all', label: 'weapon', icon: "https://i.imgur.com/oD9Pdy7.png" });
+    const [filterUlt, setFilterUlt] = useState({ value: 'any', label: 'any', icon: "https://i.imgur.com/oD9Pdy7.png" });
 
     const characterData = data?.allSlimerippedCsv?.nodes || [];
 
@@ -38,11 +39,20 @@ function CharacterListPage({ data }) {
         { value: 'Hammer', label: 'Hammer', icon: "https://i.imgur.com/cjuCnpU.png" },
         { value: 'Fist', label: 'Fist', icon: "https://i.imgur.com/8YV85Vx.png" },
     ]
+
+    //ult types for filter
+    const ultTypes = [
+        { value: 'any', label: 'any', icon: "https://i.imgur.com/oD9Pdy7.png" },
+        { value: 'all-target', label: 'all target', icon: "https://i.imgur.com/oD9Pdy7.png" },
+        { value: 'single-target', label: 'single target', icon: "https://i.imgur.com/oD9Pdy7.png" },
+    ]
+
     useEffect(() => {
         setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
             && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))
-            && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")))
-    }, [filterText, filterElement, filterWeapon])
+            && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")
+            && (item.Secret_Skill__Ult_.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")))
+    }, [filterText, filterElement, filterWeapon, filterUlt])
     return (
         <Container>
             <Header>
@@ -80,6 +90,20 @@ function CharacterListPage({ data }) {
                                 <img src={weapons.icon}
                                     className={styles.dropdownElementIcon}></img>
                                 <span className={styles.dropdownElementLabel}>{weapons.label}</span>
+                            </div>
+                        )}>
+                    </Select>
+                    <Select className={styles.ultDropdown}
+                        isSearchable={false}
+                        value={filterUlt}
+                        onChange={(setFilterUlt)}
+                        options={ultTypes}
+                        defaultValue={filterUlt}
+                        formatOptionLabel={ultTypes => (
+                            <div className={styles.ultDropdownOptions}>
+                                <img src={ultTypes.icon}
+                                    className={styles.dropdownElementIcon}></img>
+                                <span className={styles.dropdownElementLabel}>{ultTypes.label}</span>
                             </div>
                         )}>
                     </Select>

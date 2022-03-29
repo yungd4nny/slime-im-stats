@@ -12,4 +12,10 @@ exports.onCreatePage = async ({ page, actions }) => {
         // Update the page.
         createPage(page)
     }
+    if (page.path.match(/^\/protectorDetailsPage/)) {
+        page.matchPath = "/protectorDetailsPage/*"
+
+        // Update the page.
+        createPage(page)
+    }
 }

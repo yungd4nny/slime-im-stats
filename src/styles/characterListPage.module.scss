@@ -19,7 +19,7 @@
     letter-spacing: $charSpacing;
     font-weight: 700;
     float: left;
-    height:58px;
+    min-height:58px;
     padding-top: 5px;
     min-width: 120px;
 }
@@ -70,9 +70,23 @@
     width: 140px;
 }
 
+.ultDropdown {
+    display: inline-flex;
+    margin: 4px;
+    padding: 5px;
+    height: 46px;
+    min-width: 200px;
+}
+
+.ultDropdownOptions {
+    display: table;
+    width: 150px;
+}
+
+
 .filterBar {
     margin: auto;
     max-width: 50%;
-    height: 68px;
+    min-height: 68px;
     align-items: center;
 }

@@ -12,6 +12,7 @@ $charTypeImageSize: 48px;
     display: table;
     width: calc(100% - 18px);
     text-decoration: none;
+    height: 56px;
 
     &:hover {
         background-color: rgba(165, 165, 165, 0.7);
@@ -37,7 +38,9 @@ $charTypeImageSize: 48px;
     font-size: 18px;
     color: $charTileFontColor;
     text-decoration: none;
-    width: 90%;
+    min-width: 300px;
+    float: left;
+    line-height: 60px;
 }
 
 .typeImage {
