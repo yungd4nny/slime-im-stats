@@ -4,7 +4,7 @@
 }
 
 .charListScroll{
-    max-height: 90%;
+    max-height: 80%;
     max-width: 50%;
     margin: auto;
     backdrop-filter: blur(8px);

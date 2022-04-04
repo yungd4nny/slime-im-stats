@@ -12,7 +12,7 @@ function CharacterListPage({ data }) {
     const [filteredCharacterData, setFilteredCharacterData] = useState([]);
     const [filterElement, setFilterElement] = useState({ value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" });
     const [filterWeapon, setFilterWeapon] = useState({ value: 'all', label: 'weapon', icon: "https://i.imgur.com/oD9Pdy7.png" });
-    const [filterUlt, setFilterUlt] = useState({ value: 'any', label: 'any', icon: "https://i.imgur.com/oD9Pdy7.png" });
+    const [filterUlt, setFilterUlt] = useState({ value: 'any', label: 'ult type', icon: "https://i.imgur.com/oD9Pdy7.png" });
 
     const characterData = data?.allSlimerippedCsv?.nodes || [];
 
@@ -42,7 +42,7 @@ function CharacterListPage({ data }) {
 
     //ult types for filter
     const ultTypes = [
-        { value: 'any', label: 'any', icon: "https://i.imgur.com/oD9Pdy7.png" },
+        { value: 'any', label: 'ult type', icon: "https://i.imgur.com/oD9Pdy7.png" },
         { value: 'all-target', label: 'all target', icon: "https://i.imgur.com/oD9Pdy7.png" },
         { value: 'single-target', label: 'single target', icon: "https://i.imgur.com/oD9Pdy7.png" },
     ]
