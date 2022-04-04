@@ -29,7 +29,7 @@ function ProtectorTile(props: any) {
             <img src={currentProtector[0].Type}
                 className={styles.typeImage}>
             </img>
-            <span className={styles.charText}>{props.baseRarity} {props.name}</span>
+            <span className={styles.charText}>{currentProtector[0].Base_Rarity} {props.name}</span>
         </Link>
     )
 }
