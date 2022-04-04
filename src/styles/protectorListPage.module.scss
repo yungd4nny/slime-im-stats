@@ -3,3 +3,59 @@
 .itemsPageHeader {
     font-family: $charFont;
 }
+.filterBar {
+    margin: auto;
+    max-width: 50%;
+    min-height: 68px;
+    align-items: center;
+}
+
+.elementDropdown {
+    display: inline-flex;
+    margin: 4px;
+    padding: 5px;
+    height: 46px;
+    min-width: 124px;
+}
+
+.elementDropdownOptions {
+    display: table;
+    width: 100px;
+}
+
+.dropdownElementIcon {
+    height: 20px;
+    float: left;
+}
+
+.dropdownElementLabel{
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    padding-left: 12px;
+    float: left;
+}
+
+.formStyle {
+    margin: auto;
+    font-family: $charFont;
+    letter-spacing: $charSpacing;
+    font-weight: 700;
+    float: left;
+    min-height:58px;
+    padding-top: 5px;
+    min-width: 120px;
+}
+
+.searchBox {
+    display: inline-flex;
+    flex-direction: column;
+    float: left;
+    margin: 4px;
+    font-size: 30px;
+    font-family: $charFont;
+    letter-spacing: $charSpacing;
+    font-weight: 700;
+    height: 42px;
+    width: 340px;
+}

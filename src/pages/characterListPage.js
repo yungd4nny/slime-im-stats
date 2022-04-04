@@ -13,6 +13,7 @@ function CharacterListPage({ data }) {
     const [filterElement, setFilterElement] = useState({ value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" });
     const [filterWeapon, setFilterWeapon] = useState({ value: 'all', label: 'weapon', icon: "https://i.imgur.com/oD9Pdy7.png" });
     const [filterUlt, setFilterUlt] = useState({ value: 'any', label: 'ult type', icon: "https://i.imgur.com/oD9Pdy7.png" });
+    const [filterTrait, setFilterTrait] = useState({ value: 'any', label: 'all traits' });
 
     const characterData = data?.allSlimerippedCsv?.nodes || [];
 
@@ -47,12 +48,31 @@ function CharacterListPage({ data }) {
         { value: 'single-target', label: 'single target', icon: "https://i.imgur.com/oD9Pdy7.png" },
     ]
 
+    //awakened traits for filter
+    const traits = [
+        { value: 'any', label: 'all traits' },
+        { value: '- protection', label: 'protection' },
+        { value: '- secret skill', label: 'secret skill' },
+        { value: '- skill', label: 'skill points' },
+        { value: '- critical rate', label: 'crit rate' },
+        { value: '- def up', label: 'defense' },
+        { value: '- guard power', label: 'guard power' },
+        { value: '- guard rate', label: 'guard rate' },
+        { value: '- pierce', label: 'pierce' },
+        { value: '- critical damage', label: 'crit damage' },
+        { value: '- enhance counter', label: 'counter' },
+        { value: '- pierce power', label: 'pierce power' },
+        { value: '- pierce rate', label: 'pierce rate' },
+        { value: '- atk', label: 'attack' },
+    ]
+
     useEffect(() => {
         setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
             && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))
             && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")
+            && (item.Character_Trait_at_5__Awaken_x1.toLowerCase().includes(filterTrait.value) || filterTrait == null || filterTrait.value == "any")
             && (item.Secret_Skill__Ult_.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")))
-    }, [filterText, filterElement, filterWeapon, filterUlt])
+    }, [filterText, filterElement, filterWeapon, filterUlt, filterTrait])
     return (
         <Container>
             <Header>
@@ -104,6 +124,18 @@ function CharacterListPage({ data }) {
                                 <img src={ultTypes.icon}
                                     className={styles.dropdownElementIcon}></img>
                                 <span className={styles.dropdownElementLabel}>{ultTypes.label}</span>
+                            </div>
+                        )}>
+                    </Select>
+                    <Select className={styles.ultDropdown}
+                        isSearchable={false}
+                        value={filterTrait}
+                        onChange={(setFilterTrait)}
+                        options={traits}
+                        defaultValue={filterTrait}
+                        formatOptionLabel={traits => (
+                            <div className={styles.ultDropdownOptions}>
+                                <span className={styles.dropdownElementLabel}>{traits.label}</span>
                             </div>
                         )}>
                     </Select>
