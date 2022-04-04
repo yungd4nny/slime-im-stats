@@ -70,8 +70,8 @@ function CharacterListPage({ data }) {
         setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
             && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))
             && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")
-            && (item.Character_Trait_at_5__Awaken_x1.toLowerCase().includes(filterTrait.value) || filterTrait == null || filterTrait.value == "any")
-            && (item.Secret_Skill__Ult_.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")))
+            && (item.Character_Trait_at_5__Awaken_x1?.toLowerCase().includes(filterTrait.value) || filterTrait == null || filterTrait.value == "any")
+            && (item.Secret_Skill__Ult_?.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")))
     }, [filterText, filterElement, filterWeapon, filterUlt, filterTrait])
     return (
         <Container>
