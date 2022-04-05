@@ -43,56 +43,65 @@ function CharacterDetails(props: CharacterTileProps) {
                 id='chardetailscontainer'
             >
                 <div
+                    className={styles.detailsName}>
+                    <img src={props.type}
+                        className={styles.headerIcon}></img>
+                    <span className={styles.charNameText}>{props.name}</span>
+                    <img src={props.atkType}
+                        className={styles.headerIcon}></img>
+                </div>
+                <div
                     className={styles.detailsInnerContainer}>
-                    <div
-                        className={styles.detailsName}>
-                        <img src={props.type}
-                            className={styles.typeIcon}></img>
-                        <span className={styles.charNameText}>{props.name}</span>
-                        <img src={props.atkType}
-                            className={styles.typeIcon}></img>
-                    </div>
                     <div className={styles.detailsIconContainer}>
                         <img
                             src={props.imageUrl}
                             className={styles.detailsIcon}></img>
-                    </div>
-                    <div
-                        className={styles.statsContainer}>
-                        <div
-                            className={styles.statsBoxes}>
-                            <img src={props.growthType}
-                                className={styles.typeIcon}></img>
-                            <span className={styles.statsText}>Growth Type</span>
-                        </div>
-                        <div
-                            className={styles.statsBoxes}>
-                            <img src="https://i.imgur.com/MLuLYZy.png"
-                                className={styles.typeIcon}></img>
-                            <span className={styles.statsText}>{props.maxHp}</span>
-                        </div>
-                        <div
-                            className={styles.statsBoxes}>
-                            <img src="https://i.imgur.com/yduAVsz.png"
-                                className={styles.typeIcon}></img>
-                            <span className={styles.statsText}>{props.maxAtk}</span>
-                        </div>
-                        <div
-                            className={styles.statsBoxes}>
-                            <img src="https://i.imgur.com/P4N7gFs.png"
-                                className={styles.typeIcon}></img>
-                            <span className={styles.statsText}>{props.maxDef}</span>
+                        <div className={styles.statsContainer}>
+                            <div
+                                className={styles.statsBoxes}>
+                                <img src={props.growthType}
+                                    className={styles.typeIcon}></img>
+                                <span className={styles.growthTypeText}>Growth Type</span>
+                            </div>
+                            <div
+                                className={styles.statsBoxes}>
+                                <img src="https://i.imgur.com/MLuLYZy.png"
+                                    className={styles.typeIcon}></img>
+                                <span className={styles.statsText}>{props.maxHp}</span>
+                            </div>
+                            <div
+                                className={styles.statsBoxes}>
+                                <img src="https://i.imgur.com/yduAVsz.png"
+                                    className={styles.typeIcon}></img>
+                                <span className={styles.statsText}>{props.maxAtk}</span>
+                            </div>
+                            <div
+                                className={styles.statsBoxes}>
+                                <img src="https://i.imgur.com/P4N7gFs.png"
+                                    className={styles.typeIcon}></img>
+                                <span className={styles.statsText}>{props.maxDef}</span>
+                            </div>
                         </div>
                     </div>
                     <div id="skills" className={styles.skillsContainer}>
                         <h1 className={styles.skillHeader}>Skills</h1>
-                        {splitSkillOne && splitSkillOne.length >= 2 && <div className={styles.skillText}>{splitSkillOne[2]}</div>}
                         {splitSkillOne && splitSkillOne.length >= 0 && <div className={styles.skillTextName}>{splitSkillOne[0]}</div>}
                         {splitSkillOne && splitSkillOne.length >= 1 && <div className={styles.skillText}>{splitSkillOne[1]}</div>}
-                        {splitSkillTwo && splitSkillTwo.length >= 2 && <div className={styles.skillText}>{splitSkillTwo[2]}</div>}
+                        {splitSkillOne && splitSkillOne.length >= 2 && <div className={styles.skillText}>{splitSkillOne[2]}</div>}
+                        <br></br>
                         {splitSkillTwo && splitSkillTwo.length >= 0 && <div className={styles.skillTextName}>{splitSkillTwo[0]}</div>}
                         {splitSkillTwo && splitSkillTwo.length >= 1 && <div className={styles.skillText}>{splitSkillTwo[1]}</div>}
+                        {splitSkillTwo && splitSkillTwo.length >= 2 && <div className={styles.skillText}>{splitSkillTwo[2]}</div>}
                     </div>
+                    <div id="awakenedTraits" className={styles.awakenedTraitContainer}>
+                        <h1 className={styles.skillHeader}>Awakened Trait</h1>
+                        <div className={styles.skillText}>{props.charTraitOne}</div>
+                        <br></br>
+                        <div className={styles.skillText}>{props.charTraitTwo}</div>
+                    </div>
+                </div>
+                <div
+                    className={styles.detailsInnerContainer}>
                     <div id="secretSkill" className={styles.townTraitContainer}>
                         <h1 className={styles.skillHeader}>Secret Skill</h1>
                         <div className={styles.townTraitText}>{props.secretSkill}</div>
@@ -102,15 +111,10 @@ function CharacterDetails(props: CharacterTileProps) {
                         <div className={styles.townTraitText}>{props.townTraitOne}</div>
                         <div className={styles.townTraitText}>{props.townTraitTwo}</div>
                     </div>
-                    <div id="awakenedTraits" className={styles.townTraitContainer}>
+                    <div id="awakenedTraits" className={styles.expertiseContainer}>
                         <h1 className={styles.skillHeader}>Expertise</h1>
                         <img src={expertiseImageSrc}
                             className={styles.expertiseIcon}></img>
-                    </div>
-                    <div id="awakenedTraits" className={styles.awakenedTraitContainer}>
-                        <h1 className={styles.skillHeader}>Awakened Trait</h1>
-                        <div className={styles.townTraitText}>{props.charTraitOne}</div>
-                        <div className={styles.townTraitText}>{props.charTraitTwo}</div>
                     </div>
                 </div>
             </div >

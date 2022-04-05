@@ -2,7 +2,6 @@
 
 .detailsContainer {
     width: 100%;
-    min-height: 70%;
     border: black 1px solid;
     border-radius: 5px;
     padding: 5px;
@@ -12,7 +11,8 @@
     background-attachment: fixed;
     margin-bottom: 10vh;
 }
-.scrollbar{
+
+.scrollbar {
     width: 85%;
     margin: auto;
 }
@@ -22,7 +22,6 @@
     text-align: center;
     width: '100%';
     font-size: 3vw;
-    display: table;
     margin: auto;
     color: $charTileFontColor;
 }
@@ -31,26 +30,28 @@
     height: 256px;
     width: 256px;
     border-radius: 5px;
-    float: left;
     border: 2px black solid;
     margin: 4px;
 }
 
 .detailsIconContainer {
-    display: inline;
-    height: 256px;
-    width: 256px;
+    height: auto;
+    flex: 1;
 }
 
-.typeIcon {
-    display: table-cell;
+.headerIcon {
     vertical-align: middle;
     height: 88px;
     width: 88px;
 }
 
+.typeIcon {
+    vertical-align: middle;
+    height: 44px;
+    width: 44px;
+}
+
 .charNameText {
-    display: table-cell;
     vertical-align: middle;
     color: $charTileFontColor;
 }
@@ -63,11 +64,8 @@
 }
 
 .skillText {
-    float: right;
     font-family: $detailsFont;
     font-size: 24px;
-    display: table-cell;
-    max-width: 382px;
     margin: 2px;
     color: $charTileFontColor;
 }
@@ -75,57 +73,58 @@
 .skillTextName {
     font-family: $charFont;
     font-size: 24px;
-    display: table-cell;
     font-weight: 700;
     margin: 2px;
     color: $charTileFontColor;
 }
 
 .skillsContainer {
-    display: table-cell;
     height: auto;
-    width: 400px;
-    float: left;
+    width: 800px;
     border-radius: 5px;
     border: 2px black solid;
     margin: 4px;
     padding: 4px;
+    flex: 3;
 }
 
 .detailsInnerContainer {
     width: 90%;
     margin: auto;
-    display: table;
     height: 90%;
+    display: flex;
 }
 
 .statsText {
     font-family: $charFont;
-    font-size: 32px;
+    font-size: 26px;
     vertical-align: middle;
-    display: table-cell;
+    padding-right: 30px;
+    color: $charTileFontColor;
+}
+
+.growthTypeText {
+    font-family: $charFont;
+    font-size: 18px;
+    vertical-align: middle;
     padding-right: 30px;
     color: $charTileFontColor;
 }
 
 .statsContainer {
-    max-width: 40%;
-    float: left;
     padding: 4px;
+    width: 260px;
 }
 
 .statsBoxes {
     border: 2px black solid;
     border-radius: 10px;
-    display: table;
     margin-top: 4px;
 }
 
 .townTraitContainer {
-    display: table-cell;
     height: auto;
-    width: 200px;
-    float: left;
+    width: 500px;
     border-radius: 5px;
     border: 2px black solid;
     margin: 4px;
@@ -133,20 +132,26 @@
 }
 
 .townTraitText {
-    float: left;
     font-family: $detailsFont;
     font-size: 24px;
-    display: table-cell;
-    max-width: 382px;
     margin: 2px;
     color: $charTileFontColor;
 }
 
 .awakenedTraitContainer {
-    display: table-cell;
     height: auto;
-    width: 500px;
-    float: left;
+    width: 800px;
+    border-radius: 5px;
+    border: 2px black solid;
+    margin: 4px;
+    padding: 4px;
+    flex: 3;
+}
+
+.expertiseContainer {
+    height: auto;
+    display: table;
+    width: 200px;
     border-radius: 5px;
     border: 2px black solid;
     margin: 4px;
