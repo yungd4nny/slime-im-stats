@@ -12,5 +12,6 @@ module.exports = {
         },
         `gatsby-transformer-csv`,
         'gatsby-plugin-sass',
+        `gatsby-plugin-gatsby-cloud`,
     ]
 }

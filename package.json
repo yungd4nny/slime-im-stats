@@ -22,6 +22,7 @@
     "babel-preset-react": "^6.0.15",
     "babel-preset-stage-0": "^6.0.15",
     "gatsby": "^4.9.0",
+    "gatsby-plugin-gatsby-cloud": "^4.11.1",
     "gatsby-plugin-sass": "^5.8.0",
     "gatsby-source-filesystem": "^4.8.0",
     "gatsby-transformer-csv": "^4.8.0",
