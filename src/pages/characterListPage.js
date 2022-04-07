@@ -14,6 +14,7 @@ function CharacterListPage({ data }) {
     const [filterWeapon, setFilterWeapon] = useState({ value: 'all', label: 'weapon', icon: "https://i.imgur.com/oD9Pdy7.png" });
     const [filterUlt, setFilterUlt] = useState({ value: 'any', label: 'ult type', icon: "https://i.imgur.com/oD9Pdy7.png" });
     const [filterTrait, setFilterTrait] = useState({ value: 'any', label: 'all traits' });
+    const [filterSkill, setFilterSkill] = useState({ value: 'any', label: 'all skills' });
 
     const characterData = data?.allSlimerippedCsv?.nodes || [];
 
@@ -66,13 +67,39 @@ function CharacterListPage({ data }) {
         { value: '- atk', label: 'attack' },
     ]
 
+    //skills for filter
+    const skills = [
+        { value: 'any', label: 'all skills' },
+        { value: 'changes soul of skill', spec: 'to soul of divine', label: 'green->blue' },
+        { value: 'changes soul of secret', spec: 'to soul of divine', label: 'orange->blue' },
+        { value: 'changes soul of divine', spec: 'to soul of skill', label: 'blue->green' },
+        { value: 'changes soul of secret', spec: 'to soul of divine', label: 'orange->green' },
+        { value: 'changes soul of skill', spec: 'to soul of secret', label: 'green->orange' },
+        { value: 'changes soul of divine', spec: 'to soul of secret', label: 'blue->orange' },
+        { value: 'increases all allies\' def', spec: '', label: 'defense up' },
+        { value: 'increases own atk', spec: '', label: 'self attack up' },
+        { value: 'increases all allies\' atk', spec: '', label: 'ally attack up' },
+        { value: 'heals self', spec: '', label: 'self heal' },
+        { value: 'heals', spec: 'all', label: 'heal allies' },
+        { value: 'increases own pierce', spec: 'rate', label: 'self pierce up' },
+        { value: 'increases all allies\' pierce', spec: 'rate', label: 'ally pierce up' },
+        { value: 'transfers', spec: 'soul orb', label: 'orb transfer' },
+        { value: 'increases all allies\' pierce', spec: 'resistance', label: 'ally pierce resist' },
+        { value: 'increases own crit', spec: 'rate', label: 'self crit up' },
+        { value: 'increases all allies\' crit', spec: 'rate', label: 'ally crit up' },
+        { value: 'increases all allies\' crit', spec: 'resistance', label: 'ally crit resist' },
+    ]
+
     useEffect(() => {
         setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
             && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))
             && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")
             && (item.Character_Trait_at_5__Awaken_x1?.toLowerCase().includes(filterTrait.value) || filterTrait == null || filterTrait.value == "any")
-            && (item.Secret_Skill__Ult_?.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")))
-    }, [filterText, filterElement, filterWeapon, filterUlt, filterTrait])
+            && (item.Secret_Skill__Ult_?.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")
+            && ((item.Battle_Skill_1?.toLowerCase().includes(filterSkill.value) && item.Battle_Skill_1?.toLowerCase().includes(filterSkill.spec))
+                || (item.Battle_Skill_2?.toLowerCase().includes(filterSkill.value) && item.Battle_Skill_2?.toLowerCase().includes(filterSkill.spec))
+                || filterSkill == null || filterSkill.value == "any")))
+    }, [filterText, filterElement, filterWeapon, filterUlt, filterTrait, filterSkill])
     return (
         <Container>
             <Header>
@@ -136,6 +163,19 @@ function CharacterListPage({ data }) {
                         formatOptionLabel={traits => (
                             <div className={styles.ultDropdownOptions}>
                                 <span className={styles.dropdownElementLabel}>{traits.label}</span>
+                            </div>
+                        )}>
+                    </Select>
+                    <Select className={styles.ultDropdown}
+                        isSearchable={false}
+                        value={filterSkill}
+                        onChange={(setFilterSkill)}
+                        options={skills}
+                        defaultValue={filterSkill}
+                        getOptionValue={option => option.label}
+                        formatOptionLabel={skills => (
+                            <div className={styles.skillDropdownOptions}>
+                                <span className={styles.dropdownElementLabel}>{skills.label}</span>
                             </div>
                         )}>
                     </Select>
