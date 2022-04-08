@@ -19,7 +19,7 @@ function ProtectorTile(props: any) {
     const currentProtector = data.filter(item => (item.Name.includes(props?.name)));
 
     return (
-        <Link to={`/protectorDetailsPage/${props.id}`}
+        <Link to={`/protectorDetailsPage/${props.name}`}
             id='ProtecTile'
             className={styles.tileContainer}
             state={{ props: props }}

@@ -1,21 +1,39 @@
 // gatsby-node.js
-// Implement the Gatsby API “onCreatePage”. This is
-// called after every page is created.
-exports.onCreatePage = async ({ page, actions }) => {
-    const { createPage } = actions
 
-    // page.matchPath is a special key that's used for matching pages
-    // only on the client.
-    if (page.path.match(/^\/characterDetailsPage/)) {
-        page.matchPath = "/characterDetailsPage/*"
+exports.createPages = async function ({ actions, graphql }) {
+    const data = graphql(`
+    query {
+        allSlimerippedCsv {
+            nodes {
+                Name
+            }
+        }
+    }`).then(results => {
+        results.data.allSlimerippedCsv.nodes.forEach(item => {
+            actions.createPage({
+                path: "/characterDetailsPage/" + item.Name,
+                component: require.resolve(`./src/pages/characterDetailsPage.js`),
+                context: { Name: item.Name },
+            });
+        });
+    })
 
-        // Update the page.
-        createPage(page)
-    }
-    if (page.path.match(/^\/protectorDetailsPage/)) {
-        page.matchPath = "/protectorDetailsPage/*"
+    const protectionData = graphql(`
+    query {
+        allSlimerippedProtectionCsv {
+            nodes {
+                Name
+            }
+        }
+    }`).then(results => {
+        results.data.allSlimerippedProtectionCsv.nodes.forEach(item => {
+            actions.createPage({
+                path: "/protectorDetailsPage/" + item.Name,
+                component: require.resolve(`./src/pages/protectorDetailsPage.js`),
+                context: { Name: item.Name },
+            })
+        })
+    })
 
-        // Update the page.
-        createPage(page)
-    }
+    return Promise.all([data, protectionData]);
 }

@@ -6,10 +6,9 @@ import { Link } from 'gatsby'
 function CharacterTile(props: CharacterTileProps) {
 
     return (
-        <Link to={`/characterDetailsPage/${props.id}`}
+        <Link to={`/characterDetailsPage/${props.name}`}
             id='CharTile'
             className={styles.tileContainer}
-            state={{ props: props }}
         >
             <img src={props.imageUrl}
                 className={styles.charImage}></img>

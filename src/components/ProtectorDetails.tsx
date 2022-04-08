@@ -28,7 +28,7 @@ function ProtectorDetails(props: any) {
         }
         `);
     const data = protectorData.allSlimerippedProtectionCsv.nodes || [];
-    const currentProtector = data.filter(item => (item.Name.includes(props?.name)));
+    const currentProtector = data.filter(item => (item.Name.includes(props?.Name)));
 
     return (
         <Scrollbars
