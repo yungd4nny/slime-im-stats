@@ -30,7 +30,7 @@
 }
 
 .headerItem:hover {
-  background-color: rgba(210,215,211,0.6);
+  background-color: rgba(210, 215, 211, 0.6);
   border: black 1px solid;
   border-radius: 5px;
   margin: 0px;
@@ -40,11 +40,11 @@
   text-decoration: none;
   color: black;
   font-family: $charFont;
-  font-size: 3vh;
+  font-size: 32px;
   font-weight: 600;
 }
 
 .navHeader {
-  display:flex;
+  display: flex;
   width: 100%;
 }

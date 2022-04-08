@@ -70,21 +70,21 @@ function CharacterListPage({ data }) {
     //skills for filter
     const skills = [
         { value: 'any', label: 'all skills' },
-        { value: 'changes soul of skill', spec: 'to soul of divine', label: 'green->blue' },
-        { value: 'changes soul of secret', spec: 'to soul of divine', label: 'orange->blue' },
-        { value: 'changes soul of divine', spec: 'to soul of skill', label: 'blue->green' },
-        { value: 'changes soul of secret', spec: 'to soul of divine', label: 'orange->green' },
-        { value: 'changes soul of skill', spec: 'to soul of secret', label: 'green->orange' },
-        { value: 'changes soul of divine', spec: 'to soul of secret', label: 'blue->orange' },
+        { value: 'changes soul of skill', double: 'and soul of skill', spec: 'to soul of divine', label: 'green->blue' },
+        { value: 'changes soul of secret', double: 'and soul of secret', spec: 'to soul of divine', label: 'orange->blue' },
+        { value: 'changes soul of divine', double: 'and soul of divine', spec: 'to soul of skill', label: 'blue->green' },
+        { value: 'changes soul of secret', double: 'and soul of secret', spec: 'to soul of skill', label: 'orange->green' },
+        { value: 'changes soul of skill', double: 'and soul of skill', spec: 'to soul of secret', label: 'green->orange' },
+        { value: 'changes soul of divine', double: 'and soul of divine', spec: 'to soul of secret', label: 'blue->orange' },
         { value: 'increases all allies\' def', spec: '', label: 'defense up' },
         { value: 'increases own atk', spec: '', label: 'self attack up' },
         { value: 'increases all allies\' atk', spec: '', label: 'ally attack up' },
         { value: 'heals self', spec: '', label: 'self heal' },
         { value: 'heals', spec: 'all', label: 'heal allies' },
         { value: 'increases own pierce', spec: 'rate', label: 'self pierce up' },
-        { value: 'increases all allies\' pierce', spec: 'rate', label: 'ally pierce up' },
+        { value: 'increases all allies\' pierce rate', spec: '', label: 'ally pierce up' },
         { value: 'transfers', spec: 'soul orb', label: 'orb transfer' },
-        { value: 'increases all allies\' pierce', spec: 'resistance', label: 'ally pierce resist' },
+        { value: 'increases all allies\' pierce resistance', spec: '', label: 'ally pierce resist' },
         { value: 'increases own crit', spec: 'rate', label: 'self crit up' },
         { value: 'increases all allies\' crit', spec: 'rate', label: 'ally crit up' },
         { value: 'increases all allies\' crit', spec: 'resistance', label: 'ally crit resist' },
@@ -96,8 +96,8 @@ function CharacterListPage({ data }) {
             && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")
             && (item.Character_Trait_at_5__Awaken_x1?.toLowerCase().includes(filterTrait.value) || filterTrait == null || filterTrait.value == "any")
             && (item.Secret_Skill__Ult_?.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")
-            && ((item.Battle_Skill_1?.toLowerCase().includes(filterSkill.value) && item.Battle_Skill_1?.toLowerCase().includes(filterSkill.spec))
-                || (item.Battle_Skill_2?.toLowerCase().includes(filterSkill.value) && item.Battle_Skill_2?.toLowerCase().includes(filterSkill.spec))
+            && (((item.Battle_Skill_1?.toLowerCase().includes(filterSkill.value) || item.Battle_Skill_1?.toLowerCase().includes(filterSkill.double)) && item.Battle_Skill_1?.toLowerCase().includes(filterSkill.spec))
+                || ((item.Battle_Skill_2?.toLowerCase().includes(filterSkill.value) || item.Battle_Skill_2?.toLowerCase().includes(filterSkill.double)) && item.Battle_Skill_2?.toLowerCase().includes(filterSkill.spec))
                 || filterSkill == null || filterSkill.value == "any")))
     }, [filterText, filterElement, filterWeapon, filterUlt, filterTrait, filterSkill])
     return (
