@@ -1,3 +1,3 @@
 guy -> typo "sould"
 valentine -> add the word "divine" before protection in orb change
-water rimuru -> delete "image(""
+water rimuru -> delete "image("" and extra stuff at the end. then delete the new line between image and 5star

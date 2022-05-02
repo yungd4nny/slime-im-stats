@@ -18,6 +18,10 @@ function Home() {
         <img src="https://ten-sura-m.bn-ent.net/assets/img/lang/en/home/footer-logo.png"
           className={styles.logo}></img>
       </h1>
+      <div className={styles.aboutContainer}>
+        <p className={styles.aboutText}>Slime: Isekai Memories database and character information.</p>
+        <p className={styles.aboutText}>Filter by skills, element type, and more!</p>
+      </div>
     </Container>
   )
 }
