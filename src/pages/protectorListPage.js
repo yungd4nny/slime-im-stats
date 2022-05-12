@@ -10,7 +10,7 @@ import Select from 'react-select';
 function ProtectorListPage({ data }) {
     const [filterText, setFilterText] = useState("");
     const [filteredCharacterData, setFilteredCharacterData] = useState([]);
-    const [filterElement, setFilterElement] = useState({ value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" });
+    const [filterElement,   setFilterElement] = useState({ value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" });
     const characterData = data?.allSlimerippedProtectionCsv?.nodes || [];
 
     useEffect(() => {
