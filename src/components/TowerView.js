@@ -23,7 +23,7 @@ function TowerView() {
         { id: 13, image: 'https://i.imgur.com/zGNston.png' },
         { id: 14, image: 'https://i.imgur.com/tj6ysO4.png' },
         { id: 15, image: 'https://i.imgur.com/9PoqaE6.png' },
-        { id: 16, image: 'https://i.imgur.com/undefined.png' },
+        { id: 16, image: 'https://i.imgur.com/9sEskkV.png' },
         { id: 17, image: 'https://i.imgur.com/GF3SPGU.png' },
         { id: 18, image: 'https://i.imgur.com/7yS5rqI.png' },
         { id: 19, image: 'https://i.imgur.com/zLvCa6E.png' },
