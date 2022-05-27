@@ -1,6 +1,8 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://www.yourdomain.tld`,
+        title: "SlimeStats",
+        description: "Slime: Isekai Memories database and character information. Filter by skills, element type, and more!",
+        siteUrl: `https://www.slimestats.com/`,
     },
     plugins: [
         {
@@ -13,6 +15,12 @@ module.exports = {
         `gatsby-transformer-csv`,
         'gatsby-plugin-sass',
         `gatsby-plugin-gatsby-cloud`,
+        {
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+              icon: 'src/images/slimeIcon.png',
+            },
+          },
         {
             resolve: `gatsby-plugin-google-gtag`,
             options: {
@@ -40,5 +48,6 @@ module.exports = {
                 },
             },
         },
+        
     ]
 }

@@ -10,24 +10,32 @@ import Select from 'react-select';
 function ProtectorListPage({ data }) {
     const [filterText, setFilterText] = useState("");
     const [filteredCharacterData, setFilteredCharacterData] = useState([]);
-    const [filterElement,   setFilterElement] = useState({ value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" });
+    const [filterProtectorElement,   setfilterProtectorElement] = useState({ 'value': 'all', 'label': 'type', 'icon': "https://i.imgur.com/oD9Pdy7.png", 'default': true });
     const characterData = data?.allSlimerippedProtectionCsv?.nodes || [];
+
+    //read from sessionStorage
+    useEffect(() => {
+        if(sessionStorage.getItem('filterProtectorElement') !== null && filterProtectorElement.default === true && filterProtectorElement.default){
+            setfilterProtectorElement(JSON.parse(sessionStorage.getItem('filterProtectorElement')));
+        }
+    }, []);
 
     useEffect(() => {
         setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
-            && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))))
-    }, [filterText, filterElement])
+            && (item.Type == filterProtectorElement.icon || filterProtectorElement == null || filterProtectorElement.value == "all"))));
+        sessionStorage.setItem('filterProtectorElement', JSON.stringify(filterProtectorElement));
+    }, [filterText, filterProtectorElement])
 
     //elements for filter
     const elements = [
-        { value: 'all', label: 'type', icon: "https://i.imgur.com/oD9Pdy7.png" },
-        { value: 'wind', label: 'wind', icon: "https://i.imgur.com/pQYVkI3.png" },
-        { value: 'dark', label: 'dark', icon: "https://i.imgur.com/pzX6NRL.png" },
-        { value: 'light', label: 'light', icon: "https://i.imgur.com/hX15sR0.png" },
-        { value: 'space', label: 'space', icon: "https://i.imgur.com/z8bnSYg.png" },
-        { value: 'earth', label: 'earth', icon: "https://i.imgur.com/AHPti72.png" },
-        { value: 'fire', label: 'fire', icon: "https://i.imgur.com/QndVudD.png" },
-        { value: 'water', label: 'water', icon: "https://i.imgur.com/NchScWh.png" },
+        { 'value': 'all', 'label': 'type', 'icon': "https://i.imgur.com/oD9Pdy7.png" },
+        { 'value': 'wind', 'label': 'wind', 'icon': "https://i.imgur.com/pQYVkI3.png" },
+        { 'value': 'dark', 'label': 'dark', 'icon': "https://i.imgur.com/pzX6NRL.png" },
+        { 'value': 'light', 'label': 'light', 'icon': "https://i.imgur.com/hX15sR0.png" },
+        { 'value': 'space', 'label': 'space', 'icon': "https://i.imgur.com/z8bnSYg.png" },
+        { 'value': 'earth', 'label': 'earth', 'icon': "https://i.imgur.com/AHPti72.png" },
+        { 'value': 'fire', 'label': 'fire', 'icon': "https://i.imgur.com/QndVudD.png" },
+        { 'value': 'water', 'label': 'water', 'icon': "https://i.imgur.com/NchScWh.png" },
     ]
 
     return (
@@ -43,10 +51,10 @@ function ProtectorListPage({ data }) {
                         className={styles.searchBox}></input>
                     <Select className={styles.elementDropdown}
                         isSearchable={false}
-                        value={filterElement}
-                        onChange={(setFilterElement)}
+                        value={filterProtectorElement}
+                        onChange={(setfilterProtectorElement)}
                         options={elements}
-                        defaultValue={filterElement}
+                        defaultValue={filterProtectorElement}
                         formatOptionLabel={elements => (
                             <div className={styles.elementDropdownOptions}>
                                 <img src={elements.icon}
