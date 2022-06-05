@@ -1,4 +1,4 @@
-Name,Picture,Base Rarity,Type,Atk Type,Growth Type,Max HP,Max ATK,Max DEF,hp,atk,def,Weighted Stats Total,Effective ATK,Avg Normal DMG,Avg Ult DMG,Avg #Hits Tanked,Max Output,Town Trait 1,Town Trait 2,Expertise,Secret Skill (Ult),Battle Skill 1,Battle Skill 2,Character Trait at 5☆ Awaken x1,Character Trait at 5☆ Awaken x3,Crit Rate,Crit Dmg,Crit Resist,Pierce Rate,Pierce Power,Pierce Resist,Guard Rate,Guard Power,Guard Pen,Counter Rate,Counter Power,Counter Resist,Kyu's & Nayahti's Subjective Notes as Individual Units,Tier?,Heart Rate,Heart,Perception Res,Pen Rate,Pen Power,Pen Res,Guard Rate,Guard Res,Guard Strength,Counter Rate,Counter,Counter Res
+Name,Picture,Base Rarity,Type,Atk Type,Growth Type,Max HP,Max ATK,Max DEF,hp,atk,def,Weighted Stats Total,Effective ATK,Avg Normal DMG,Avg Ult DMG,Avg #Hits Tanked,Max Output,Town Trait 1,Town Trait 2,Expertise,Secret Skill (Ult),Battle Skill 1,Battle Skill 2,Character Trait at 5☆ Awaken x1,Character Trait at 5☆ Awaken x3,EX Ability Release 1,EX Ability Release 2,Crit Rate,Crit Dmg,Crit Resist,Pierce Rate,Pierce Power,Pierce Resist,Guard Rate,Guard Power,Guard Pen,Counter Rate,Counter Power,Counter Resist,Kyu's & Nayahti's Subjective Notes as Individual Units,Tier?,Heart Rate,Heart,Perception Res,Pen Rate,Pen Power,Pen Res,Guard Rate,Guard Res,Guard Strength,Counter Rate,Counter,Counter Res
 Ramiris [The Creator],https://i.imgur.com/pRFG8vH.png,5☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,8139,3188,3628,1.000,0.901,0.995,2.896,3191.8,1358.2,3667.1,12.77,150,Laboratory +30%,Digsite for Stamina Magistones +10%,Tome,"Air Suppression Lv.MAX:
 All-target wind magic attack for 270%.","Charge Forth Lv.1/Lv.10:
 Heals all allies' by 55%/60% of their max HP.
@@ -6,7 +6,7 @@ Lv.1/Lv.10 Cost: 65/55","Linked Operations Lv.1/Lv10:
 Increases all allies' wind ATK by 5%/15% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases skill points by 4 at the start of the battle (available in support formation).","Troop - Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",2%,-,-,2%,-,-,2%,-,-,4%,-,-,Best AoE Healer and great low cost ATK buff for Wind team,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,4%,-,-,Best AoE Healer and great low cost ATK buff for Wind team,,,,,,,,,,,,,
 Milim Nava [The Proud Dragon Demon Lord],https://i.imgur.com/H3KP5zP.png,5☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,7912,3502,3106,0.972,0.990,0.852,2.814,3506.2,1583.1,7440.7,11.48,150,Training Ground +30%,Restaurant +10%,Sword,"Drago-Slash Lv.MAX:
 Single-target space physical attack for 470%.","Dragon Princess's Aura Lv.1/Lv.10:
 Increases own pierce rate by 80% (Turns: 1). Increases own pierce power by 15% (Turns: 1).
@@ -14,7 +14,7 @@ Lv.1/Lv.10 Cost: 25/15","Beyond Compare Lv.1/Lv.10:
 Increases all allies' critical rate by 30% (Turns: 1). Decreases a single target's guard power by 25% (Turns: 1).
 Lv.1/Lv.10 Cost: 65/55","Troop - Secret Skill UP 3 (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 5% at start of battle (Turns: 3) (available in support formation).","Troop - Secret Skill UP 3 (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% at start of battle (Turns: 3) (available in support formation).",4%,-,-,2%,-,-,2%,-,-,2%,-,-,"Amazing stats for a ST nuker, part of the Pierce meta combined with F2P W.Ranga",Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% at start of battle (Turns: 3) (available in support formation).",,,4%,-,-,2%,-,-,2%,-,-,2%,-,-,"Amazing stats for a ST nuker, part of the Pierce meta combined with F2P W.Ranga",Link,,,,,,,,,,,,
 Leon Cromwell [The Flashing Blade],https://i.imgur.com/IpNmTsm.png,5☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,7922,3534,3058,0.973,0.999,0.839,2.811,3551.0,1505.9,6776.7,11.41,150,Laboratory +30%,Digsite for Defense Magistones +10%,Sword,"Glitter Sword Lv.MAX:
 Single-target light physical attack for 450%.","Platinum Polish Lv.1/Lv.10:
 Changes all of his own souls to Soul of Secrets. Increases all Soul of Secrets gauges' increase by 5%/10% (Turns: 1).
@@ -22,7 +22,7 @@ Lv.1/Lv.10 Cost: 35/25","Platinum Pandemonium Lv.1/Lv.10:
 Increases own Soul of Combos damage by 40%/50% (Turns: 1). Increase own CRIT rate by 10% (Turns: 1)
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - ATK UP (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 5% for the next turn (available in support formation).","Soul Combo - ATK UP (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 8% for the next turn (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,"Can Ult nuke every 1-2 Turns if paired with Soka Protector!
+When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 8% for the next turn (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,"Can Ult nuke every 1-2 Turns if paired with Soka Protector!
 Pair with Earth benimaru for more 6 orbs hand!",,,,,,,,,,,,,
 Guy Crimson [The Beginning],https://i.imgur.com/G7mb7zO.png,5☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,7902,3539,3046,0.971,1.000,0.835,2.806,3543.2,1784.1,4817.1,11.36,150,Digsite for Attack Magistones +30%,Restaurant +10%,Tome,"Hellish Catastrophe Lv.MAX:
 All-target fire magic attack for 270%.","Crimson Calamity Lv.1/Lv.10:
@@ -31,7 +31,7 @@ Lv.1/Lv.10 Cost: 40/30","Rogue Reward Lv.1/Lv.10:
 Chance to stun a single target: 80%/100% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Troop - Secret Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 12% at the start of battle (available in support formation).","Troop - Secret Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Stun can be a great help for chill players that can't manage to beat lowest Conquests - really interesting orb change - ATK Growth type + Octa stats + high CRIT rate + AoE Ult could push him up once lvl 100 to a Jubilee monster battles destroyer.,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Stun can be a great help for chill players that can't manage to beat lowest Conquests - really interesting orb change - ATK Growth type + Octa stats + high CRIT rate + AoE Ult could push him up once lvl 100 to a Jubilee monster battles destroyer.,,,,,,,,,,,,,
 Treyni [Budding of Deep Green],https://i.imgur.com/aEKewa3.png,5☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,7095,2695,3646,0.872,0.762,1.000,2.633,2695.0,1078.0,4851.0,11.17,150,Field +30%,Digsite for Stamina Magistones +10%,Magic Tome,"Aerial Blade Lv.MAX:
 Single-target earth magic attack for 450%.","Sweet Spirit Lv.1/Lv.10:
 Heals all allies' by 25%/30% of their max HP.
@@ -39,7 +39,7 @@ Lv.1/Lv.10 Cost: 40/30","Hard Mist Lv.1/Lv.10:
 Decreases all targets' pierce power by 10%/20% (Turns: 3).
 Lv.1/Lv.10 Cost: 25/15","Effect - DEF UP (5☆ Awaken x1):
 When affected by Pierce Resistance UP, increases own DEF by 7% at the start of turn (available in support formation).","Effect - DEF UP (5☆ Awaken x3):
-When affected by Pierce Resistance UP, increases own DEF by 11% at the start of turn (available in support formation).",-,-,-,-,-,-,4%,-,-,4%,-,-,"Great heal and has a single target nuke (but lack offensive stats and can't even CRIT without a buff). Decent swap unit, you can slot her into any team.",Link,,,,,,,,,,,,
+When affected by Pierce Resistance UP, increases own DEF by 11% at the start of turn (available in support formation).",,,-,-,-,-,-,-,4%,-,-,4%,-,-,"Great heal and has a single target nuke (but lack offensive stats and can't even CRIT without a buff). Decent swap unit, you can slot her into any team.",Link,,,,,,,,,,,,
 Shizue Izawa [Date Night Beauty],https://i.imgur.com/6uzC3lT.png,5☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/P4N7gFs.png,7097,2693,3644,0.872,0.761,0.999,2.632,2696.2,1147.3,3097.7,12.14,150,Cafe +30%,Clothing Store +10%,Sword,"Special Cooking Lv.MAX:
 All-target light magic attack for 270%.","Sunbeam Lv.1/Lv.10:
 Heals the ally with the lowest percentage of HP by 40%/45% of their max HP.
@@ -47,7 +47,7 @@ Lv.1/Lv.10 Cost: 25/15","Elegant Light Lv.1/Lv.10:
 Decreases a single target's ATK by 15%/20% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - DEF UP (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Secrets, increase all targets' DEF by 12% for the next turn (available in support formation).","Soul Combo - DEF UP (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Secrets, increase all targets' DEF by 18% for the next turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Great ST Healer with ATK down!,,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Secrets, increase all targets' DEF by 18% for the next turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Great ST Healer with ATK down!,,,,,,,,,,,,,
 Rimuru Tempest [Harmonizer of Monsters and Humans],https://i.imgur.com/T7wNg1P.png,5☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,7091,2696,3643,0.871,0.762,0.999,2.632,2708.9,1148.8,3101.8,11.15,150,Ocean Supply Corps Base +30%,Laboratory +10%,Magic Tome,"Black Lightning Lv.MAX:
 All-target water magic attack for 270%.","Hydro Combat Lv.1/Lv.10:
 Decreases a single target's Secret Skill Gauge by 5%/15%.
@@ -55,7 +55,7 @@ Lv.1/Lv.10 Cost: 50/40","Heal Assist Lv.1/Lv.10:
 Heal all allies' HP by 15%/20% of their max HP. Increases Soul of Divine Protection damage until the end of the battle by 5% (Max: 100%).
 Lv.1/Lv.10 Cost: 40/30","Effect - DEF UP 2 (5☆ Awaken x1):
 When affected by Critical Resistance UP, increases own DEF by 7% at start of the turn (available in support formation).","Effect - DEF UP 2 (5☆ Awaken x3):
-When affected by Critical Resistance UP, increases own DEF by 11% at start of the turn (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,"Is the only unit that can reduce target's Secret Skill Gauge, allowing you to delay boss' ult by 1 or even 2 turns if you can stockpile 100 skill points.",Link,,,,,,,,,,,,
+When affected by Critical Resistance UP, increases own DEF by 11% at start of the turn (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,"Is the only unit that can reduce target's Secret Skill Gauge, allowing you to delay boss' ult by 1 or even 2 turns if you can stockpile 100 skill points.",Link,,,,,,,,,,,,
 Rimuru Tempest [The Master of Maids],https://i.imgur.com/9IVS9cd.png,5☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/P4N7gFs.png,7092,2706,3593,0.871,0.765,0.985,2.621,2709.2,1364.2,6138.7,11.07,150,Digsite for Defense Magistones +30%,Laboratory +10%,Katana,"Present Explosion Lv.MAX:
 Single-target wind physical attack for 450%.","Gift of Magic Lv.1/Lv.10:
 Increases all allies' DEF by 20％/25% (Turns: 3). Increases all allies' max HP by 30％ (Turns: 3).
@@ -63,7 +63,7 @@ Lv.1/Lv.10 Cost: 35/25","Happiness Illuminate Lv.1/Lv.10:
 Increases all allies' guard power by 15％/25% (Turns: 1). Increases Soul of Skills damage until the end of battle by 5％.
 Lv.1/Lv.10 Cost: 25/15","Effect - Critical Rate UP 2 (5☆ Awaken x1):
 When affected by Guard Rate UP, increases own critical rate by 7% at start of turn (available in support formation).","Effect - Critical Rate UP 2 (5☆ Awaken x3):
-When affected by Guard Rate UP, increases own critical rate by 11% at start of turn (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Second best defensive skill of the game behind Hinata. Needs Wind Shuna or Golem to take advantage of guard buffs. ,Link,,,,,,,,,,,,
+When affected by Guard Rate UP, increases own critical rate by 11% at start of turn (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Second best defensive skill of the game behind Hinata. Needs Wind Shuna or Golem to take advantage of guard buffs. ,Link,,,,,,,,,,,,
 Hinata Sakaguchi [Captain of the Holy Knights],https://i.imgur.com/kQWYdp5.png,5☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7105,2985,3076,0.873,0.843,0.844,2.560,2988.6,1271.7,5722.7,10.26,150,Digsite for Defense Magistones +30%,Forest Supply Corps Base +10%,Sword,"Disintegration Lv.MAX:
 Single-target light magic attack for 450%.","Ruthless Flash Lv.1/Lv.10:
 Increase all allies' DEF by 35%/40% (Turns: 1). Increases own all attribute resistance by 20% (Turns: 3).
@@ -71,7 +71,7 @@ Lv.1/Lv.10 Cost: 25/15","Usurper Lv.1/Lv10:
 Changes Soul of Skills and Soul of Divine Protection x1 each into Soul of Secrets. Increases Soul of Secrets secret skill gauge increase until the end of battle by 3%/5% (Max: 100%).
 Lv.1/Lv.10 Cost: 40/30","Troop - Secret Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 12% at the start of battle (available in support formation).","Troop - Secret Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",2%,-,-,2%,-,-,2%,-,-,4%,-,-,Best AoE Defensive Buffer and useful orb changer. Decent trait ,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,4%,-,-,Best AoE Defensive Buffer and useful orb changer. Decent trait ,,,,,,,,,,,,,
 Shizue [Conqueror of Flames],https://i.imgur.com/fy0Dlhy.png,5☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7133,2975,3067,0.876,0.841,0.841,2.558,2982.1,1345.1,6052.8,10.29,150,Forest Supply Corps Base +30%,Cafe +10%,Sword,"Heat Slasher Lv.MAX:
 Single-target fire physical attack for 450%.","Degenerate Lv.1/Lv.10:
 Changes Soul of Divine Protection x2 into Soul of Secrets. Increases all Soul of Secrets gauges' increase by 5%/10% (Turns: 1).
@@ -79,7 +79,7 @@ Lv.1/Lv.10 Cost: 35/25","Homura Lv.1/Lv.10:
 Increases all allies' stun evasion rate by 90%/100% (Turns: 1). Increases own critical rate by 15% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Soul Combo - Critical Damage UP (5☆ Awaken x1):
 When you unleash a 5+ combo attack with Soul of Secrets, increases own critical damage by 6% for the next turn (available in support formation).","Soul Combo - Critical Damage UP (5☆ Awaken x3):
-When you unleash a 5+ combo attack with Soul of Secrets, increases own critical damage by 9% for the next turn (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,Not really the DMG dealer but mostly tanky support. Useful orb change and a situationnal anti-stun (great for Earth Conquest). Bad trait,Link,,,,,,,,,,,,
+When you unleash a 5+ combo attack with Soul of Secrets, increases own critical damage by 9% for the next turn (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,Not really the DMG dealer but mostly tanky support. Useful orb change and a situationnal anti-stun (great for Earth Conquest). Bad trait,Link,,,,,,,,,,,,
 Souei [Successful Shinobi],https://i.imgur.com/79TCLB0.png,5☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7110,3014,3014,0.874,0.852,0.827,2.552,3017.6,1288.9,5800.0,10.18,150,Forest Supply Corps Base +30%,Training Ground +10%,Katana,"Sudden Assailant Lv.MAX:
 Single-target eart physical attack for 450%.","Earth Turnover Lv.1/Lv.10:
 Increases own critical rate by 80/100% (Turns: 1). Decreases a single targets' critical resistance by 10% (Turns: 1).
@@ -87,7 +87,7 @@ Lv.1/Lv.10 Cost: 25/15","Hailstone Lv.1/Lv.10:
 Transfers own soul orb x2 to another vanguard character. Increases all souls' secrets skill gauge increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - ATK UP (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 5% for the next turn (available in support formation).","Soul Combo - ATK UP (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 8% for the next turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Current best Earth Ult DMG dealing thanks to his auto-buff but lack a bit of ATK,,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 8% for the next turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Current best Earth Ult DMG dealing thanks to his auto-buff but lack a bit of ATK,,,,,,,,,,,,,
 Rimuru Tempest [Chancellor of Tempest],https://i.imgur.com/gXtUDyK.png,5☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7142,3007,3005,0.878,0.850,0.824,2.551,3014.2,1359.5,3670.8,10.21,150,Tavern +30%,Digsite for Training Magistones +10%,Sword,"Fury of the Gods Lv.MAX:
 All-target space physical attack for 270%.","All of Creation Lv.1/Lv.10:
 Increases all allies' ATK by 35%/40% (Turns: 1).
@@ -95,7 +95,7 @@ Lv.1/Lv.10 Cost: 65/55","Magic Sense Lv.1/Lv.10:
 Increases all allies' DEF by 20%/25% (Turns: 2).
 Lv.1/Lv.10 Cost: 35/25","Troop - Protection UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases protection gauge by 4 every 3 turns (available in support formation).","Troop - Protection UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,"Space Rimuru is one of the hottest units for reroll because he slots into any team as a support. The ATK buff is the biggest in the game and with how damage is calculated, ATK buffs absolutely reigns, even above soul of combo buffs on average. His def buff also lasts 2 turns... juicy. ",Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,"Space Rimuru is one of the hottest units for reroll because he slots into any team as a support. The ATK buff is the biggest in the game and with how damage is calculated, ATK buffs absolutely reigns, even above soul of combo buffs on average. His def buff also lasts 2 turns... juicy. ",Link,,,,,,,,,,,,
 Shuna [Holy Princess],https://i.imgur.com/fJWzoXo.png,5☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7134,3004,3004,0.877,0.849,0.824,2.549,3011.2,1358.2,6111.8,10.20,150,Restaurant +30%,Cafe +10%,Magic Tome,"Celestial Scintillation Lv.MAX:
 Single-target light magic attack for 450%.","Divination Lv.1/Lv.10:
 Changes Soul of Secrets x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -103,7 +103,7 @@ Lv.1/Lv.10 Cost: 35/25","Analyze Weakness Lv.1/Lv.10:
 Increases all allies' stun evasion rate by 90%/100% (Turns: 1). Increases own critical rate by 10% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Soul Combo - Critical Rate UP (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Divine Protection, increases own critical rate by 12% for the next turn (available in support formation).","Soul Combo - Critical Rate UP (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Divine Protection, increases own critical rate by 18% for the next turn (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,An amazing unit for Dark Conquest : access to a single target Magical Ult + anti-stun. Works well in any light team thanks to the orb change ,Link,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Divine Protection, increases own critical rate by 18% for the next turn (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,An amazing unit for Dark Conquest : access to a single target Magical Ult + anti-stun. Works well in any light team thanks to the orb change ,Link,,,,,,,,,,,,
 Souei [Spy in Shadows],https://i.imgur.com/otWcbmZ.png,5☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7136,3003,3003,0.877,0.849,0.824,2.549,3010.2,1357.7,6109.8,10.20,150,Ocean Supply Corps Base +30%,Mountain Supply Corps Base +10%,Katana,"Reeling Slicer Lv.MAX:
 Single-target water physical attack for 450%.","Increased Momentum Lv.1/Lv.10:
 Increases all allies' DEF by 20%/25% (Turns: 1). Increases Soul of Divine Protection damage until the end of battle by 5% (Max: 100%).
@@ -111,7 +111,7 @@ Lv.1/Lv.10 Cost: 25/15","Hidden Hand Lv.1/Lv.10:
 Changes Soul of Secrets x2 into Soul of Skills. Increases all Soul of Skills gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Troop - Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases skill points by 4 at the start of the battle (available in support formation).","Troop - Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,"The only one single target Water Physical Ult. Useful skills, even if his orb change unfortunately cost 30. Amazing in a Prot W.Chloe team. Great trait ",Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,"The only one single target Water Physical Ult. Useful skills, even if his orb change unfortunately cost 30. Amazing in a Prot W.Chloe team. Great trait ",Link,,,,,,,,,,,,
 Luminus Valentine [Queen of Yule] ,https://i.imgur.com/D6ctP3v.png,5☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7140,3001,3001,0.877,0.848,0.823,2.548,3004.6,1278.5,5753.3,11.09,150,Cafe +30%,Digsite for Stamina Magistones +10%,Lance,"Luminus Storm Lv.MAX:
 Single-target wind physical attack for 450%.","Nightmare Strike Lv.1/Lv.10:
 Heals all allies' by 20%/25% of their max HP. Increases Soul of Skills damage until the end of battle by 5% (Max: 100%).
@@ -119,7 +119,7 @@ Lv.1/Lv.10 Cost: 35/25","Dark Allure Lv.1/Lv.10:
 Changes Soul of Divine Protection and Soul of Secrets x1 each into Soul of Skills. Increases all Soul of Skills gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Troop - Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases skill points by 4 at the start of the battle (available in support formation).","Troop - Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Great heal and a rare orb change that truly help teams relying on green orbs (Charybdis / Chloe...). Great trait,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Great heal and a rare orb change that truly help teams relying on green orbs (Charybdis / Chloe...). Great trait,Link,,,,,,,,,,,,
 Diablo [The Black Progenitor],https://i.imgur.com/W6wyAfd.png,5☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7132,3002,3002,0.876,0.848,0.823,2.548,3005.6,1513.4,6810.2,10.19,150,Digsite for Training Magistones +30%,Protection Magistone Digsite +10%,Fist,"Final Waltz Lv.MAX:
 Single-target dark physical attack for 450%.","Devotion Lv.1/Lv.10:
 Increases own ATK by 20%/25% (Turns: 1). Decreases all targets' dark resistance by 10% (Turns: 1).
@@ -127,7 +127,7 @@ Lv.1/Lv.10 Cost: 25/15","Soul Manipulation Lv.1/Lv.10:
 Changes Soul of Skills x1 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - ATK DOWN (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Divine Protection, decreases all targets' ATK by 5% for the next turn (available in support formation).","Soul Combo - ATK DOWN (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Divine Protection, decreases all targets' ATK by 8% for the next turn (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Skill 1 is very strong and cheap to use : insane synergy with dark units. Second highest average normal attack damage and highest average Ult DMG.,Link,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Divine Protection, decreases all targets' ATK by 8% for the next turn (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Skill 1 is very strong and cheap to use : insane synergy with dark units. Second highest average normal attack damage and highest average Ult DMG.,Link,,,,,,,,,,,,
 Beretta [Arch Golem],https://i.imgur.com/vM872go.png,5☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7129,3003,3002,0.876,0.849,0.823,2.548,3006.6,1279.4,5757.2,10.19,150,Protection Magistone Digsite +30%,Digsite for Training Magistones +10%,Magic Tome,"Darkness Cannon Lv.MAX:
 Single-target dark magic attack for 450%.","Search Change Lv.1/Lv.10:
 Changes Soul of Divine Protection x2 into Soul of Secrets. Increases all Soul of Secrets gauges' increase by 5%/10% (turns: 1).
@@ -135,7 +135,7 @@ Lv.1/Lv.10 Cost: 35/25","Shadow Rush Lv.1/Lv.10:
 Increases all allies' guard penetration by 40%/50% (Turns: 1). Increases all allies' pierce rate by 10% (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Soul Combo - ATK UP (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 5% for the next turn (available in support formation).","Soul Combo - ATK UP (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 8% for the next turn (available in support formation).",2%,-,-,2%,-,-,8%,-,-,2%,-,-,Hits decently and has a useful orb change - skill 2 is really situational. Decent trait,Link,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Secrets, increases own ATK by 8% for the next turn (available in support formation).",,,2%,-,-,2%,-,-,8%,-,-,2%,-,-,Hits decently and has a useful orb change - skill 2 is really situational. Decent trait,Link,,,,,,,,,,,,
 Rimuru Tempest [Lord of Wisdom],https://i.imgur.com/oBUGmLr.png,5☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7152,3032,2958,0.879,0.857,0.811,2.547,3035.6,1296.6,5834.6,10.16,150,Digsite for Stamina Magistones +30%,Laboratory +10%,Tome,"Tidal Tempest Lv.MAX:
 Single-target water magic attack for 450%.","Ability Modification Lv.1/Lv.10:
 Decreases all targets' DEF by 40%/45% (Turns: 1). Increases own pierce power by 30% (Turns: 2).
@@ -143,7 +143,7 @@ Lv.1/Lv.10 Cost: 65/55","Magic Construction Lv.1/Lv.10:
 Changes Soul of Secrets x1 into Soul of Skills. Increases Soul of Skills skill gauge increase until the end of battle by 3%/5% (Max: 100%).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - Pierce Power UP (5☆ Awaken x1):
 When you unleash a 4+ combo attack with Soul of Skills, increases own pierce power by 4% for the next turn (available in support formation).","Soul Combo - Pierce Power UP (5☆ Awaken x3):
-When you unleash a 4+ combo attack with Soul of Skills, increases own pierce power by 6% for the next turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,"Highest DEF debuff available, second best Water DMG dealer despite Balance type. Trait makes him an amazing support for a nuker relying on Pierce (Velzard for example)",,,,,,,,,,,,,
+When you unleash a 4+ combo attack with Soul of Skills, increases own pierce power by 6% for the next turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,"Highest DEF debuff available, second best Water DMG dealer despite Balance type. Trait makes him an amazing support for a nuker relying on Pierce (Velzard for example)",,,,,,,,,,,,,
 Alice Rondo [Brave Knight Girl],https://i.imgur.com/dfc2m0g.png,5☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7122,3037,2964,0.875,0.858,0.813,2.546,3040.6,1531.0,6889.6,10.12,150,Digsite for Training Magistones +30%,Clothing Store +10%,Greatsword,"Healing Blade Lv.MAX:
 Single-target water physical attack for 450%.","Valorous Path Lv.1/Lv.10:
 Increases all allies' pierce rate by 80%/100% (Turns: 1). Decreases all targets' water resistance by 30% (Tuns: 2).
@@ -151,7 +151,7 @@ Lv.1/Lv.10 Cost: 65/55","String Slasher Lv.1/Lv.10:
 Changes Soul of Divine Protection x2 into Soul of Skills. Increases Soul of Skills skill gauge increase until the end of battle by 3%/5% (Max: 100%)
 Lv.1/Lv.10 Cost: 40/30","Troop - Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases skill points by 3 every 3 turns (available in support formation).","Troop - Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases skill points by 5 every 3 turns (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Buff Pierce Rate + Elemental resist down (Water) in a single skill is really good and top-tier combined with F2P W.Ranga. Great offensive stats and a decent trait ,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases skill points by 5 every 3 turns (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Buff Pierce Rate + Elemental resist down (Water) in a single skill is really good and top-tier combined with F2P W.Ranga. Great offensive stats and a decent trait ,,,,,,,,,,,,,
 Gobta [Captain of the Goblin Riders],https://i.imgur.com/1IwymQH.png,5☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7142,2994,2994,0.878,0.846,0.821,2.545,3008.4,1275.8,5741.2,10.19,150,Mountain Supply Corps Base +30%,Farm +10%,Fist,"Flare Smash Lv.MAX:
 Single-target fire physical attack for 450%.","Hunter's Shadow Lv.1/Lv.10:
 Changes Soul of Secrets x2 into Soul of Divine ProtectionIncreases all Soul of Divine Protection gauges' increase by 5％/10% (Turns: 1).
@@ -159,7 +159,7 @@ Lv.1/Lv.10 Cost: 25/15","Brave Contact Lv.1/Lv.10:
 Increases own critical damage by 15％/25% (Turns: 2)Increases own counter power by 10％ (Turns: 2)
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - Guard Rate DOWN (5★ Awaken x1):
 When you unleash a 6 combo attack with Soul of Divine Protection, decreases all targets' guard rate by 7% for the next turn (available in support formation)","Soul Combo - Guard Rate DOWN (5★ Awaken x3):
-When you unleash a 6 combo attack with Soul of Divine Protection, decreases all targets' guard rate by 11% for the next turn (available in support formation)",2%,-,-,8%,-,-,2%,-,-,2%,-,-,Lack a bit of ATK but still a good nuker combined with the right CRIT related buffs. A useful orb change. Unfortunately bad trait,,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Divine Protection, decreases all targets' guard rate by 11% for the next turn (available in support formation)",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,Lack a bit of ATK but still a good nuker combined with the right CRIT related buffs. A useful orb change. Unfortunately bad trait,,,,,,,,,,,,,
 Rimuru Tempest [Awakened Demon Lord],https://i.imgur.com/11xHPNK.png,5☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6891,3240,2622,0.847,0.916,0.719,2.481,3247.8,1464.9,3955.2,9.34,150,Forest Supply Corps Base +30%,Laboratory +10%,Tome,"Belzebuth Lv.MAX:
 All-target dark magic attack for 270%.","Unlock Expertise Lv.1/Lv.10:
 Increases own critical rate by 80％/100% (Turns: 1). Increases own critical damage by 15％ (Turns: 2).
@@ -167,7 +167,7 @@ Lv.1/Lv.10 Cost: 25/15","Chancellor's Prestige Lv.1/Lv.10:
 Increases all allies' stun evasion rate by 90％/100% (Turns: 1). Increases Soul of Divine Protection damage by 10％ (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Troop - Secret Skill UP 3 (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 5% at start of battle (Turns: 3) (available in support formation).","Troop - Secret Skill UP 3 (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% at start of battle (Turns: 3) (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,Best AoE Dark DMG dealer. Decent trait,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% at start of battle (Turns: 3) (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,Best AoE Dark DMG dealer. Decent trait,Link,,,,,,,,,,,,
 Masked Hero [Time Traveler],https://i.imgur.com/wKOHjfN.png,5☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6914,3290,2555,0.849,0.930,0.701,2.480,3305.8,1402.0,4065.7,9.29,150,Digsite for Training Magistones +30%,Protection Magistone Digsite +10%,Sword,"Reverse Fate Lv.MAX:
 All-target space physical attack for 290%.","Destroy Fate Lv.1/Lv.10:
 Make another move (turn stays the same)Increases all souls' protection gauge increase by 10％/20% (Turns: 1) (Only 1 use per battle).
@@ -175,7 +175,7 @@ Lv.1/Lv.10 Cost: 40/30","Alter Fate Lv.1/Lv.10:
 Increases all allies' critical rate by 80％/100% (Turns: 1)Decreases all targets' critical resistance by 30％ (Turns: 1).
 Lv.1/Lv.10 Cost: 65/55","Troop - Protection UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases protection gauge by 4 every 3 turns (available in support formation).","Troop - Protection UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,Godlike - best support of the game (combine F.Milim + F.Phobio - AoE but 1 turn - in a single buff) and best AOE Space DMG dealer. Turn gain is great but not broken because of many restrictions for units swap & Ults. Amazing trait,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,Godlike - best support of the game (combine F.Milim + F.Phobio - AoE but 1 turn - in a single buff) and best AOE Space DMG dealer. Turn gain is great but not broken because of many restrictions for units swap & Ults. Amazing trait,,,,,,,,,,,,,
 Leon Cromwell [The Platinum Devil],https://i.imgur.com/Qfcxbbq.png,5☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6907,3277,2571,0.849,0.926,0.705,2.480,3280.9,1652.0,4460.4,9.30,150,Digsite for Attack Magistones +30%,Laboratory +10%,Tome,"Punishment Blast Lv.Max:
 All-target light magic attack for 270%.","Sacred Power Lv.1/Lv.10:
 Increases all allies' light ATK by 40%/50% (Turns: 1)
@@ -183,7 +183,7 @@ Lv.1/Lv.10 Cost: 65/55","Eccentric Force Lv.1/Lv.10:
 Changes Soul of Divine Protection x into Soul of Secrets. Increases all Soul of Secrets gauges' increase by 3%/5% (Max: 100%
 Lv.1/Lv.10 Cost: 25/15","Troop - Secret Skill UP 2 (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 5% every 3 turns (available in support formation).","Troop - Secret Skill UP 2 (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% every 3 turns (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,"The buffer that makes Gazel the best Physical nuker of the game since Light ATK buff stacks with Gazel ATK buff. Interesting orb change. Good trait that can be used in rearguard
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% every 3 turns (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,"The buffer that makes Gazel the best Physical nuker of the game since Light ATK buff stacks with Gazel ATK buff. Interesting orb change. Good trait that can be used in rearguard
 ",,,,,,,,,,,,,
 Ranga [Tempest Star Wolf],https://i.imgur.com/Bqi7P8m.png,5☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6891,3253,2601,0.847,0.919,0.713,2.479,3268.6,1386.2,3742.7,9.31,150,Mountain Supply Corps Base +30%,Forest Supply Corps Base +10%,Fist,"Death Storm Lv.MAX:
 All-target space magic attack for 270%.","Pendulum Swing Lv.1/Lv.10:
@@ -192,7 +192,7 @@ Lv.1/Lv.10 Cost: 35/25","Keen Smell Lv.1/Lv.10:
 Increases all allies' pierce rate by 10%/20% (Turns: 1). Increases all allies' guard penetration by 30% (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Effect - Pierce Power UP (5☆ Awaken x1):
 When 1 or more vanguard are affected by Critical Rate UP, increases own pierce power by 5% at start of turn (available in support formation).","Effect - Pierce Power UP (5☆ Awaken x3):
-When 1 or more vanguard are affected by Critical Rate UP, increases own pierce power by 8% at start of turn (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,Kinda bad beside the orb swap. Too low % on skill 2 for 30 skill points. Trait is actually almost impossible to activate (require 2 turns CRIT Rate buff),Link,,,,,,,,,,,,
+When 1 or more vanguard are affected by Critical Rate UP, increases own pierce power by 8% at start of turn (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,Kinda bad beside the orb swap. Too low % on skill 2 for 30 skill points. Trait is actually almost impossible to activate (require 2 turns CRIT Rate buff),Link,,,,,,,,,,,,
 Milim Nava [The Enthusiastic Player],https://i.imgur.com/Nc9PTsX.png,5☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6880,3276,2582,0.845,0.926,0.708,2.479,3279.9,1400.9,6304.2,9.27,150,Cafe +30%,Forest Supply Corps Base +10%,Fist,"Drago Upper Lv.MAX:
 Single-target fire physical attack for 450%.","Top of Calamity Lv.1/Lv.10:
 Increases all allies' critical rate by 80%/100% (Turns: 1). Chance to seal Critical Resistance UP on all targets: 100% (Turns: 1).
@@ -200,7 +200,7 @@ Lv.1/Lv.10 Cost: 65/55","Draconic Racquet Lv.1:
 Changes Soul of Skills x1 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","HP - Critical Damage UP (5☆ Awaken x1):
 When you have 50% or lower HP, increases own critical damage by 5% at start of turn (available in support formation).","HP - Critical Damage UP (5☆ Awaken x3):
-When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Best AoE Crit rate buffer and best single target Fire nuker (8% CRIT DMG basis pairing well with her skill helps a lot). Interesting orb change. Trait is great but can be compicated to activate,,,,,,,,,,,,,
+When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Best AoE Crit rate buffer and best single target Fire nuker (8% CRIT DMG basis pairing well with her skill helps a lot). Interesting orb change. Trait is great but can be compicated to activate,,,,,,,,,,,,,
 Shion [Steel Annihilator],https://i.imgur.com/B8vhqUp.png,5☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6891,3256,2597,0.847,0.920,0.712,2.479,3259.9,1641.4,4431.9,9.31,150,Forest Supply Corps Base +30%,Clothing Store +10%,Greatsword,"Ogre Guillotine Lv.Max:
 All-target dark physical attack for 270%.","Indigo Charge Lv.1/Lv.10:
 Increases all allies' pierce rate by 80%/100% (Turns: 1). Increases all allies' pierce power by 20% (Turns: 2).
@@ -208,7 +208,7 @@ Lv.1/Lv.10 Cost: 65/55","Advance Attack Lv.1/Lv.10:
 Increases all allies' poison evasion rate by 90%/100% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Secret Skill UP 2 (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 5% every 3 turns (available in support formation).","Troop - Secret Skill UP 2 (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% every 3 turns (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Really high normal attacks. Skill 1 boost everybody's damage and has more impact against high DEF enemies. Use F2P Wa.Ranga aside for decent results,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 8% every 3 turns (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Really high normal attacks. Skill 1 boost everybody's damage and has more impact against high DEF enemies. Use F2P Wa.Ranga aside for decent results,Link,,,,,,,,,,,,
 Velzard [The White Ice Dragon],https://i.imgur.com/LNLspAn.png,5☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6896,3280,2569,0.847,0.927,0.705,2.479,3295.7,1397.7,6289.6,9.28,150,Tavern +30%,Ocean Supply Corps Base +10%,Fist,"Freezing Splash Lv.MAX:
 Single-target water magic attack for 450%.","Frozen Space Lv.1/Lv.10:
 Increase own ATK by 25%/30% (Turns: 1). Increase own pierce power by 15% (Turns: 1).
@@ -216,7 +216,7 @@ Lv.1/Lv.10 Cost: 25/15","Icy World Lv.1/Lv.10:
 Chance to give frostbite to all targets: 80%/100% (Turns: 2).
 Lv.1/Lv.10 Cost: 25/15","Troop - Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases skill points by 3 every 3 turns (available in support formation).","Troop - Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases skill points by 5 every 3 turns (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,Strongest Water nuker. Amazing trait,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases skill points by 5 every 3 turns (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,Strongest Water nuker. Amazing trait,,,,,,,,,,,,,
 Guy Crimson [Lord of Darkness],https://i.imgur.com/LVspSnM.png,5☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6889,3280,2572,0.846,0.927,0.705,2.479,3283.9,1402.6,4067.6,9.27,150,Protection Magistone Digsite +30%,Tavern +10%,Fist,"Demon's Blaze Lv.MAX:
 All-target fire magic attack for 290%.","God of Abyss Lv.1/Lv.10:
 Chance to seal DEF UP on all targets: 80％/100% (Turns: 1).
@@ -224,15 +224,15 @@ Lv.1/Lv.10 Cost: 65/55","Set Ablaze Lv.1/Lv.10:
 Increases Activating Soul of Combos damage by 40％/50% (Turns: 1)Decreases all targets' critical resistance by 20％ (Turns: 1).
 Lv.1/Lv.10 Cost: 65/55","Troop - Protection UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases protection gauge by 4 every 3 turns (available in support formation).","Troop - Protection UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,A higher than usual % on his AoE Ult - Ult buff become slightly better than the W.Milim one if you CRIT (can't use another CRIT RES debuff aside tho). Seal is very rarely used tho. Amazing trait,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,A higher than usual % on his AoE Ult - Ult buff become slightly better than the W.Milim one if you CRIT (can't use another CRIT RES debuff aside tho). Seal is very rarely used tho. Amazing trait,,,,,,,,,,,,,
 Diablo [Ebony Demon],https://i.imgur.com/Z1INgUB.png,5☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6910,3285,2556,0.849,0.928,0.701,2.478,3288.9,1399.5,6297.8,9.28,150,Laboratory +30%,Ocean Supply Corps Base +10%,Katana,"Limited Zero Cannon Lv.MAX:
-Unleashes a single-target dark magic attack for 450％ normal damage.","Mortuary Smash Lv.1/Lv.10:
+Single-target dark magic attack for 450％.","Mortuary Smash Lv.1/Lv.10:
 Increases own Soul of Combos damage by 70％/80% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Spatial Abyss Lv.1/Lv.10:
 Increases own counterattack rate by 80％ (Turns: 1). Increases own counter power by 20％ (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Secret Skill UP (5★ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 7% at the start of battle (Turns: 3) (available in support formation).","Troop - Secret Skill UP (5★ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 11% at the start of battle (Turns: 3) (available in support formation).",2%,-,-,2%,-,-,2%,-,-,2%,8%,-,First unit to ever have 100% counter rate... needs testing? seems meh...,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 11% at the start of battle (Turns: 3) (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,2%,8%,-,First unit to ever have 100% counter rate... needs testing? seems meh...,,,,,,,,,,,,,
 Milim Nava [The Dragon Fist],https://i.imgur.com/NPGoCpt.png,5☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6880,3292,2561,0.845,0.930,0.702,2.478,3296.0,1407.8,6616.5,9.25,150,Digsite for Attack Magistones +30%,Training Ground +10%,Fist,"Milim Punch Lv.MAX:
 Single-target space magic attack for 470%.","Dragon Master Lv.1/Lv.10:
 Increases all allies' space ATK by 40％/50% (Turns: 1).
@@ -240,7 +240,7 @@ Lv.1/Lv.10 Cost: 65/55","Dragon Call Lv.1/Lv.10:
 Chance to give Drago to self: 100％ (Turns: 1)Increases own ATK by 10％/20% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases skill points by 4 at the start of the battle (available in support formation).","Troop - Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Godlike | Best DMG dealer. Drago mode buff ATK + increasing all buffs value by 20% (cost only 15 wth ?). Higher than usual Ult % DMG - amazing Space ATK buff. Great trait,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases skill points by 6 at the start of the battle (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Godlike | Best DMG dealer. Drago mode buff ATK + increasing all buffs value by 20% (cost only 15 wth ?). Higher than usual Ult % DMG - amazing Space ATK buff. Great trait,,,,,,,,,,,,,
 Luminus [The Queen of Nightmares],https://i.imgur.com/tJclorA.png,5☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6912,3279,2560,0.849,0.927,0.702,2.478,3294.7,1397.3,6287.7,9.29,150,Protection Magistone Digsite +30%,Cafe +10%,Tome,"Scarlet Rain Lv.MAX:
 Single-target earth magic attack for 450%.","Soul-Blood Reaper Lv.1/Lv.10:
 Decreases a single targets' magic attack resistance by 20％/30% (Turns: 1). Increases own M-ATK by 30％ (Turns: 1).
@@ -248,7 +248,7 @@ Lv.1/Lv.10 Cost: 25/15","Road to Overcome Lv.1/Lv.10:
 Decreases a single target's Secret Skill Gauge by 10％. Increases own secret skill gauge by 15％/25%.
 Lv.1/Lv.10 Cost: 50/40","Troop - Secret Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 12% at the start of battle (available in support formation).","Troop - Secret Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,Best Earth nuker thanks to her skill and Attack Type - great low-cost skill to support another magical DMG dealer,,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,Best Earth nuker thanks to her skill and Attack Type - great low-cost skill to support another magical DMG dealer,,,,,,,,,,,,,
 Carrion [Beastmaster] ,https://i.imgur.com/zzwmDw4.png,5☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6858,3276,2588,0.843,0.926,0.710,2.478,3279.9,1651.5,7431.8,9.25,150,Tavern +30%,Forest Supply Corps Base +10%,Fist,"Beast Roar Lv.MAX:
 Single-target space physical attack for 450%.","Lion's Den Lv.1/Lv.10:
 Increases own ATK by 10％/20% (Turns: 2). Increases all allies' critical damage by 20％ (Turns: 1).
@@ -256,15 +256,15 @@ Lv.1/Lv.10 Cost: 25/15","Mighty Roar Lv.1/Lv.10:
 Changes Soul of Secrets x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5％/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Soul Combo - Critical Damage UP (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Divine Protection, increases own critical damage by 10% for the next turn (available in support formation).","Soul Combo - Critical Damage UP (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Divine Protection, increases own critical damage by 15% for the next turn (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,"Very Unique Character, first one to ever buff your entire teams Critical DMG by 20%.",,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Divine Protection, increases own critical damage by 15% for the next turn (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,"Very Unique Character, first one to ever buff your entire teams Critical DMG by 20%.",,,,,,,,,,,,,
 Veldora Tempest [The True Butler],https://i.imgur.com/G2ES5QD.png,5☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6895,3244,2605,0.847,0.917,0.714,2.478,3251.8,1466.7,6600.1,9.32,150,Digsite for Attack Magistones +30%,Field +10%,Katana,"Ornamental Spiral Lv.MAX:
 Single-target wind physical attack for 450%.","Rapid Service Lv.1/Lv.10:
-Change Soul of Secrets x2 to Soul of Skills. Increases all Soul of Skills gauges' increase by 5% (Turns: 1).
+Change Soul of Secrets x2 to Soul of Skills. Increases all Soul of Skills gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Sacred Guidance Lv.1/Lv.10:
 Decreases all targets' pierce power by 15% (Turns:2). Increases Soul of Skills damage until the end of battle by 5% (Max: 100%).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - ATK UP (5☆ Awaken x1):
 When you unleash a 6 combo attack with Soul of Skills, increases own ATK by 5% for the next turn (available in support formation).","Soul Combo - ATK UP (5☆ Awaken x3):
-When you unleash a 6 combo attack with Soul of Skills, increases own ATK by 8% for the next turn (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,"Attack type and ST Ult but no offensive buffs. A really bad Skill 2. Decent trait, could be used in future teams as Wind DMG dealer support",Link,,,,,,,,,,,,
+When you unleash a 6 combo attack with Soul of Skills, increases own ATK by 8% for the next turn (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,"Attack type and ST Ult but no offensive buffs. A really bad Skill 2. Decent trait, could be used in future teams as Wind DMG dealer support",Link,,,,,,,,,,,,
 Hakurou [Instructor of Flashing Sword],https://i.imgur.com/YbOF5fR.png,5☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6889,3259,2592,0.846,0.921,0.711,2.478,3262.9,1393.7,6271.5,9.30,150,Training Ground +30%,Farm +10%,Katana,"Cicada Flash Lv.MAX:
 Single-target wind physical attack for 450%.","Keigoku Lv.1/Lv.10:
 Decreases all targets' DEF by 25%/30% (Turns: 1). Increases all allies' critical rate by 30% (Turns: 1).
@@ -272,7 +272,7 @@ Lv.1/Lv.10 Cost: 65/55","Heaven's Eye Lv.1/Lv.10:
 Decreases a single target's counterattack rate by 30%/40% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","HP - Pierce Rate Up (5☆ Awaken x1):
 When you have 50% or lower HP, increases own pierce rate by 7% at start of turn (available in support formation).","HP - Pierce Rate Up (5☆ Awaken x3):
-When you have 50% or lower HP, increases own pierce rate by 11% at start of turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Old man nukes hard and is a staple DPS for wind teams. Skill 1 is relying much on RNG for a 55 SP cost tho.,Link,,,,,,,,,,,,
+When you have 50% or lower HP, increases own pierce rate by 11% at start of turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Old man nukes hard and is a staple DPS for wind teams. Skill 1 is relying much on RNG for a 55 SP cost tho.,Link,,,,,,,,,,,,
 Milim Nava [Manifestation of the Dragon],https://i.imgur.com/iDq0yWQ.png,5☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6892,3269,2578,0.847,0.924,0.707,2.478,3272.9,1397.9,6290.7,9.29,150,Digsite for Stamina Magistones +30%,Training Ground +10%,Fist,"Drago-Nova Lv.MAX:
 Single-target dark magic attack for 450%.","Dragon Orb Lv.1/Lv.10:
 Changes Soul of Secrets x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -280,7 +280,19 @@ Lv.1/Lv.10 Cost: 35/25","Dragon Thrash Lv.1/Lv.10:
 Increases all allies' critical resistance by 40%/50% (Turns: 1). Increases own critical rate by 15% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Protection UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases protection gauge by 7 at the start of battle (available in support formation).","Troop - Protection UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases protection gauge by 11 at the start of battle (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Another solid combo attacker with nothing that really makes her stand out. We already have two dark nukers. Still sort of better than Earth Milim in general sadlaughter.,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases protection gauge by 11 at the start of battle (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Another solid combo attacker with nothing that really makes her stand out. We already have two dark nukers. Still sort of better than Earth Milim in general sadlaughter.,Link,,,,,,,,,,,,
+Shion [Runaway Bride],https://i.imgur.com/D45PsTC.png,5☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6900,3289,2552,0.848,0.929,0.700,2.477,3293.3,1401.2,6305.5,9.26,150,Clothing Store +30%,Cafe +10%,Lance,"All My Love Lv.MAX:
+Single-target light physical attack for 450%.","Blade of Blessing Lv.1/Lv.10:
+Increases own ATK by 20％/30 (Turns: 1). Increases own pierce power by 25％ (Turns: 1). Effect increases by 3％ each time allies use battle skills from the start of battle to the end of Turn 3.
+Lv.1/Lv.10 Cost: 35/25","Power of Love Lv.1/Lv.10:
+Changes Soul of Secrets x1 into Soul of Skills. Increases Soul of Skills' skill point increase by 10％ (Turns: 1).
+Lv.1/Lv.10 Cost: 25/15","Troop - Secret Skill UP (5☆ Awaken x1):
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 7% once per turn from the start of battle to Turn 3(available in support formation).","Troop - Secret Skill UP (5☆ Awaken x3):
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 11% once per turn from the start of battle to Turn 3(available in support formation).","Individual Mercy 1:
+Increases own following status when Rimuru Tempest is assigned to a battle slot.
+Increases pierce power by 4%","Light Mercy:
+Increases own following status in accordance with the number of light characters assigned to battle slots.
+Increases HP by 180, ATK by 90, DEF by 52",2%,-,-,2%,8%,-,2%,-,-,2%,-,-,"Extremely Strong Light Nuker, besting Gazel and taking his Spot by a MILE!",,,,,,,,,,,,,
 Veldora [Seal Releaser],https://i.imgur.com/vDMGQeU.png,5☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6893,3273,2573,0.847,0.925,0.706,2.477,3276.9,1394.4,3764.9,9.28,150,Laboratory +30%,Restaurant +10%,Fist,"Dragonic Burst Lv.MAX:
 All-target dark physical attack for 270%.","Dragon Smash Lv.1/Lv.10:
 Increases activating Soul of Combos damage by 50％/60% (Turns: 1). Decreases all targets' pierce resistance by 10％ (Turns: 1).
@@ -288,7 +300,7 @@ Lv.1/Lv.10 Cost: 65/55","Faust Lv.1/Lv.10:
 Decreases a single target's critical damage by 10％/20% (Turns: 3).
 Lv.1/Lv.10 Cost: 25/15","HP - Enhance Counterattack Rate (5☆ Awaken x1):
 When you have 50% or higher HP, increases own counterattack rate by 6% at start of turn (available in support formation).","HP - Enhance Counterattack Rate (5☆ Awaken x3):
-When you have 50% or higher HP, increases own counterattack rate by 9% at start of turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,2%,8%,-,Solid combo attacker and rainbow soul buffer. AKA dark version of wind milim. A shame he only gets 50% combo attack compared to milim's 60%. ,Link,,,,,,,,,,,,
+When you have 50% or higher HP, increases own counterattack rate by 9% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,2%,8%,-,Solid combo attacker and rainbow soul buffer. AKA dark version of wind milim. A shame he only gets 50% combo attack compared to milim's 60%. ,Link,,,,,,,,,,,,
 Milim Nava [One of Oldest Demon Lords],https://i.imgur.com/CrXK94G.png,5☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6891,3265,2582,0.847,0.923,0.708,2.477,3268.9,1476.0,3985.2,9.29,150,Restaurant +30%,Protection Magistone Digsite +10%,Fist,"Drago Driver Lv.MAX:
 All-target earth physical attack for 270%.","Change Dragon Magic Lv.1/Lv.10:
 Changes Soul of Secrets x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -296,7 +308,7 @@ Lv.1/Lv.10 Cost: 35/25","Dragon's Magic's Call Lv.1/Lv.10:
 Increases all allies' DEF by 20%/25% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Troop - Protection UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases protection gauge by 7 at the start of battle (available in support formation).","Troop - Protection UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases protection gauge by 11 at the start of battle (available in support formation).",4%,-,-,2%,-,-,4%,-,-,2%,-,-,Her normal attacks consistently hits high. Might be the worse Milim as she doesn't bring much to the table. Could be used in a counterattack team with Golem.,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases protection gauge by 11 at the start of battle (available in support formation).",,,4%,-,-,2%,-,-,4%,-,-,2%,-,-,Her normal attacks consistently hits high. Might be the worse Milim as she doesn't bring much to the table. Could be used in a counterattack team with Golem.,Link,,,,,,,,,,,,
 Benimaru [Samurai General of Hellfire],https://i.imgur.com/V9ZWWX5.png,5☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6894,3269,2576,0.847,0.924,0.707,2.477,3272.9,1392.7,3760.3,9.29,150,Farm +30%,Digsite for Attack Magistones +10%,Magic Tome,"Hell Flare Lv.MAX:
 All-target fire magic attack for 270%.","Ogre Hero Lv.1/Lv.10:
 Increases own ATK by 25%/30% (Turns: 1). Increases Soul of Secrets damage by 10% (Turns: 1).
@@ -304,7 +316,7 @@ Lv.1/Lv.10 Cost: 25/15","War Hero Lv.1/Lv.10:
 Decreases a single target's pierce power by 10%/20% (Turns: 3).
 Lv.1/Lv.10 Cost: 25/15","Troop - Secret Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 12% at the start of battle (available in support formation).","Troop - Secret Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",2%,-,-,2%,-,-,8%,-,-,2%,-,-,AOE DPS for fire teams. Use skill 1 before using Secret Skill. Good for farming daily dungeons.,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",,,2%,-,-,2%,-,-,8%,-,-,2%,-,-,AOE DPS for fire teams. Use skill 1 before using Secret Skill. Good for farming daily dungeons.,Link,,,,,,,,,,,,
 Gazel Dwargo [King of an Armed Nation],https://i.imgur.com/Dn4zis4.png,5☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6891,3271,2575,0.847,0.924,0.706,2.477,3274.9,1393.5,6271.0,9.28,150,Mountain Supply Corps Base +30%,Tavern +10%,Sword,"Haze: Thunder of Heaven and Earth Lv.MAX:
 Single-target light physical attack for 450%.","Heroes Haki Lv.1/Lv.10:
 Increases own ATK by 20%/25% (Turns: 1). Increases own critical rate by 20% (Turns: 1).
@@ -312,7 +324,7 @@ Lv.1/Lv.10 Cost: 25/15","Telepathy Lv.1/Lv.10:
 Increases own critical damage by 10%/20% (Turns: 3). Increases own DEF by 20% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Protection UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases protection gauge by 7 at the start of battle (available in support formation).","Troop - Protection UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases protection gauge by 11 at the start of battle (available in support formation).",2%,-,-,2%,-,-,8%,-,-,2%,-,-,THE DPS for light teams. He knows how to NUKE. One man army that don't need nobody's assistance. Can pair him with Phobio - W.Milim - Leon for the best CRIT nuke in the game,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases protection gauge by 11 at the start of battle (available in support formation).",,,2%,-,-,2%,-,-,8%,-,-,2%,-,-,THE DPS for light teams. He knows how to NUKE. One man army that don't need nobody's assistance. Can pair him with Phobio - W.Milim - Leon for the best CRIT nuke in the game,Link,,,,,,,,,,,,
 Milim Nava [Dragonoid],https://i.imgur.com/ZIXrWrO.png,5☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,6891,3271,2575,0.847,0.924,0.706,2.477,3274.9,1478.7,3992.5,9.28,150,Cafe +30%,Digsite for Attack Magistones +10%,Fist,"Drago Buster Lv.MAX:
 All-target wind magic attack for 270%.","Dragon Power Lv.1/Lv.10:
 Increases activating Soul of Combos damage by 60%/70% (Turns: 1). Increases own critical damage by 20% (Turns: 2).
@@ -320,7 +332,7 @@ Lv.1/Lv.10 Cost: 65/55","Lord of Catastrophe Lv.1/Lv.10:
 Increases all allies' guard penetration by 40%/50% (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Troop - Protection UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases protection gauge by 4 every 3 turns (available in support formation).","Troop - Protection UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",4%,-,-,2%,-,-,4%,-,-,2%,-,-,"Skill 1 buff yur Ults by 60%, it is a flat multiplier. E.g 450% nuke x 1.6 = 720% nuke. GODLY. Great tra",Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases protection gauge by 6 every 3 turns (available in support formation).",,,4%,-,-,2%,-,-,4%,-,-,2%,-,-,"Skill 1 buff yur Ults by 60%, it is a flat multiplier. E.g 450% nuke x 1.6 = 720% nuke. GODLY. Great tra",Link,,,,,,,,,,,,
 Benimaru [Undefeated General],https://i.imgur.com/uXu736J.png,5☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,6904,3274,2562,0.848,0.925,0.703,2.476,3289.7,1395.1,3766.9,9.28,150,Training Ground +30%,Restaurant +10%,Sword,"Destructive Blaze Lv.MAX:
 All-target earth magic attack for 270%.","Boulder Buster Lv.1/Lv.10:
 Transfer another random character's soul card x2 to self. Decreases all targets' earth resistance by 10%/20% (Turns: 1).
@@ -328,7 +340,7 @@ Lv.1/Lv.10 Cost: 35/25","Cosmic Edge Lv.1/Lv.10:
 Increases Soul of Secrets damage by 25%/35% (Turns: 1). Increases all Soul of Secrets gauges' increase by 30% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Secret Skill UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 12% at the start of battle (available in support formation).","Troop - Secret Skill UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,"Amazing support that helps your DMG dealer having a 6 orbs combo. Second skill makes your orange orbs much more consistent, amazing combined with Prot E.Hakurou / D.Orc Disaster because of their orb swap to Orange. Decent trait",,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own Secret Skill Gauge by 18% at the start of battle (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,"Amazing support that helps your DMG dealer having a 6 orbs combo. Second skill makes your orange orbs much more consistent, amazing combined with Prot E.Hakurou / D.Orc Disaster because of their orb swap to Orange. Decent trait",,,,,,,,,,,,,
 Shuna [Pink Ogre of Heavenly Light],https://i.imgur.com/svqUOwR.png,5☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5958,2280,2990,0.732,0.644,0.820,2.196,2282.7,971.4,2622.6,9.24,150,Clothing Store +30%,Digsite for Stamina Magistones +10%,Magic Tome,"Phoenix Blast Lv.MAX:
 All-target wind magic attack for 270%.","Willow Talisman Lv.1/Lv.10:
 Changes Soul of Divine Protection x2 into Soul of Skills. Increases all Soul of Skills gauges' increase by 5%/10% (Turns: 1).
@@ -336,7 +348,7 @@ Lv.1/Lv.10 Cost: 35/25","Sublimate Lv.1/Lv.10:
 Increases all allies' DEF by 20%/25% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","HP - Critical Damage UP 2 (5☆ Awaken x1):
 When you have 50% or higher HP, increases own critical damage by 5% at start of turn (available in support formation).","HP - Critical Damage UP 2 (5☆ Awaken x3):
-When you have 50% or higher HP, increases own critical damage by 8% at start of turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Free Shuna that can be awakened to 6☆ through missions. Decent filler on wind teams with a useful orb change but a kinda bad DEF skill. Good trait when used as support for nuker relying on CRIT (W.Hakurou for example),Link,,,,,,,,,,,,
+When you have 50% or higher HP, increases own critical damage by 8% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Free Shuna that can be awakened to 6☆ through missions. Decent filler on wind teams with a useful orb change but a kinda bad DEF skill. Good trait when used as support for nuker relying on CRIT (W.Hakurou for example),Link,,,,,,,,,,,,
 Trya [Summer Breeze of Benevolence],https://i.imgur.com/bdK9a1H.png,4☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5983,2255,2997,0.735,0.637,0.822,2.194,2257.7,960.7,2497.8,8.54,300,Cafe +30%,Field +10%,Magic Tome,"Aerial Slicer Lv.MAX:
 All-target earth magic attack for 260%.","Whisper Lv.1/Lv.10:
 Increases all allies' DEF by 15%/20% (Turns: 3). Increases all allies' guard rate by 10% (Turns: 1).
@@ -344,7 +356,7 @@ Lv.1/Lv.10 Cost: 25/15","Have a Harp Lv.1/Lv.10:
 Changes Soul of Skills x1 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Effect - Pierce Rate UP (5☆ Awaken x1):
 When affected by counterattack rate UP, increases own pierce rate by 7% at start of turn (available in support formation).","Effect - Pierce Rate UP (5☆ Awaken x3):
-When affected by counterattack rate UP, increases own pierce rate by 11% at start of turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,-,8%,-,3 turn DEF buff is pretty great.,Link,,,,,,,,,,,,
+When affected by counterattack rate UP, increases own pierce rate by 11% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,-,8%,-,3 turn DEF buff is pretty great.,Link,,,,,,,,,,,,
 Shion [Ardent Attendant],https://i.imgur.com/PEliko1.png,4☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5983,2254,2995,0.735,0.637,0.821,2.193,2256.7,960.3,4177.2,8.54,300,Digsite for Training Magistones +30%,Restaurant +10%,Greatsword,"Slashing Flurry Lv.MAX:
 Single-target wind magic attack for 435%.","Blunt Strike Lv.1/Lv.10:
 Chance to poison a single target: 60%/80% (Turns: 3).
@@ -352,7 +364,7 @@ Lv.1/Lv.10 Cost: 25/15","Battle Stations Lv.1/Lv.10:
 Decreases a single target's guard rate by 20%/30% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Effect - Critical Rate UP (5☆ Awaken x1):
 When 1 or more enemies are affected by DEF DOWN, increases own critical rate by 6% at start of battle (available in support formation).","Effect - Critical Rate UP (5☆ Awaken x3):
-When 1 or more enemies are affected by DEF DOWN, increases own critical rate by 9% at start of battle (available in support formation).",2%,-,-,2%,-,-,2%,-,-,2%,8%,-,Poison is very weak. Does flat damage based on enemy's max ATK. Seems to deal 1% of max hp per turn.,Link,,,,,,,,,,,,
+When 1 or more enemies are affected by DEF DOWN, increases own critical rate by 9% at start of battle (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,2%,8%,-,Poison is very weak. Does flat damage based on enemy's max ATK. Seems to deal 1% of max hp per turn.,Link,,,,,,,,,,,,
 Gabiru [Waving Spear],https://i.imgur.com/TVFFYfn.png,4☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/P4N7gFs.png,5983,2260,2987,0.735,0.639,0.819,2.193,2262.7,962.8,2503.4,8.53,300,Laboratory +30%,Ocean Supply Corps Base +10%,Lance,"Vortex Crash Lv.MAX:
 All-target water physical attack for 260%.","Draconic Frenzy Lv.1/Lv.10:
 Increases all allies' DEF by 15%/20% (Turns: 3). Increases all allies' guard rate by 10% (Turns: 1).
@@ -360,7 +372,7 @@ Lv.1/Lv.10 Cost: 25/15","Spear Swing Lv.1/Lv.10:
 Increases all allies' critical resistance by 40%/50% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Effect - Guard Power UP (5☆ Awaken x1):
 When affected by Guard Rate UP, increases own guard power by 6% at start of turn (available in support formation).","Effect - Guard Power UP (5☆ Awaken x3):
-When affected by Guard Rate UP, increases own guard power by 9% at start of turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,4%,-,-,"Great 3 turns DEF buff - Guard % is too low. Critical resistance is pretty useful for Fire bosses, that usually have huge CRIT rate/DMG increases (Fire Conquest - Crucible Benimaru).",Link,,,,,,,,,,,,
+When affected by Guard Rate UP, increases own guard power by 9% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,4%,-,-,"Great 3 turns DEF buff - Guard % is too low. Critical resistance is pretty useful for Fire bosses, that usually have huge CRIT rate/DMG increases (Fire Conquest - Crucible Benimaru).",Link,,,,,,,,,,,,
 Shuna [Excellent Tailor],https://i.imgur.com/SNj9EbC.png,4☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5986,2261,2980,0.735,0.639,0.817,2.192,2263.7,963.3,4190.2,9.27,300,Restaurant +30%,Tavern +10%,Magic Tome,"Sealing Zone Lv.MAX:
 Single-target space magic attack for 435%.","Enlightenment Lv.1/Lv.10:
 Changes Soul of Secrets x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -368,7 +380,7 @@ Lv.1/Lv.10 Cost: 35/25","Blessing Lv.1/Lv.10:
 Recovers all allies from Poison. Increases own poison evasion rate by 5%/10% (Turns: 3).
 Lv.1/Lv.10 Cost: 40/30","Soul Combo - Guard Rate UP (5☆ Awaken x1):
 When you unleash a 4+ combo attack with Soul of Skills, increases own guard rate by 6% for the next turn (available in support formation).","Soul Combo - Guard Rate UP (5☆ Awaken x3):
-When you unleash a 4+ combo attack with Soul of Skills, increases own guard rate by 9% for the next turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,"Until we get some seriously difficult poison content, poison recovery is a waste of a turn.",Link,,,,,,,,,,,,
+When you unleash a 4+ combo attack with Soul of Skills, increases own guard rate by 9% for the next turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,"Until we get some seriously difficult poison content, poison recovery is a waste of a turn.",Link,,,,,,,,,,,,
 Milim Nava [Delighter in Everyday Life],https://i.imgur.com/46EbzAS.png,4☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5983,2266,2975,0.735,0.640,0.816,2.191,2271.4,1024.5,4456.6,8.52,300,Clothing Store +30%,Cafe +10%,Fist,"Drago Breaker Lv.MAX:
 Single-target light magic attack for 435%.","Bright Eye Lv.1/Lv.10:
 Changes Soul of Skills x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -376,7 +388,7 @@ Lv.1/Lv.10 Cost: 35/25","Shooting Star Lv.1/Lv.10:
 Decreases a single target's DEF by 5%/10% (Turns: 2).
 Lv.1/Lv.10 Cost: 25/15","HP - Pierce Power UP (5☆ Awaken x1):
 When you have max HP, increases own pierce power by 6% at start of turn (available in support formation).","HP - Pierce Power UP (5☆ Awaken x3):
-When you have max HP, increases own pierce power by 9% at start of turn (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,2 turns DEF debuff is great and useful orb change,,,,,,,,,,,,,
+When you have max HP, increases own pierce power by 9% at start of turn (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,2 turns DEF debuff is great and useful orb change,,,,,,,,,,,,,
 Gelmud [Secret Operator],https://i.imgur.com/oqBL34H.png,4☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5988,2266,2971,0.736,0.640,0.815,2.191,2271.4,1024.5,2663.7,8.52,300,Protection Magistone Digsite +30%,Ocean Supply Corps Base +10%,Magic Tome,"Deathmarch Dance Lv.MAX:
 All-target dark magic attack for 260%.","Rhapsodic Inspiration Lv.1/Lv.10:
 Decreases a single target's ATK by 10%/15% (Turns: 1). Decreases a single target's pierce power by 10% (Turns: 1).
@@ -384,7 +396,7 @@ Lv.1/Lv.10 Cost: 25/15","Symphony of the Dead Lv.1/Lv.10:
 Chance to poison a single target: 40%/60% (Turns: 3).
 Lv.1/Lv.10 Cost: 25/15","HP - Critical Rate UP 2 (5☆ Awaken x1):
 When you have 50% or lower HP, increases own critical rate by 6% at start of turn (available in support formation).","HP - Critical Rate UP 2 (5☆ Awaken x3):
-When you have 50% or lower HP, increases own critical rate by 9% at start of turn (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,"Say it with me, poison = trash atm.",Link,,,,,,,,,,,,
+When you have 50% or lower HP, increases own critical rate by 9% at start of turn (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,"Say it with me, poison = trash atm.",Link,,,,,,,,,,,,
 Geld [Orc King],https://i.imgur.com/HQ2kPIY.png,4☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/P4N7gFs.png,5983,2266,2971,0.735,0.640,0.815,2.190,2268.7,965.4,4199.4,8.51,300,Field +30%,Digsite for Defense Magistones +10%,Fist,"Quake Slash Lv.MAX:
 Single-target earth physical attack for 435%.","Guardian Lv.1/Lv.10:
 Increases all allies' DEF by 25%/30% (Turns: 1).
@@ -392,7 +404,7 @@ Lv.1/Lv.10 Cost: 25/15","Chaotic Beat Lv.1/Lv.10:
 Decreases a single target's counterattack rate by 25%/35% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","HP - DEF UP (5☆ Awaken x1):
 When you have 50% or lower HP, increases own DEF by 6% at start of turn (available in support formation).","HP - DEF UP (5☆ Awaken x3):
-When you have 50% or lower HP, increases own DEF by 9% at start of turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,2%,8%,-,,Link,,,,,,,,,,,,
+When you have 50% or lower HP, increases own DEF by 9% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,2%,8%,-,,Link,,,,,,,,,,,,
 Ranga [Loyal Horn],https://i.imgur.com/D8sId0H.png,4☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,7266,2018,2514,0.893,0.570,0.690,2.152,2020.4,859.7,3739.8,9.71,300,Mountain Supply Corps Base +30%,Farm +10%,Fist,"Spiral Stream Lv.MAX:
 All-target water magic attack for 260%.","Tempest Wave Lv.1/Lv.10:
 Decreases all targets' guard power by 40%/50% (Turns: 1). Decreases all targets' pierce resistance by 30% (Turns: 1).
@@ -400,7 +412,7 @@ Lv.1/Lv.10 Cost: 40/30","Twisting Current Lv.1/Lv.10:
 Decreases all targets' counterattack rate by 20%/40% (Turns: 2). Increases all Soul of Skills gauges' increase by 10% (Turns: 2).
 Lv.1/Lv.10 Cost: 35/25","HP - Critical Damage UP (5☆ Awaken x1):
 When you have 50% or lower HP, increases own critical damage by 5% at start of turn (available in support formation).","HP - Critical Damage UP (5☆ Awaken x3):
-When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,4%,-,-,"The boy that makes Pierce Rate buffs truly interesting, if not top-tiers. Absolutely broken combined with Battler W.Alice",,,,,,,,,,,,,
+When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,4%,-,-,"The boy that makes Pierce Rate buffs truly interesting, if not top-tiers. Absolutely broken combined with Battler W.Alice",,,,,,,,,,,,,
 Albis [The Golden Serpent],https://i.imgur.com/VQI5P3g.png,4☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/P4N7gFs.png,7262,2036,2487,0.892,0.575,0.682,2.150,2038.4,870.7,3787.4,9.67,300,Field +30%,Mountain Supply Corps Base +10%,Hammer,"Supreme Strike Lv.MAX:
 All-target earth magic attack for 260%.","Suppressor Lv.1/Lv.10:
 Transfers own soul orb x2 to another vanguard character. Increases all souls' secrets skill gauge increase by 5%/10% (Turns: 1).
@@ -408,7 +420,7 @@ Lv.1/Lv.10 Cost: 35/25","Slithering Stare Lv.1/Lv.10:
 Increases all allies' stun evasion rate by  80%/100% (Turns: 1). Increases own critical rate by 10% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","HP - DEF UP (5☆ Awaken x1):
 When you have 50% or lower HP, increases own DEF by 6% at start of turn (available in support formation).","HP - DEF UP (5☆ Awaken x3):
-When you have 50% or lower HP, increases own DEF by 9% at start of turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Decent support that helps you building Ult on your DMG dealers,,,,,,,,,,,,,
+When you have 50% or lower HP, increases own DEF by 9% at start of turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Decent support that helps you building Ult on your DMG dealers,,,,,,,,,,,,,
 Rimuru Tempest [Reincarnated],https://i.imgur.com/lQvoiLI.png,4☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,6035,2514,2518,0.741,0.710,0.691,2.142,2517.0,1267.4,3295.2,8.07,300,Ocean Supply Corps Base +30%,Protection Magistone Digsite +10%,Magic Tome,"Water Blade Torrent Lv.MAX:
 All-target water magic attack for 260%.","Water Control Lv.1/Lv.10:
 Increases own ATK by 15%/20% (Turns: 1).
@@ -416,15 +428,15 @@ Lv.1/Lv.10 Cost: 25/15","Self-regeneration Lv.1/Lv.10:
 Heals all allies' by 15%/20% of their max HP.
 Lv.1/Lv.10 Cost: 40/30","Soul Combo - Enhance Counterattack Rate 2 (5☆ Awaken x1):
 When you unleash a 4+ combo attack with Soul of Skills, increases own counterattack rate by 4% for the next turn (available in support formation).","Soul Combo - Enhance Counterattack Rate 2 (5☆ Awaken x3):
-When you unleash a 4+ combo attack with Soul of Skills, increases own counterattack rate by 6% for the next turn (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Can heal. Nuff said.,Link,,,,,,,,,,,,
+When you unleash a 4+ combo attack with Soul of Skills, increases own counterattack rate by 6% for the next turn (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Can heal. Nuff said.,Link,,,,,,,,,,,,
 Suphia [White Tiger Claw],https://i.imgur.com/WQib9TD.png,4☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,6024,2468,2535,0.740,0.697,0.695,2.133,2471.0,1244.2,5412.2,8.07,300,Tavern +30%,Mountain Supply Corps Base +10%,Fist,"Beast Rush Lv.MAX:
 Single-target dark physical attack for 435%.","Honed Claws Lv.1/Lv.10:
 Increases own guard penetration by 90/100% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Unleash the Wild Lv.1/Lv.10:
-Transfers Soul of Secrets x2 to self. Increases all Soul of Secrets gauges' increase by 6% (Turns: 1).
+Transfers Soul of Secrets x2 to self. Increases all Soul of Secrets gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","HP - Critical Damage UP (4☆ Awaken x1):
-When you have 75% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).","HP - Critical Damage UP (4☆ Awaken x3):
-When you have 75% or lower HP, increases own critical damage by 12% at start of turn (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Can go through Guard. Weird (not that great ?) swap. Interesting trait to support a Dark nuker relying on CRIT,,,,,,,,,,,,,
+When you have 75% or higher HP, increases own critical damage by 8% at start of turn (available in support formation).","HP - Critical Damage UP (4☆ Awaken x3):
+When you have 75% or higher HP, increases own critical damage by 12% at start of turn (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Can go through Guard. Weird (not that great ?) swap. Interesting trait to support a Dark nuker relying on CRIT,,,,,,,,,,,,,
 Chloe Aubert [Lovely Innocence],https://i.imgur.com/rDoEl2O.png,4☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,6025,2498,2498,0.740,0.706,0.685,2.131,2501.0,1064.2,2767.0,8.73,300,Clothing Store +30%,Field +10%,Magic Tome,"Solar Rain Lv.MAX:
 All-target light magic attack for 260%.","Light Beyond Lv.1/Lv.10:
 Heals all allies' by 15%/20% of their max HP.
@@ -432,7 +444,7 @@ Lv.1/Lv.10 Cost: 40/30","Glowing Future Lv.1/Lv.10:
 Recovers all allies from Stun. Increases own stun evasion rate by 5%/10% (Turns: 2).
 Lv.1/Lv.10 Cost: 40/30","HP - Pierce Resistance 2 (5☆ Awaken x1):
 When you have max HP, increases own pierce resistance by 6% at start of turn (available in support formation).","HP - Pierce Resistance 2 (5☆ Awaken x3):
-When you have max HP, increases own pierce resistance by 9% at start of turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,Link,,,,,,,,,,,,
+When you have max HP, increases own pierce resistance by 9% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,Link,,,,,,,,,,,,
 Gobta [Hobgoblin Ascendant],https://i.imgur.com/eKixjNq.png,4☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,6020,2499,2499,0.740,0.706,0.685,2.131,2502.0,1064.7,4631.2,8.03,300,Training Ground +30%,Forest Supply Corps Base +10%,Fist,"Spinning Rush Lv.MAX:
 Single-target wind physical attack for 435%.","Small Chance Lv.1/Lv.10:
 Changes Soul of Skills x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -440,7 +452,7 @@ Lv.1/Lv.10 Cost: 35/25","Positive Position Lv.1/Lv.10:
 Increases all allies' poison evasion rate by 90%/100% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Evade Poison (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own poison evasion rate by 40% during battle (available in support formation).","Troop - Evade Poison (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own poison evasion rate by 60% during battle (available in support formation).",2%,-,-,2%,-,-,2%,-,-,4%,-,-,,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own poison evasion rate by 60% during battle (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,4%,-,-,,Link,,,,,,,,,,,,
 Souei [Blue Gale],https://i.imgur.com/4lC8clr.png,4☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,6024,2497,2497,0.740,0.706,0.685,2.131,2500.0,1067.8,4644.9,8.03,300,Tavern +30%,Mountain Supply Corps Base +10%,Sword,"Shadow Disruption Lv.MAX:
 Single-target wind physical attack for 435%.","Supporting Wave Lv.1/Lv.10:
 Increases all allies' ATK by 15%/20% (Turns: 1).
@@ -448,7 +460,7 @@ Lv.1/Lv.10 Cost: 65/55","Siege Lv.1/Lv.10:
 Recovers all allies from Poison. Increases own poison evasion rate by 5%/10% (Turns: 3).
 Lv.1/Lv.10 Cost: 40/30","HP - Critical Damage UP (5☆ Awaken x1):
 When you have 50% or lower HP, increases own critical damage by 5% at start of turn (available in support formation).","HP - Critical Damage UP (5☆ Awaken x3):
-When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
+When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
 Shuna [Pink Ogre Princess],https://i.imgur.com/whn0pHB.png,4☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,6024,2497,2495,0.740,0.706,0.684,2.130,2503.0,1129.0,2935.3,8.03,300,Restaurant +30%,Tavern +10%,Magic Tome,"Chain of Blue Flames Lv.MAX:
 All-target fire magic attack for 260%.","Raging Blue Flames Lv.1/Lv.10:
 Increases all allies' DEF by 15%/20% (Turns: 3). Increases all allies' guard rate by 10% (Turns: 1).
@@ -456,7 +468,7 @@ Lv.1/Lv.10 Cost: 25/15","Cradle Barrier Lv.1/Lv.10:
 Increases all allies' pierce resistance by 40%/50% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","HP - DEF UP 2 (5☆ Awaken x1):
 When you have max HP, increases own DEF by 7% at start of turn (available in support formation).","HP - DEF UP 2 (5☆ Awaken x3):
-When you have max HP, increases own DEF by 11% at start of turn (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
+When you have max HP, increases own DEF by 11% at start of turn (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
 Hakurou [White Slash],https://i.imgur.com/EwB2lAR.png,4☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,6021,2497,2495,0.740,0.706,0.684,2.130,2500.0,1063.8,4627.5,8.02,300,Training Ground +30%,Mountain Supply Corps Base +10%,Katana,"Sudden Slice Lv.MAX:
 Single-target space physical attack for 435%.","Contemplation Lv.1/Lv.10:
 Changes Soul of Divine Protection x2 into Soul of Skills. Increases all Soul of Skills gauges' increase by 5%/10% (Turns: 1).
@@ -464,7 +476,7 @@ Lv.1/Lv.10 Cost: 35/25","Trembling Glare Lv.1/Lv.10:
 Decreases a single target's guard power by 10%/20% (Turns: 3).
 Lv.1/Lv.10 Cost: 25/15","HP - Critical Damage UP (5☆ Awaken x1):
 When you have 50% or lower HP, increases own critical damage by 5% at start of turn (available in support formation).","HP - Critical Damage UP (5☆ Awaken x3):
-When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,2%,8%,-,,Link,,,,,,,,,,,,
+When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,2%,8%,-,,Link,,,,,,,,,,,,
 Kurobe [Steel Heart of Forge],https://i.imgur.com/j4eztrv.png,4☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,6021,2497,2495,0.740,0.706,0.684,2.130,2500.0,1063.8,2765.9,8.72,300,Digsite for Defense Magistones +30%,Tavern +10%,Hammer,"Three Evils of the Forge Lv.MAX:
 All-target earth physical attack for 260%.","Magnum Opus Lv.1/Lv.10:
 Changes Soul of Secrets x1 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -472,7 +484,7 @@ Lv.1/Lv.10 Cost: 25/15","Speed Sharpen Lv.1/Lv.10:
 Increases all allies' pierce resistance by 40%/50% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - Enhance Counterattack Rate (5☆ Awaken x1):
 When you unleash a 5+ combo attack with Soul of Divine Protection, increases own counterattack rate by 6% for the next turn (available in support formation).","Soul Combo - Enhance Counterattack Rate (5☆ Awaken x3):
-When you unleash a 5+ combo attack with Soul of Divine Protection, increases own counterattack rate by 9% for the next turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,Link,,,,,,,,,,,,
+When you unleash a 5+ combo attack with Soul of Divine Protection, increases own counterattack rate by 9% for the next turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,Link,,,,,,,,,,,,
 Rimuru Tempest [Swordsmanship Forge],https://i.imgur.com/T983KYV.png,4☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,6025,2507,2474,0.740,0.708,0.679,2.127,2510.0,1068.1,4646.1,8.01,300,Cafe +30%,Training Ground +10%,Sword,"Binding Hell Flare Lv.MAX:
 Single-target dark magic attack for 435%.","Forge Result Lv.1/Lv.10:
 Increases all allies' ATK by 20%/25% (Turns: 1).
@@ -480,15 +492,27 @@ Lv.1/Lv.10 Cost: 65/55","Anti-magic Wave Lv.1/Lv.10:
 Decreases a single target's pierce resistance by 10%/20% (Turns: 2).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - Pierce Rate UP (5☆ Awaken x1):
 When you unleash a 4+ combo attack with Soul of Secrets, increases own pierce rate by 5% for the next turn (available in support formation).","Soul Combo - Pierce Rate UP (5☆ Awaken x3):
-When you unleash a 4+ combo attack with Soul of Secrets, increases own pierce rate by 8% for the next turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,4%,-,-,"Budget Space Rimuru. With a single target nuke. In my test, 20% ATK buff can translate into 30-40% more damage, but cost too much skill points for such a buff...",Link,,,,,,,,,,,,
-Myulan [Leisurely Lady],https://i.imgur.com/HIUNb4E.png,4☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7355,2169,2179,0.904,0.613,0.598,2.114,2169.0,867.6,2255.8,9.40,300,Clothing Store +30%,Cafe +10%,Greatsword,"Confection Burst Lv.MAX:
+When you unleash a 4+ combo attack with Soul of Secrets, increases own pierce rate by 8% for the next turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,4%,-,-,"Budget Space Rimuru. With a single target nuke. In my test, 20% ATK buff can translate into 30-40% more damage, but cost too much skill points for such a buff...",Link,,,,,,,,,,,,
+Myulan [Leisurely Lady],https://i.imgur.com/HIUNb4E.png,4☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7355,2169,2179,0.904,0.613,0.598,2.114,2171.6,927.5,2411.6,9.40,300,Clothing Store +30%,Cafe +10%,Greatsword,"Confection Burst Lv.MAX:
 All-target light magic attack for 260%.","Destiny Rendezvous Lv.1/Lv.10:
 Changes Soul of Skills x2 into Soul of Secrets. Increases all Soul of Secrets gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","It's a Date Lv.1/Lv.10:
 Descreases all targets' critical damage by 20%/30% (Turns: 2).
 Lv.1/Lv.10 Cost: 25/15","Effect - Guard Power UP (5☆ Awaken x1):
 When affected by Guard Rate UP, increases own guard power by 6% at start of turn (available in support formation).","Effect - Guard Power UP (5☆ Awaken x3):
-When affected by Guard Rate UP, increases own guard power by 9% at start of turn (available in support formation).",,,,,,,,,,,,,Useful orb change but a too situationnal CRIT DMG debuff with many alternatives. Bad trait,,,,,,,,,,,,,
+When affected by Guard Rate UP, increases own guard power by 9% at start of turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Useful orb change but a too situationnal CRIT DMG debuff with many alternatives. Bad trait,,,,,,,,,,,,,
+Shinsha [Precocious Bride],https://i.imgur.com/R73eFTZ.png,4☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7376,2176,2174,0.906,0.615,0.596,2.117,2178.6,927.0,2410.3,9.42,300,Clothing Store +30%,Restaurant +10%,Fist,"Happyness Road Lv.MAX:
+All-target light magic attack for 260%.","Flower Confetti Lv.1/Lv.10:
+Increases all allies' light ATK by 5%/15% (Turns: 1).
+Lv.1/Lv.10 Cost: 25/15","Bouquet Toss Lv.1/Lv.10:
+Changes Soul of Divine Protection x1 into Soul of Skills. Increases Soul of Skills' skill point increase by 10%/20% (Turns: 1).
+Lv.1/Lv.10 Cost: 25/15","Soul Combo - Critical Rate UP (5☆ Awaken x1):
+When you unleash a 4+ combo attack with Soul of Skills, increases own critical rate by 5% for the next turn (available in support formation).","Soul Combo - Critical Rate UP (5☆ Awaken x3):
+When you unleash a 4+ combo attack with Soul of Skills, increases own critical rate by 8% for the next turn (available in support formation).","Individual Mercy 2:
+Increases own following status when Rimuru Tempest is assigned to a battle slot.
+Increases counter power by 4%","Light Blessing:
+Increases other troop members' following status in accordance with the number of light characters assigned to battle slots.
+Increases HP by 64, ATK by 18, DEF by 18",2%,-,-,2%,-,-,2%,-,-,4%,-,-,,,,,,,,,,,,,,
 Shuna [The Holy Sunrise],https://i.imgur.com/soQ19j8.png,4☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7355,2184,2153,0.904,0.617,0.591,2.111,2194.5,930.7,2419.7,9.37,300,Clothing Store +30%,Field +10%,Tome,"New Dawn Lv.MAX:
 All-target fire magic attack for 260%.","Brilliant Dawn Lv.1/Lv.10:
 Changes Soul of Skills x2 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -496,7 +520,7 @@ Lv.1/Lv.10 Cost: 35/25","Prayer of Plenty Lv.1/Lv.10:
 Recovers all allies from Poison. Increases own poison evasion rate by 5%/10% (Turns: 3).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - Counter Power DOWN (5☆ Awaken x1):
 When you unleash a 5+ combo attack with Soul of Divine Protection, decreases all targets' counter power by 8% for the next turn (available in support formation).","Soul Combo - Counter Power DOWN (5☆ Awaken x3):
-When you unleash a 5+ combo attack with Soul of Divine Protection, decreases all targets' counter power by 12% for the next turn (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,Useful orb change. Bad trait,,,,,,,,,,,,,
+When you unleash a 5+ combo attack with Soul of Divine Protection, decreases all targets' counter power by 12% for the next turn (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,Useful orb change. Bad trait,,,,,,,,,,,,,
 Shion [The Bold Servant],https://i.imgur.com/d1sbZFd.png,4☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,7349,2177,2161,0.903,0.615,0.593,2.111,2179.6,927.5,2411.4,9.37,300,Restaurant +30%,Clothing Store +10%,Hammer,"Holy Circle Lv.MAX:
 All-target wind physical attack for 260%.","Dynamic Cooking Lv.1/Lv.10:
 Heals self by 20%/25% of own max HP. Increases Soul of Skills damage until the end of battle by 5% (Max: 100%).
@@ -504,15 +528,15 @@ Lv.1/Lv.10 Cost: 25/15","Destructive Cleaning Lv.1/Lv.10:
 Increases all allies' pierce resistance by 20%/25% (Turns: 2).
 Lv.1/Lv.10 Cost: 25/15","HP - Pierce Power UP 2 (5☆ Awaken x1):
 When you have 75% or more HP, increases own pierce power by 8% at start of turn (available in support formation).","HP - Pierce Power UP 2 (5☆ Awaken x3):
-When you have 75% or more HP, increases own pierce power by 12% at start of turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,2%,8%,-,Basically the tanks due to her self heal... but that's all,Link,,,,,,,,,,,,
-Frey [The Sky Queen],https://i.imgur.com/Olkblw6.png,4☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7316,2213,2124,0.899,0.625,0.583,2.107,2215.7,946.4,4116.6,9.29,300,Mountain Supply Corps Base +30%,Cafe +10%,Tome,"Queen's Embrace:
+When you have 75% or more HP, increases own pierce power by 12% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,2%,8%,-,Basically the tanks due to her self heal... but that's all,Link,,,,,,,,,,,,
+Frey [The Sky Queen],https://i.imgur.com/Olkblw6.png,4☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/MLuLYZy.png,7316,2213,2124,0.899,0.625,0.583,2.107,2215.7,946.4,4116.6,9.29,300,Mountain Supply Corps Base +30%,Cafe +10%,Tome,"Queen's Embrace Lv.MAX:
 Single-target space magic attack for 435%.","Heavenly Highness Lv.1/Lv.10:
 Transfer own soul card x2 to another vanguard character. Increases all souls' protection gauge increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Swift Wing Lv.1/Lv.10:
 Changes Soul of Skills and Soul of Secrets x1 each into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Soul Combo - Enhance Counterattack Rate 2 (5☆ Awaken x1):
 When you unleash a 4+ combo attack with Soul of Skills, increases own counterattack rate by 4% for the next turn (available in support formation).","Soul Combo - Enhance Counterattack Rate 2 (5☆ Awaken x3):
-When you unleash a 4+ combo attack with Soul of Skills, increases own counterattack rate by 6% for the next turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Really seful double orb swap,,,,,,,,,,,,,
+When you unleash a 4+ combo attack with Soul of Skills, increases own counterattack rate by 6% for the next turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Really seful double orb swap,,,,,,,,,,,,,
 Grucius [Lupine Fighter],https://i.imgur.com/maq96nT.png,4☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,6010,2432,2432,0.738,0.687,0.667,2.093,2434.9,1036.1,4507.1,8.63,300,Tavern +30%,Ocean Supply Corps Base +10%,Sword,"Beast Bullet Lv.MAX:
 Single-target spacephysical attack for 435%.","Lupine Strike Lv.1/Lv.10:
 Changes Soul of Skills x1 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -520,7 +544,7 @@ Lv.1/Lv.10 Cost: 25/15","Knife Thrower Lv.1/Lv.10:
 Decreases a single target's physical attack resistance by 30%/40% (Turns: 1).
 Lv.1/Lv.10 Cost: 65/55","Effect - Guard Power DOWN (5☆ Awaken x1):
 When affected by Critical Damage UP, decreases all targets' guard power by 3% at start of turn (available in support formation)","Effect - Guard Power DOWN (5☆ Awaken x3):
-When affected by Critical Damage UP, decreases all targets' guard power by 5% at start of turn (available in support formation)",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,,,,,,,,,,,,,
+When affected by Critical Damage UP, decreases all targets' guard power by 5% at start of turn (available in support formation)",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,,,,,,,,,,,,,
 Benimaru [Valiant Kijin],https://i.imgur.com/WhE37WV.png,4☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,5787,2711,2161,0.711,0.766,0.593,2.070,2714.3,1159.3,3014.2,7.38,300,Restaurant +30%,Mountain Supply Corps Base +10%,Katana,"Detonating Flash Lv.MAX:
 All-target light physical attack for 260%.","Lion Dance Lv.1/Lv.10:
 Increases own critical rate by 80%/100% (Turns: 1).
@@ -528,7 +552,7 @@ Lv.1/Lv.10 Cost: 25/15","Fair and Square Lv.1/Lv.10:
 Increases all allies' critical resistance by 40%/50% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","HP - Pierce Rate Up 2 (5☆ Awaken x1):
 When you have max HP, increases own pierce rate by 8% at start of turn (available in support formation).","HP - Pierce Rate Up 2 (5☆ Awaken x3):
-When you have max HP, increases own pierce rate by 12% at start of turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Base CRIT isn't that strong but nice to have (~30% extra DMG). Often used for crit quests.,Link,,,,,,,,,,,,
+When you have max HP, increases own pierce rate by 12% at start of turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,Base CRIT isn't that strong but nice to have (~30% extra DMG). Often used for crit quests.,Link,,,,,,,,,,,,
 Ranga [Loyal Wolf],https://i.imgur.com/AAwN24v.png,4☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,5783,2713,2158,0.711,0.767,0.592,2.069,2719.5,1226.6,5335.8,7.37,300,Digsite for Training Magistones +30%,Mountain Supply Corps Base +10%,Fist,"Sonic Wolf Lv. MAX:
 Single-target wind magic attack for 435%.","Wild Run Lv.1/Lv.10:
 Changes Soul of Secrets x1 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -536,7 +560,7 @@ Lv.1/Lv.10 Cost: 25/15","Crowd Work Lv.1/Lv.10:
 Increases all allies' critical rate by 15%/25% (Turns: 1).
 Lv.1/Lv.10 Cost: 65/55","HP - Critical Rate UP 2 (5☆ Awaken x1):
 When you have 50% or lower HP, increases own critical rate by 6% at start of turn (available in support formation).","HP - Critical Rate UP 2 (5☆ Awaken x3):
-When you have 50% or lower HP, increases own critical rate by 9% at start of turn (available in support formation).",4%,-,-,4%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
+When you have 50% or lower HP, increases own critical rate by 9% at start of turn (available in support formation).",,,4%,-,-,4%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
 Yuuki Kagurazaka [Grandmaster],https://i.imgur.com/yvcGF0I.png,4☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,5795,2713,2151,0.712,0.767,0.590,2.069,2716.3,1160.2,5046.7,7.38,300,Digsite for Attack Magistones +30%,Ocean Supply Corps Base +10%,Fist,"Sonic Impact Lv.MAX:
 Single-target water physical attack for 435%.","Oracle's Card Lv.1/Lv.10:
 Changes Soul of Divine Protection x2 into Soul of Skills. Increases all Soul of Skills gauges' increase by 5%/10% (Turns: 1).
@@ -544,7 +568,7 @@ Lv.1/Lv.10 Cost: 35/25","Mind Veil Lv.1/Lv.10:
 Decreases a single target's critical damage by 10%/20% (Turns: 3).
 Lv.1/Lv.10 Cost: 25/15","Effect - Guard Rate UP (5☆ Awaken x1):
 When affected by Critical Resistance UP, increases own guard rate by 8% at start of turn (available in support formation).","Effect - Guard Rate UP (5☆ Awaken x3):
-When affected by Critical Resistance UP, increases own guard rate by 12% at start of turn (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,"Truly shine against boss that CRIT (Fire Conquest / Crucible Benimaru...), decent nuker and useful orb swap",Link,,,,,,,,,,,,
+When affected by Critical Resistance UP, increases own guard rate by 12% at start of turn (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,"Truly shine against boss that CRIT (Fire Conquest / Crucible Benimaru...), decent nuker and useful orb swap",Link,,,,,,,,,,,,
 Phobio [Leopard Fang],https://i.imgur.com/PikL46R.png,4☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/yduAVsz.png,5783,2719,2150,0.711,0.768,0.590,2.069,2722.3,1158.4,3011.8,7.37,300,Digsite for Attack Magistones +30%,Farm +10%,Fist,"Leopard Fang Flaming Palm Lv.MAX:
 All-target fire magic attack for 260%.","Thrill of the Hunt Lv.1/Lv.10:
 Changes Soul of Skills x2 into Soul of Secrets. Increases all Soul of Secrets gauges' increase by 5%/10% (Turns: 1).
@@ -552,7 +576,7 @@ Lv.1/Lv.10 Cost: 35/25","Leopard's Claw Lv.1/Lv.10:
 Decreases a single target's critical resistance by 15%/25% (Turns: 2).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - Pierce Power UP 2 (5☆ Awaken x1):
 When you unleash a 5+ combo attack with Soul of Secrets, increases own pierce power by 6% for the next turn (available in support formation).","Soul Combo - Pierce Power UP 2 (5☆ Awaken x3):
-When you unleash a 5+ combo attack with Soul of Secrets, increases own pierce power by 9% for the next turn (available in support formation).",2%,-,-,2%,-,-,2%,-,-,-,8%,-,Useful orb change and an amazing second skill - that can be set up a turn before nuking - for DMG dealers relying on CRIT,Link,,,,,,,,,,,,
+When you unleash a 5+ combo attack with Soul of Secrets, increases own pierce power by 9% for the next turn (available in support formation).",,,2%,-,-,2%,-,-,2%,-,-,-,8%,-,Useful orb change and an amazing second skill - that can be set up a turn before nuking - for DMG dealers relying on CRIT,Link,,,,,,,,,,,,
 Benimaru [Next Clan Leader],https://i.imgur.com/3Nu4kOl.png,4☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,5783,2720,2147,0.711,0.769,0.589,2.068,2723.3,1158.8,5040.8,8.00,300,Tavern +30%,Farm +10%,Sword,"Spirit Slayer Lv.MAX:
 Single-target fire physical attack for 435%.","Dancing Swords Lv.1/Lv.10:
 Increases own ATK by 15%/20% (Turns: 1).
@@ -560,7 +584,7 @@ Lv.1/Lv.10 Cost: 25/15","Vengeance Flourishing Lv.1/Lv.10:
 Increases all allies' stun evasion rate by 90%/100% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","Effect - Pierce Power UP 2 (5☆ Awaken x1):
 When 1 or more enemies are affected by Pierce Resistance DOWN, increases own pierce power by 5% at start of turn (available in support formation).","Effect - Pierce Power UP 2 (5☆ Awaken x3):
-When 1 or more enemies are affected by Pierce Resistance DOWN, increases own pierce power by 8% at start of turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Solid nuker for a 4☆ thanks to his self-buff and high ATK stat,Link,,,,,,,,,,,,
+When 1 or more enemies are affected by Pierce Resistance DOWN, increases own pierce power by 8% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Solid nuker for a 4☆ thanks to his self-buff and high ATK stat,Link,,,,,,,,,,,,
 Souei [Instant Spy],https://i.imgur.com/Owj1Or2.png,4☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,5788,2720,2141,0.711,0.769,0.587,2.067,2723.3,1371.2,5964.8,7.36,300,Farm +30%,Training Ground +10%,Katana,"Shredding Darkness Lv.MAX:
 Single-target dark physical attack for 435%.","Free Thread Lv.1/Lv.10:
 Changes Soul of Skills x2 into Soul of Secrets. Increases all Soul of Secrets gauges' increase by 5%/10% (Turns: 1).
@@ -568,7 +592,7 @@ Lv.1/Lv.10 Cost: 35/25","Dark Ogre Lv.1/Lv.10:
 Recovers all allies from Poison. Increases own poison evasion rate by 5%/10% (Turns: 3).
 Lv.1/Lv.10 Cost: 40/30","HP - Critical Damage UP (5☆ Awaken x1):
 When you have 50% or lower HP, increases own critical damage by 5% at start of turn (available in support formation).","HP - Critical Damage UP (5☆ Awaken x3):
-When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Poison is useless/waste of a turn and skill points in the current meta.,Link,,,,,,,,,,,,
+When you have 50% or lower HP, increases own critical damage by 8% at start of turn (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Poison is useless/waste of a turn and skill points in the current meta.,Link,,,,,,,,,,,,
 Shion [Purple Smash],https://i.imgur.com/GP9OFZs.png,4☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,5783,2722,2140,0.711,0.769,0.587,2.067,2725.5,1159.7,3015.1,7.36,300,Clothing Store +30%,Forest Supply Corps Base +10%,Hammer,"Purple Iron Hammer Lv.MAX:
 All-target space physical attack for 260%.","Destructive Strike Lv.1/Lv.10:
 Decrease all targets' DEF by 25%/30% (Turns: 2).
@@ -576,7 +600,7 @@ Lv.1/Lv.10 Cost: 65/55","Furious Shake Lv.1/Lv.10:
 Increases own guard penetration by 60%/70% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Soul Combo - Pierce Power UP (5☆ Awaken x1):
 When you unleash a 4+ combo attack with Soul of Skills, increases own pierce power by 4% for the next turn (available in support formation).","Soul Combo - Pierce Power UP (5☆ Awaken x3):
-When you unleash a 4+ combo attack with Soul of Skills, increases own pierce power by 6% for the next turn (available in support formation).",2%,-,-,2%,8%,-,2%,-,-,2%,-,-,Her DEF debuff is honestly great compared with same kind of skills offered by 5☆ units,Link,,,,,,,,,,,,
+When you unleash a 4+ combo attack with Soul of Skills, increases own pierce power by 6% for the next turn (available in support formation).",,,2%,-,-,2%,8%,-,2%,-,-,2%,-,-,Her DEF debuff is honestly great compared with same kind of skills offered by 5☆ units,Link,,,,,,,,,,,,
 Benimaru [Crimson Ogre Warrior],https://i.imgur.com/DsI1r5V.png,4☆,https://i.imgur.com/pzX6NRL.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,5713,2355,2355,0.702,0.665,0.646,2.013,2357.8,1003.3,4364.4,8.12,300,Tavern +30%,Mountain Supply Corps Base +10%,Katana,"Dark Flame Flash:
 Single-target dark physical attack for 435%.","Battle Rush Lv.1/Lv.10:
 Decreases a single target's DEF by 10%/15% (Turns: 1). Increases own critical rate by 15% (Turns: 1).
@@ -584,7 +608,7 @@ Lv.1/Lv.10 Cost: 25/15","Dark Tactics Lv.1/Lv.10:
 Increases all allies' stun evasion rate by 90%/100% (Turns: 1).
 Lv.1/Lv.10 Cost: 35/25","HP - Lash Out (5☆ Awaken x1):
 When you have 75% or higher HP, increasess own counter power by 4% at start of turn (available in support formation).","HP - Lash Out (5☆ Awaken x3):
-When you have 75% or higher HP, increasess own counter power by 6% at start of turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Good low-cost DEF debuff + tiny extra CRIT chance but that's all honestly,Link,,,,,,,,,,,,
+When you have 75% or higher HP, increasess own counter power by 6% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,Good low-cost DEF debuff + tiny extra CRIT chance but that's all honestly,Link,,,,,,,,,,,,
 Rigurd [Hobgoblin Monarch],https://i.imgur.com/d0LJevx.png,3☆,https://i.imgur.com/pQYVkI3.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/P4N7gFs.png,5679,2134,2803,0.698,0.603,0.769,2.070,2136.6,909.2,3818.4,8.58,450,Digsite for Defense Magistones +30%,Forest Supply Corps Base +10%,Fist,"Muscle Strike Lv.MAX:
 Single-target wind physical attack for 420%.","Macho Armor Lv.1/Lv.10:
 Increases own guard rate by 30%/50% (Turns: 3). Increases own DEF by 30% (Turns: 1).
@@ -592,7 +616,7 @@ Lv.1/Lv.10 Cost: 25/15","Pump Up Lv.1/Lv.10:
 Increases all allies' guard penetration by 40%/50% (Turns: 1).
 Lv.1/Lv.10 Cost: 40/30","Troop - Guard Rate UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own guard rate by 3% during battle (available in support formation).","Troop - Guard Rate UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own guard rate by 5% during battle (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,-,-,-,Tanky unit but... that's not useful tbh,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own guard rate by 5% during battle (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,-,-,-,Tanky unit but... that's not useful tbh,Link,,,,,,,,,,,,
 Alice Rondo [Golem Master],https://i.imgur.com/1hhxCwj.png,3☆,https://i.imgur.com/z8bnSYg.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5679,2129,2808,0.698,0.602,0.770,2.069,2139.2,907.2,3810.3,7.90,450,Training Ground +30%,Field +10%,Magic Tome,"Puppet Rondo Lv.MAX:
 Single-target space magic attack for 420%.","Sad Russian Doll Lv.1/Lv.10:
 Chance to stun a single target: 10%/30% (Turns: 1).
@@ -600,7 +624,7 @@ Lv.1/Lv.10 Cost: 35/25","The Figurine's Curse Lv.1/Lv.10:
 Decreases a single target's counterattack rate by 20%/30% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Guard Rate UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own guard rate by 3% during battle (available in support formation).","Troop - Guard Rate UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own guard rate by 5% during battle (available in support formation).",2%,-,-,8%,-,-,2%,-,-,2%,-,-,Stun. Can be used to RNG cheese lowest Conquest battles.,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own guard rate by 5% during battle (available in support formation).",,,2%,-,-,8%,-,-,2%,-,-,2%,-,-,Stun. Can be used to RNG cheese lowest Conquest battles.,Link,,,,,,,,,,,,
 Kurobe [Immobile Black Ogre],https://i.imgur.com/5K05JMH.png,3☆,https://i.imgur.com/QndVudD.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/P4N7gFs.png,5679,2125,2811,0.698,0.600,0.771,2.069,2127.6,905.3,3802.3,8.59,450,Digsite for Stamina Magistones +30%,Farm +10%,Hammer,"Heavy Blow Lv.MAX:
 Single-target fire physical attack for 420%.","Flint Lv.1/Lv.10:
 Increases all allies' pierce resistance by 40%/50% (Turns: 2).
@@ -608,7 +632,7 @@ Lv.1/Lv.10 Cost: 35/25","Repair Equipment Lv.1/Lv.10:
 Changes Soul of Divine Protection x1 into Soul of Secrets. Increases all Soul of Secrets gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","HP - Guard Power UP (5☆ Awaken x1):
 When you have max HP, increases own guard power by 6% at start of turn (available in support formation).","HP - Guard Power UP (5☆ Awaken x3):
-When you have max HP, increases own guard power by 9% at start of turn (available in support formation).",2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,Link,,,,,,,,,,,,
+When you have max HP, increases own guard power by 9% at start of turn (available in support formation).",,,2%,-,-,2%,-,-,4%,4%,-,2%,-,-,,Link,,,,,,,,,,,,
 Gale Gibson [Earth Spirit Lodger],https://i.imgur.com/GtQP5c1.png,3☆,https://i.imgur.com/AHPti72.png,https://i.imgur.com/tOS4FvO.png,https://i.imgur.com/P4N7gFs.png,5679,2133,2801,0.698,0.603,0.768,2.069,2135.6,908.7,3816.6,7.89,450,Training Ground +30%,Digsite for Defense Magistones +10%,Magic Tome,"Grand Blaster Lv.MAX:
 Single-target earth magic attack for 420%.","Shield Field Lv.1/Lv.10:
 Increases all allies' counter power by 10%/20% (Turns: 2).
@@ -616,7 +640,7 @@ Lv.1/Lv.10 Cost: 35/25","Gardener Combat Lv.1/Lv.10:
 Increases all allies' pierce resistance by 40%/50% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","Troop - Pierce Rate UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own pierce rate by 3% during battle (available in support formation).","Troop - Pierce Rate UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own pierce rate by 5% during battle (available in support formation).",2%,-,-,2%,-,-,8%,-,-,2%,-,-,Synergize his counter skill with Golem protector and Pierce RES useful for Space Conquest (unfortunately doesn't last much),Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own pierce rate by 5% during battle (available in support formation).",,,2%,-,-,2%,-,-,8%,-,-,2%,-,-,Synergize his counter skill with Golem protector and Pierce RES useful for Space Conquest (unfortunately doesn't last much),Link,,,,,,,,,,,,
 Ryota Sekiguchi [Harmonizer of Insanity and Calm],https://i.imgur.com/Uneh3sn.png,3☆,https://i.imgur.com/NchScWh.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/MLuLYZy.png,5719,2291,2468,0.703,0.647,0.677,2.027,2293.7,979.7,4114.8,7.59,450,Training Ground +30%,Ocean Supply Corps Base +10%,Fist,"Berserk Break Lv.MAX:
 Single-target water physical attack for 420%.","Support Stance Lv.1/Lv.10:
 Increases all allies' max HP by 10%/20% (Turns: 3).
@@ -624,7 +648,7 @@ Lv.1/Lv.10 Cost: 25/15","Breezy Reflection Lv.1/Lv.10:
 Decreases all targets' counterattack resistance by 10%/20% (Turns: 2).
 Lv.1/Lv.10 Cost: 25/15","Troop - Pierce Power UP (5☆ Awaken x1):
 When your troop contains 3 or more battle characters, increases own pierce power by 3% during battle (available in support formation).","Troop - Pierce Power UP (5☆ Awaken x3):
-When your troop contains 3 or more battle characters, increases own pierce power by 5% during battle (available in support formation).",2%,8%,-,2%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
+When your troop contains 3 or more battle characters, increases own pierce power by 5% during battle (available in support formation).",,,2%,8%,-,2%,-,-,2%,-,-,2%,-,-,,Link,,,,,,,,,,,,
 Kenya Misaki [Heroic Vessel],https://i.imgur.com/rFjZCnv.png,3☆,https://i.imgur.com/hX15sR0.png,https://i.imgur.com/P8lUDX0.png,https://i.imgur.com/yduAVsz.png,5479,2539,2070,0.673,0.717,0.568,1.958,2542.0,1280.0,5375.9,6.91,450,Training Ground +30%,Restaurant +10%,Sword,"Heroic Braver Lv.MAX:
 Single-target light physical attack for 420%.","Support of the Spirits Lv.1/Lv.10:
 Changes Soul of Secrets x1 into Soul of Divine Protection. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
@@ -632,4 +656,4 @@ Lv.1/Lv.10 Cost: 25/15","Concentrated Bonds Lv.1/Lv.10:
 Redraws soul in hand. Increases all Soul of Divine Protection gauges' increase by 5%/10% (Turns: 1).
 Lv.1/Lv.10 Cost: 25/15","HP - Critical Damage UP 2 (5☆ Awaken x1):
 When you have 50% or higher HP, increases own critical damage by 5% at start of turn (available in support formation).","HP - Critical Damage UP 2 (5☆ Awaken x3):
-When you have 50% or higher HP, increases own critical damage by 8% at start of turn (available in support formation).",8%,-,-,2%,-,-,2%,-,-,2%,-,-,Higher ATK than many 4☆ and great trait : good Light DMG dealer support. Interesting orb change. Skill 2 require a lot of RNG but can be truly great on stages with pre-defined shitty orbs (Jubilee for example),Link,,,,,,,,,,,,
+When you have 50% or higher HP, increases own critical damage by 8% at start of turn (available in support formation).",,,8%,-,-,2%,-,-,2%,-,-,2%,-,-,Higher ATK than many 4☆ and great trait : good Light DMG dealer support. Interesting orb change. Skill 2 require a lot of RNG but can be truly great on stages with pre-defined shitty orbs (Jubilee for example),Link,,,,,,,,,,,,

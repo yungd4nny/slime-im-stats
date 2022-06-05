@@ -2,6 +2,7 @@
 
 $charTileImageSize: 64px;
 $charTypeImageSize: 48px;
+$secondCharTypeImageSize: 34px;
 
 .tileContainer {
     border: black 1px solid;
@@ -49,6 +50,16 @@ $charTypeImageSize: 48px;
     height: $charTypeImageSize;
     width: $charTypeImageSize;
     margin-top: calc(($charTileImageSize - 48px )/ 2);
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.secondTypeImage {
+    display: table-cell;
+    float: left;
+    height: $secondCharTypeImageSize;
+    width: $secondCharTypeImageSize;
+    margin-top: calc(($charTileImageSize - $secondCharTypeImageSize )/ 2);
     padding-left: 2px;
     padding-right: 2px;
 }

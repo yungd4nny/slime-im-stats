@@ -10,7 +10,8 @@ function ProtectorTile(props: any) {
                         Name
                         Base_Rarity
                         Picture
-                        Type
+                        Main_Type
+                        _2nd_Type
                     }
             }
         }
@@ -26,8 +27,11 @@ function ProtectorTile(props: any) {
         >
             <img src={currentProtector[0].Picture}
                 className={styles.charImage}></img>
-            <img src={currentProtector[0].Type}
+            <img src={currentProtector[0].Main_Type}
                 className={styles.typeImage}>
+            </img>
+            <img src={currentProtector[0]._2nd_Type}
+                className={styles.secondTypeImage}>
             </img>
             <span className={styles.charText}>{currentProtector[0].Base_Rarity} {props.name}</span>
         </Link>

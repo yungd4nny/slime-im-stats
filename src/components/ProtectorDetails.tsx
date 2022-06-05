@@ -12,7 +12,7 @@ function ProtectorDetails(props: any) {
                         Name
                         Base_Rarity
                         Picture
-                        Type
+                        Main_Type
                         Growth_Type
                         Max_HP
                         Max_ATK

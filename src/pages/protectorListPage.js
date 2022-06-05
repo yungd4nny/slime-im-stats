@@ -22,7 +22,7 @@ function ProtectorListPage({ data }) {
 
     useEffect(() => {
         setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
-            && (item.Type == filterProtectorElement.icon || filterProtectorElement == null || filterProtectorElement.value == "all"))));
+            && (item.Main_Type == filterProtectorElement.icon || item._2nd_Type == filterProtectorElement.icon || filterProtectorElement == null || filterProtectorElement.value == "all"))));
         sessionStorage.setItem('filterProtectorElement', JSON.stringify(filterProtectorElement));
     }, [filterText, filterProtectorElement])
 
@@ -79,7 +79,8 @@ query {
                 Name
                 Base_Rarity
                 Picture
-                Type
+                Main_Type
+                _2nd_Type
                 Growth_Type
                 Max_HP
                 Max_ATK
