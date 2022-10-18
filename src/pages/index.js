@@ -21,6 +21,8 @@ function Home() {
       <div className={styles.aboutContainer}>
         <p className={styles.aboutText}>Slime: Isekai Memories database and character information.</p>
         <p className={styles.aboutText}>Filter by skills, element type, and more!</p>
+        <p className={styles.aboutText}>-</p>
+        <p className={styles.aboutText}>RECENT UPDATE: Added latest battle units. Protectors will be next.</p>
       </div>
     </Container>
   )

@@ -20,14 +20,14 @@ function CharacterListPage({ data }) {
 
     //elements for filter
     const elements = [
-        { 'value': 'all', 'label': 'type', 'icon': "https://i.imgur.com/oD9Pdy7.png" },
-        { 'value': 'wind', 'label': 'wind', 'icon': "https://i.imgur.com/pQYVkI3.png" },
-        { 'value': 'dark', 'label': 'dark', 'icon': "https://i.imgur.com/pzX6NRL.png" },
-        { 'value': 'light', 'label': 'light', 'icon': "https://i.imgur.com/hX15sR0.png" },
-        { 'value': 'space', 'label': 'space', 'icon': "https://i.imgur.com/z8bnSYg.png" },
-        { 'value': 'earth', 'label': 'earth', 'icon': "https://i.imgur.com/AHPti72.png" },
-        { 'value': 'fire', 'label': 'fire', 'icon': "https://i.imgur.com/QndVudD.png" },
-        { 'value': 'water', 'label': 'water', 'icon': "https://i.imgur.com/NchScWh.png" },
+        { 'value': 'all', 'label': 'Type', 'icon': "https://i.imgur.com/oD9Pdy7.png" },
+        { 'value': 'wind', 'label': 'Wind', 'icon': "https://i.imgur.com/pQYVkI3.png" },
+        { 'value': 'dark', 'label': 'Dark', 'icon': "https://i.imgur.com/pzX6NRL.png" },
+        { 'value': 'light', 'label': 'Light', 'icon': "https://i.imgur.com/hX15sR0.png" },
+        { 'value': 'space', 'label': 'Space', 'icon': "https://i.imgur.com/z8bnSYg.png" },
+        { 'value': 'earth', 'label': 'Earth', 'icon': "https://i.imgur.com/AHPti72.png" },
+        { 'value': 'fire', 'label': 'Fire', 'icon': "https://i.imgur.com/QndVudD.png" },
+        { 'value': 'water', 'label': 'Water', 'icon': "https://i.imgur.com/NchScWh.png" },
     ]
 
     //expertise weapon types for filter
@@ -111,8 +111,8 @@ function CharacterListPage({ data }) {
 
     useEffect(() => {
         setFilteredCharacterData(characterData.filter(item => (item.Name.toLowerCase().includes(filterText.toLowerCase())
-            && (item.Type == filterElement.icon || filterElement == null || filterElement.value == "all"))
-            && (item.Expertise == filterWeapon.value || filterWeapon == null || filterWeapon.value == "all")
+            && ((item.Type === filterElement.icon) || filterElement === null || filterElement.value === "all" || item.Type === filterElement.label))
+            && (item.Expertise === filterWeapon.value || filterWeapon === null || filterWeapon.value === "all")
             && (item.Character_Trait_at_5__Awaken_x1?.toLowerCase().includes(filterTrait.value) || filterTrait == null || filterTrait.value == "any")
             && (item.Secret_Skill__Ult_?.toLowerCase().includes(filterUlt.value) || filterUlt == null || filterUlt.value == "any")
             && (((item.Battle_Skill_1?.toLowerCase().includes(filterSkill.value) || item.Battle_Skill_1?.toLowerCase().includes(filterSkill.double)) && item.Battle_Skill_1?.toLowerCase().includes(filterSkill.spec))

@@ -1,19 +1,41 @@
 import * as React from 'react'
 import * as styles from '../styles/characterDetails.module.scss'
-import { CharacterTileProps } from './characterTile.props'
 import { Scrollbars } from 'react-custom-scrollbars-2';
+import { typeStringConverter } from '../helpers/typeStringConverter';
+import { statStringConverter } from '../helpers/statStringConverter';
+import { charImageChecker } from '../helpers/charImageChecker';
+import { damageTypeConverter } from '../helpers/damageTypeConverter';
 
 
 function CharacterDetails(props) {
+    //convert string types to imgur links
+    var typeImageSrc = typeStringConverter(props.Type);
+    
+    //convert string growth type to imgur link
+    var growthTypeSrc = statStringConverter(props.Growth_Type);
+    
+    //is the image coming from slime website?
+    var charImageNeedsResize = charImageChecker(props.Picture);
+    
+    //convert type to url if needed
+    var damageType = damageTypeConverter(props.Atk_Type);
+
     //parse skill strings
-    if (props.Battle_Skill_1) {
-        var splitSkillOne = props.Battle_Skill_1.split("Lv.1/Lv.10");
+    var splitSkillOne;
+    if (props.Battle_Skill_1 && !charImageNeedsResize) {
+        splitSkillOne = props.Battle_Skill_1.split("Lv.1/Lv.10");
         splitSkillOne[1] = splitSkillOne[1]?.substring(2);
+    } else if(props.Battle_Skill_1 && (charImageNeedsResize || splitSkillOne === undefined)) {
+        splitSkillOne = props.Battle_Skill_1.split("Lv.1");
     }
-    if (props.Battle_Skill_2) {
-        var splitSkillTwo = props.Battle_Skill_2.split(/Lv.1\/Lv.10|Lv.1\/Lv10/);
+    var splitSkillTwo;
+    if (props.Battle_Skill_2 && !charImageNeedsResize) {
+        splitSkillTwo = props.Battle_Skill_2.split("Lv.1/Lv.10");
         splitSkillTwo[1] = splitSkillTwo[1]?.substring(2);
+    } else if(props.Battle_Skill_2 && (charImageNeedsResize || splitSkillTwo === undefined)) {
+        splitSkillTwo = props.Battle_Skill_2.split("Lv.1");
     }
+
 
     //determine expertise image
     var expertiseImageSrc;
@@ -33,6 +55,7 @@ function CharacterDetails(props) {
         expertiseImageSrc = "https://i.imgur.com/8YV85Vx.png";
     }
 
+
     return (
         <Scrollbars
             autoHide
@@ -44,22 +67,27 @@ function CharacterDetails(props) {
             >
                 <div
                     className={styles.detailsName}>
-                    <img src={props.Type}
+                    <img src={typeImageSrc}
                         className={styles.headerIcon}></img>
                     <span className={styles.charNameText}>{props.Name}</span>
-                    <img src={props.Atk_Type}
+                    <img src={damageType}
                         className={styles.headerIcon}></img>
                 </div>
                 <div
                     className={styles.detailsInnerContainer}>
                     <div className={styles.detailsIconContainer}>
-                        <img
-                            src={props.Picture}
-                            className={styles.detailsIcon}></img>
+                        {charImageNeedsResize ?
+                            (<div className={styles.detailsIcon}>
+                                <img src={props.Picture}
+                                    className={styles.charImageResized}></img>
+                            </div>) :
+                            (<img
+                                src={props.Picture}
+                                className={styles.detailsIcon}></img>)}
                         <div className={styles.statsContainer}>
                             <div
                                 className={styles.statsBoxes}>
-                                <img src={props.Growth_Type}
+                                <img src={growthTypeSrc}
                                     className={styles.typeIcon}></img>
                                 <span className={styles.growthTypeText}>Growth Type</span>
                             </div>

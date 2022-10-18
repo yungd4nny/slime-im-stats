@@ -32,6 +32,16 @@
     border-radius: 5px;
     border: 2px black solid;
     margin: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.charImageResized {
+    width: 540px;
+    height: auto;
+    top: -110px;
+    left: -140px;
+    position: absolute;
 }
 
 .detailsIconContainer {

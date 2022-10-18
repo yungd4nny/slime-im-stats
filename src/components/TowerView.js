@@ -1,3 +1,4 @@
+
 import * as React from 'react'
 import { useState, useEffect } from 'react'
 import * as styles from '../styles/towerView.module.scss'
@@ -83,7 +84,9 @@ function TowerView() {
                     <img src='https://imgur.com/wdGuzhH.png' style={{ transform: 'rotate(90deg)', height: '60px', width: '80px' }}></img>
                 </button>
             </div>
-            <img src={floorImage} style={{ height: '800px', width: '1680px', margin: 'auto', display: 'block', objectFit: 'cover', objectPosition: 'right' }}></img>
+            <div style={{ margin: 'auto',display: 'block', height: '1080px', width: '2200px', position: 'relative', overflow: 'hidden' }}>
+                <img src={floorImage} style={{ objectFit: 'cover', marginLeft: '-150px' }}></img>
+            </div>
         </div>
     )
 }

@@ -27,6 +27,16 @@ $secondCharTypeImageSize: 34px;
     height: $charTileImageSize;
     width: $charTileImageSize;
     float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.charImageResized {
+    width: 288px;
+    height: auto;
+    top: -60px;
+    left: -110px;
+    position: absolute;
 }
 
 .charText {
