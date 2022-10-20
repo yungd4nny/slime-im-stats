@@ -1,13 +1,11 @@
 import * as React from 'react'
 import * as charListStyles from "../styles/characterList.module.css"
 import CharacterTile from './CharacterTile'
-import { Scrollbars } from 'react-custom-scrollbars-2';
 
 function CharacterList({ characterData }) {
     return (
-        <Scrollbars autoHide
-            autoHideTimeout={1000}
-            className={charListStyles.charListScroll}>
+            <div className={charListStyles.charListScroll}>
+                
             <div
                 id='CharList'
                 className={charListStyles.charList}
@@ -44,7 +42,7 @@ function CharacterList({ characterData }) {
                     })
                 }
             </div >
-        </Scrollbars>
+            </div>
     )
 }
 

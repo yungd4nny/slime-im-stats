@@ -219,7 +219,6 @@ function CharacterListPage({ data }) {
                         )}>
                     </Select>
                 </form>
-
             </div >
             <CharacterList characterData={filteredCharacterData}>
             </CharacterList>

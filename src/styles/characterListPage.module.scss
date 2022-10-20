@@ -37,10 +37,10 @@
     font-family: $charFont;
     letter-spacing: $charSpacing;
     font-weight: 700;
-    float: left;
-    min-height: 58px;
     padding-top: 5px;
     min-width: 120px;
+    display: block;
+    width: fit-content
 }
 
 .input {
@@ -109,7 +109,7 @@
 
 .filterBar {
     margin: auto;
-    max-width: 80%;
-    min-height: 68px;
+    display: block;
     align-items: center;
+    height: auto;
 }
