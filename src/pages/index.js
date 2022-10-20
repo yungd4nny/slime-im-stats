@@ -22,7 +22,8 @@ function Home() {
         <p className={styles.aboutText}>Slime: Isekai Memories database and character information.</p>
         <p className={styles.aboutText}>Filter by skills, element type, and more!</p>
         <p className={styles.aboutText}>-</p>
-        <p className={styles.aboutText}>RECENT UPDATE: Added latest battle units. Protectors will be next.</p>
+        <p className={styles.aboutText}>RECENT UPDATE: Added latest battle and protector units.</p>
+        <p className={styles.aboutText}>PLANNED UPDATE: Floors 30-45 of Tower of Izis.</p>
       </div>
     </Container>
   )

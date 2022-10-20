@@ -15,6 +15,10 @@ export function typeStringConverter(typeString) {
         typeImageSrc = "https://i.imgur.com/QndVudD.png";
     } else if (typeString == "Water") {
         typeImageSrc = "https://i.imgur.com/NchScWh.png";
+    } else if(typeString === 'Magic') {
+        typeImageSrc = "https://i.imgur.com/SsC1hEj.png"
+    } else if(typeString === "Physical") {
+        typeImageSrc = "https://i.imgur.com/EWYVugy.png"
     } else {
         typeImageSrc = typeString;
     }

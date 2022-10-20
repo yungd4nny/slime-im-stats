@@ -5,8 +5,7 @@ import { Scrollbars } from 'react-custom-scrollbars-2';
 
 function ProtectorList({ characterData }) {
     return (
-        <Scrollbars autoHide
-            autoHideTimeout={1000}
+        <div
             className={charListStyles.charListScroll}>
             <div
                 id='ProtectorList'
@@ -19,7 +18,7 @@ function ProtectorList({ characterData }) {
                         name={item.Name} />
                 ))}
             </div>
-        </Scrollbars>
+        </div>
     )
 }
 

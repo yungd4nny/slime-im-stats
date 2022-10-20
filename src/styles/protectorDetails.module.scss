@@ -34,6 +34,16 @@
     float: left;
     border: 2px black solid;
     margin: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.charImageResized {
+    width: 540px;
+    height: auto;
+    top: -90px;
+    left: -130px;
+    position: absolute;
 }
 
 .detailsIconContainer {

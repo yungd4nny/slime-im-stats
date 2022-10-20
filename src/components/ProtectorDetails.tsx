@@ -1,7 +1,11 @@
 import { useStaticQuery, graphql } from 'gatsby';
 import * as React from 'react'
 import { Scrollbars } from 'react-custom-scrollbars-2';
-import * as styles from '../styles/protectorDetails.module.scss'
+import * as styles from '../styles/protectorDetails.module.scss';
+import { typeStringConverter } from '../helpers/typeStringConverter';
+import { statStringConverter } from '../helpers/statStringConverter';
+import { charImageChecker } from '../helpers/charImageChecker';
+import { damageTypeConverter } from '../helpers/damageTypeConverter';
 
 function ProtectorDetails(props: any) {
 
@@ -29,6 +33,14 @@ function ProtectorDetails(props: any) {
         `);
     const data = protectorData.allSlimerippedProtectionCsv.nodes || [];
     const currentProtector = data.filter(item => (item.Name.includes(props?.Name)));
+    //convert string types to imgur links
+    var typeImageSrc = typeStringConverter(currentProtector[0]?.Main_Type);
+    
+    //convert string growth type to imgur link
+    var growthTypeSrc = statStringConverter(currentProtector[0]?.Growth_Type);
+    
+    //is the image coming from slime website?
+    var charImageNeedsResize = charImageChecker(currentProtector[0]?.Picture);
 
     return (
         <Scrollbars
@@ -43,20 +55,26 @@ function ProtectorDetails(props: any) {
                     className={styles.detailsInnerContainer}>
                     <div
                         className={styles.detailsName}>
-                        <img src={currentProtector[0]?.Type}
+                        <img src={typeImageSrc}
                             className={styles.typeIcon}></img>
                         <span className={styles.charNameText}>{currentProtector[0]?.Name}</span>
                     </div>
                     <div className={styles.detailsIconContainer}>
-                        <img
-                            src={currentProtector[0]?.Picture}
-                            className={styles.detailsIcon}></img>
+                        {charImageNeedsResize ?
+                            (<div className={styles.detailsIcon}>
+                                <img src={currentProtector[0]?.Picture}
+                                    className={styles.charImageResized}></img>
+                            </div>) :
+                            (<img
+                                src={currentProtector[0]?.Picture}
+                                className={styles.detailsIcon}></img>
+                                )}
                     </div>
                     <div
                         className={styles.statsContainer}>
                         <div
                             className={styles.statsBoxes}>
-                            <img src={currentProtector[0]?.Growth_Type}
+                            <img src={growthTypeSrc}
                                 className={styles.typeIcon}></img>
                             <span className={styles.statsText}>Growth Type</span>
                         </div>
