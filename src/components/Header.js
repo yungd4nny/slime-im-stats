@@ -38,6 +38,15 @@ function Header({ inputPage }) {
                         </div>
                         <div
                             className={styles.headerItem}
+                            onClick={() => setPage('News')}
+                        >
+                            <Link to="/newsPage"
+                                className={styles.headerItemText}>
+                                News
+                            </Link>
+                        </div>
+                        <div
+                            className={styles.headerItem}
                         >
                             <Link to="/characterListPage"
                                 className={styles.headerItemText}>
