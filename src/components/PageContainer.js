@@ -8,5 +8,5 @@ background-size: cover;
 background-repeat: no-repeat;
 background-image: url("${background}");
 background-attachment: local;
-overflow: auto;
+overflow-x: hidden;
 `
