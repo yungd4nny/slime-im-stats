@@ -25,14 +25,16 @@ function CharacterDetails(props) {
     if (props.Battle_Skill_1 && !charImageNeedsResize) {
         splitSkillOne = props.Battle_Skill_1.split("Lv.1/Lv.10");
         splitSkillOne[1] = splitSkillOne[1]?.substring(2);
-    } else if(props.Battle_Skill_1 && (charImageNeedsResize || splitSkillOne === undefined)) {
+    }
+    if(props.Battle_Skill_1 && (charImageNeedsResize || splitSkillOne[1] === undefined)) {
         splitSkillOne = props.Battle_Skill_1.split("Lv.1");
     }
     var splitSkillTwo;
     if (props.Battle_Skill_2 && !charImageNeedsResize) {
         splitSkillTwo = props.Battle_Skill_2.split("Lv.1/Lv.10");
         splitSkillTwo[1] = splitSkillTwo[1]?.substring(2);
-    } else if(props.Battle_Skill_2 && (charImageNeedsResize || splitSkillTwo === undefined)) {
+    }
+    if(props.Battle_Skill_2 && (charImageNeedsResize || splitSkillTwo[1] === undefined)) {
         splitSkillTwo = props.Battle_Skill_2.split("Lv.1");
     }
 
