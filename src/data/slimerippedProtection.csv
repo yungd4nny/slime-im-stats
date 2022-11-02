@@ -1,4 +1,14 @@
 Name,Picture,Base Rarity,Main Type,2nd Type,Growth Type,Max HP,Max ATK,Max DEF,Passive 1,Passive 2,Divine Protection,Protection Skill,Trait 1,Trait 2
+Veldora Tempest [Dragon Guardian of Tempest],https://ten-sura-m-assets-us.akamaized.net/web-assets/images/4ec5ec6877a91ccdb4ae45cfbd200b84.png?16673619656335?16673619656335,5☆,Dark,Magic,Atk,3064,1406,1226,Dark Magic Device +200%,Symbol of Protection +100%,"Destructive Storm Lv.MAX
+Increases Dark ATK by 12％. Increases M-ATK by 10％
+
+Destructive Storm (Support) Lv.MAX
+Increases Dark ATK and M-ATK by 5％","Tempest Protection Lv.1
+Increases all allies' M-ATK by 10％ (Turns: 1). Effect increases by 5％ each time allies use battle skills from the start of battle to the end of Turn 8 (Max: 70%).
+Decreases the skill cost by 20 for vanguard allies (Cannot go below each skill's initial cost)
+Increases skill cost limit until the end of battle by 35 (Max: 999)","HP - ATK UP (5★ Awaken x1)
+When 1 or more enemies have 50% or lower HP, increases all allies' ATK by 4% at start of turn (available in support formation)","HP - ATK UP (5★ Awaken x3)
+When 1 or more enemies have 50% or lower HP, increases all allies' ATK by 6% at start of turn (available in support formation)"
 Benimaru [Mystic General],https://images-ext-2.discordapp.net/external/bYHYtOpHbCnmF7IWQr_2A9rSp8ZIIOw-_YK_bN0Xd3w/%3F16645029420997%3F16645029420997/https/ten-sura-m-assets-us.akamaized.net/web-assets/images/78fdc8256717ddd7a7b5bb0ac4171b82.png?width=1440&height=994,5☆,Earth,Magic,Atk,3073,1271,1436,Earth Magic Device +200%,Symbol of Protection +100%,"Spell Master Lv.MAX
 Increases Earth ATK by 12％. Increases M-ATK by 10％
 Spell Master (Support) Lv.MAX
