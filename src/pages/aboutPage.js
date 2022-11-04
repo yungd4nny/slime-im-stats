@@ -1,11 +1,13 @@
 import * as React from 'react'
 import Header from '../components/Header.js';
 import { Container } from '../components/PageContainer.js';
+import Helmet from 'react-helmet'
 import * as styles from '../styles/about.module.scss'
 
 function AboutPage() {
     return (
         <Container>
+            <Helmet><title>SlimeStats | About</title></Helmet>
             <Header></Header>
             <h1>
                 <img src="https://ten-sura-m.bn-ent.net/assets/img/lang/en/home/footer-logo.png"

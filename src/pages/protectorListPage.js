@@ -5,6 +5,7 @@ import { Container } from '../components/PageContainer.js';
 import * as styles from '../styles/protectorListPage.module.scss'
 import { graphql } from 'gatsby'
 import ProtectorList from '../components/ProtectorList.js';
+import Helmet from 'react-helmet'
 import Select from 'react-select';
 
 function ProtectorListPage({ data }) {
@@ -40,6 +41,7 @@ function ProtectorListPage({ data }) {
 
     return (
         <Container>
+            <Helmet><title>SlimeStats | Protectors</title></Helmet>
             <Header></Header>
             <div className={styles.filterBar}>
                 <form className={styles.formStyle}>

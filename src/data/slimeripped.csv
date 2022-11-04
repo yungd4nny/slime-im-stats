@@ -1,4 +1,18 @@
 Name,Picture,Base Rarity,Type,Atk Type,Growth Type,Max HP,Max ATK,Max DEF,Town Trait 1,Town Trait 2,Expertise,Secret Skill (Ult),Battle Skill 1,Battle Skill 2,Character Trait at 5☆ Awaken x1,Character Trait at 5☆ Awaken x3,Valor Trait 1,Valor Trait 2
+Shinsha [Impulsive Adolescent],https://ten-sura-m-assets-us.akamaized.net/web-assets/images/4e968918ba6458fdefe48c6578aa7be8.png?16675832710668?16675832710668,5☆,Dark,Magic,Atk,6982,3355,2407,Restaurant +30%,Farm +10%,,"Gravity Nova Lv.MAX
+Unleashes a single-target dark magic attack for 470％ normal damage
+Decreases a single target's critical resistance by 5％ (Turns: 1)","Predator Growth Lv.1
+Points Required: 90
+Increases all allies' dark ATK by 50％ (Turns: 1)
+(Awakened Skill: Dark ATK effect increases to 70% after 8 turns from the start of battle)
+Decreases all targets' dark resistance by 5％ (Turns: 1)","Great Sage Processing Lv.1
+Points Required: 25
+Decreases all targets' critical resistance until the end of battle by 5％ (Unlimited)
+Increases all souls' skill point increase until the end of battle by 5％ (Max: 100%)","Troop - Skill UP (5★ Awaken x1)
+When your troop contains 3 or more battle characters, increases skill points by 3 every 3 turns (available in support formation)","Troop - Skill UP (5★ Awaken x3)
+When your troop contains 3 or more battle characters, increases skill points by 5 every 3 turns (available in support formation)","Soul Combo - Skill DOWN（First Time Only）
+When you unleash a 2 combo, all of the enemy's Soul of Skills gauge increases are decreased by 10% (Turns: 1; Uses by this character per battle: 1)","Soul Combo - Skill DOWN（5★ Awaken x2）
+When you unleash a 2 combo, all of the enemy's Soul of Skills gauge increases are decreased by 20% (Turns: 1; Uses by this character per battle: 1)"
 Rimuru Tempest [The True Demon Lord],https://ten-sura-m-assets-us.akamaized.net/web-assets/images/18f99afdc705cab95d21c50ca1ba626f.png?16673625662796?16673625662796,5☆,Dark,Magic,Atk,7007,3355,2397,Tavern +30%,Field +10%,,"Tempest Slasher Lv.MAX
 Unleashes an all-target dark magic attack for 290％ normal damage
 Increases skill points by 5","

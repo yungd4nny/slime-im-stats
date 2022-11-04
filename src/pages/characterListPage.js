@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import { Container } from '../components/PageContainer';
 import { useState, useEffect } from 'react'
 import * as styles from '../styles/characterListPage.module.scss'
+import Helmet from 'react-helmet'
 import Select from 'react-select'
 
 function CharacterListPage({ data }) {
@@ -137,6 +138,7 @@ function CharacterListPage({ data }) {
 
     return (
         <Container>
+            <Helmet><title>SlimeStats | Characters</title></Helmet>
             <Header>
             </Header>
             <div className={styles.filterBar}>

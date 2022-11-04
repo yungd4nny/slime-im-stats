@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import background from '../images/main-bg.jpg'
 import * as styles from '../styles/index.module.scss'
 import { Container } from '../components/PageContainer'
+import Helmet from 'react-helmet'
 import "@fontsource/gugi"
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
 
   return (
     <Container>
+      <Helmet><title>SlimeStats | Home</title></Helmet>
       <Header>
       </Header>
       <h1>
