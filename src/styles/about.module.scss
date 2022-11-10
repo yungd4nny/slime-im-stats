@@ -27,3 +27,7 @@
     backdrop-filter: blur(8px);
     margin-bottom: 30px;
 }
+
+a:-webkit-any-link {
+    text-decoration: none;
+}

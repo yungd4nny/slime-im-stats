@@ -2,7 +2,7 @@
 
 .towerViewHeader {
     font-family: $charFont;
-    font-size: 44px;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -19,8 +19,8 @@
 .elementDropdown {
     display: inline-flex;
     margin: 4px;
-    padding: 5px;
-    height: 80px;
+    padding-top: 14px;
+    height: 60px;
     min-width: 240px;
 }
 
@@ -32,13 +32,5 @@
 
 .dropdownElementIcon {
     height: 20px;
-    float: left;
-}
-
-.dropdownElementLabel {
-    display: table-cell;
-    margin: auto;
-    vertical-align: middle;
-    padding-left: 12px;
     float: left;
 }

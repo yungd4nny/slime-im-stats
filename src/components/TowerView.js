@@ -38,7 +38,22 @@ function TowerView() {
         { id: 27, image: 'https://i.imgur.com/LPNN3ei.png' },
         { id: 28, image: 'https://i.imgur.com/jdUsCJM.png' },
         { id: 29, image: 'https://i.imgur.com/BLSwH9R.png' },
-        { id: 30, image: 'https://i.imgur.com/c4upvyv.png' }
+        { id: 30, image: 'https://i.imgur.com/c4upvyv.png' },
+        { id: 31, image: 'https://imgur.com/fDqDmps.png' },
+        { id: 32, image: 'https://imgur.com/ONbqLGZ.png' },
+        { id: 33, image: 'https://imgur.com/6l7rCiU.png' },
+        { id: 34, image: 'https://imgur.com/o5jA6Am.png' },
+        { id: 35, image: 'https://imgur.com/Z09EYiG.png' },
+        { id: 36, image: 'https://imgur.com/1ES1Fp4.png' },
+        { id: 37, image: 'https://imgur.com/BnMaOVy.png' },
+        { id: 38, image: 'https://imgur.com/Cu5ib5O.png' },
+        { id: 39, image: 'https://imgur.com/g1k7TzC.png' },
+        { id: 40, image: 'https://imgur.com/XVA8jhd.png' },
+        { id: 41, image: 'https://imgur.com/Y5m4t71.png' },
+        { id: 42, image: 'https://imgur.com/d8aBg7K.png' },
+        { id: 43, image: 'https://imgur.com/UGcuNEz.png' },
+        { id: 44, image: 'https://imgur.com/jTNvyuT.png' },
+        { id: 45, image: 'https://imgur.com/uGASRZh.png' },
 
     ]
 
@@ -51,7 +66,7 @@ function TowerView() {
     }, [towerFloor]);
 
     function incrementFloor() {
-        if (towerFloor.id < 30) {
+        if (towerFloor.id < floors.length) {
             setTowerFloor(floors[towerFloor.id])
         }
     };
@@ -84,8 +99,8 @@ function TowerView() {
                     <img src='https://imgur.com/wdGuzhH.png' style={{ transform: 'rotate(90deg)', height: '60px', width: '80px' }}></img>
                 </button>
             </div>
-            <div style={{ margin: 'auto',display: 'block', height: '1080px', width: '2200px', position: 'relative', overflow: 'hidden' }}>
-                <img src={floorImage} style={{ objectFit: 'cover', marginLeft: '-150px' }}></img>
+            <div style={{ margin: 'auto',display: 'block', width: '1500px', position: 'relative', overflow: 'hidden' }}>
+                <img src={floorImage} style={{ width: '1650px', margin: '0px 0px 0px -150px' }}></img>
             </div>
         </div>
     )
