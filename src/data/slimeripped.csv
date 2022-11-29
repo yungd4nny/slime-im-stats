@@ -1,4 +1,43 @@
 Name,Picture,Base Rarity,Type,Atk Type,Growth Type,Max HP,Max ATK,Max DEF,Town Trait 1,Town Trait 2,Expertise,Secret Skill (Ult),Battle Skill 1,Battle Skill 2,Character Trait at 5☆ Awaken x1,Character Trait at 5☆ Awaken x3,Valor Trait 1,Valor Trait 2
+Benimaru [Oath of Black Flame],https://ten-sura-m-assets-us.akamaized.net/web-assets/images/12f83f19a812b001c48ec6b823dc1ccc.png?166975802016?166975802016,5☆,Fire,Physical,Atk,7003,3360,2388,Digsite for Attack Magistones +30%,Tavern +10%,,"Haze: Black Flame Slash Lv.MAX
+Unleashes a single-target fire physical attack for 470％ normal damage
+Decreases a single target's DEF by 10％ (Turns: 2)","Clear Water Lv.1
+Points Required: 35
+Changes Soul of Secrets x2 into Soul of Skills
+Burns a single target for 10％ additional damage (Turns: 3); Does additional damage to the afflicted target corresponding to the amount of fire attack damage dealt to them (Stacks)","
+Abysmal Flare Lv.1
+Points Required: 25
+Deals 400％ basic fire physical ATK damage to a single target
+Increases Soul of Secrets damage by 40％ (Turns: 1)","Troop - Skill UP (5★ Awaken x1)
+When your troop contains 3 or more battle characters, increases skill points by 2 every 2 turns (available in support formation)","Troop - Skill UP (5★ Awaken x3)
+When your troop contains 3 or more battle characters, increases skill points by 4 every 2 turns (available in support formation)","Soul Combo - Secret DOWN（First Time Only）
+When you unleash a 2 combo, all of the enemy's Soul of Secrets gauge increases are decreased by 10% (Turns: 1; Uses by this character per battle: 1)","Soul Combo - Secret DOWN（5★ Awaken x2）
+When you unleash a 2 combo, all of the enemy's Soul of Secrets gauge increases are decreased by 20% (Turns: 1; Uses by this character per battle: 1)"
+Hiiro [Scarlet Bond],https://ten-sura-m-assets-us.akamaized.net/web-assets/images/4651ad9054e9a26fee9bd33fdcf25255.png?16697592231177?16697592231177,4☆,Fire,Physical,Balance,7315,2215,2123,Forest Supply Corps Base +30%,Digsite for Stamina Magistones +10%,,"Ogre Flame Lv.MAX
+Unleashes an all-target fire physical attack for 260％ normal damage","
+Total Chaos Lv.1
+Points Required: 25
+Burns a single target for 10％ additional damage (Turns: 1); Does additional damage to the afflicted target corresponding to the amount of fire attack damage dealt to them (Stacks)
+Decreases a single target's physical attack resistance by 15％ (Turns: 1)","
+Shouting Spirit Lv.1
+Points Required: 35
+Transfers Soul of Secrets x3 to the character with the highest ATK
+Decreases a single target's fire resistance by 5％ (Turns: 1)","HP - Critical Rate UP (5★ Awaken x1)
+When you have max HP, increases own critical rate by 7% at start of turn (available in support formation)","HP - Critical Rate UP (5★ Awaken x3)
+When you have max HP, increases own critical rate by 11% at start of turn (available in support formation)","
+",
+Diablo [Demon Lord's Dark Servant],https://ten-sura-m-assets-us.akamaized.net/web-assets/images/1842cebb3ed1e28c25a72ea6ad385524.png?16697598241937?16697598241937,5☆,Dark,Physical,Atk,7012,3354,2388,Café +30%,Digsite for Training Magistones +10%,,"Paint it White Lv.MAX
+Unleashes an all-target dark physical attack for 295％ normal damage","Binding Darkness Lv.1
+Points Required: 35
+Increases own ATK by 20％ (Turns: 2)
+Increases own secret skill gauge by 25％","Looming Echo Lv.1
+Points Required: 35
+Changes Soul of Secrets x2 into Soul of Skills
+Increases Soul of Skills skill point increase until the end of battle by 3％ (Max: 100%)","Soul Combo - Critical Damage UP (5★ Awaken x1)
+When you unleash a 5+ combo attack with Soul of Skills, increases own critical damage by 3% for the next turn (available in support formation)","Soul Combo - Critical Damage UP (5★ Awaken x3)
+When you unleash a 5+ combo attack with Soul of Skills, increases own critical damage by 5% for the next turn (available in support formation)","Late Battle - Skill DOWN（First Time Only）
+When souls are activated after Turn 6, the enemy's skill points are decreased by 20 (Uses by this character per battle: 1)","Late Battle - Skill DOWN（5★ Awaken x2）
+When souls are activated after Turn 4, the enemy's skill points are decreased by 20 (Uses by this character per battle: 1)"
 Shinsha [Impulsive Adolescent],https://ten-sura-m-assets-us.akamaized.net/web-assets/images/4e968918ba6458fdefe48c6578aa7be8.png?16675832710668?16675832710668,5☆,Dark,Magic,Atk,6982,3355,2407,Restaurant +30%,Farm +10%,,"Gravity Nova Lv.MAX
 Unleashes a single-target dark magic attack for 470％ normal damage
 Decreases a single target's critical resistance by 5％ (Turns: 1)","Predator Growth Lv.1
